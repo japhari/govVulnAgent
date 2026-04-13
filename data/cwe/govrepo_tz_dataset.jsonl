@@ -1,0 +1,1247 @@
+{"id": 1, "language": "C#", "code": "// function_1 placeholder code", "label": "vulnerable", "cwe_id": "CWE-306", "cwe_name": "Missing Authentication"}
+{"id": 2, "language": "JavaScript", "code": "// function_2 placeholder code", "label": "vulnerable", "cwe_id": "CWE-306", "cwe_name": "Missing Authentication"}
+{"id": 3, "language": "C++", "code": "// function_3 placeholder code", "label": "vulnerable", "cwe_id": "CWE-89", "cwe_name": "SQL Injection"}
+{"id": 4, "language": "Java", "code": "// function_4 placeholder code", "label": "vulnerable", "cwe_id": "CWE-22", "cwe_name": "Path Traversal"}
+{"id": 5, "language": "TypeScript", "code": "// function_5 placeholder code", "label": "vulnerable", "cwe_id": "CWE-306", "cwe_name": "Missing Authentication"}
+{"id": 6, "language": "C#", "code": "// function_6 placeholder code", "label": "vulnerable", "cwe_id": "CWE-20", "cwe_name": "Improper Input Validation"}
+{"id": 7, "language": "C++", "code": "// function_7 placeholder code", "label": "vulnerable", "cwe_id": "CWE-306", "cwe_name": "Missing Authentication"}
+{"id": 8, "language": "C#", "code": "// function_8 placeholder code", "label": "vulnerable", "cwe_id": "CWE-20", "cwe_name": "Improper Input Validation"}
+{"id": 9, "language": "C++", "code": "// function_9 placeholder code", "label": "vulnerable", "cwe_id": "CWE-20", "cwe_name": "Improper Input Validation"}
+{"id": 10, "language": "C", "code": "// function_10 placeholder code", "label": "vulnerable", "cwe_id": "CWE-287", "cwe_name": "Improper Authentication"}
+{"id": 11, "language": "C", "code": "// function_11 placeholder code", "label": "vulnerable", "cwe_id": "CWE-284", "cwe_name": "Improper Access Control"}
+{"id": 12, "language": "Java", "code": "// function_12 placeholder code", "label": "vulnerable", "cwe_id": "CWE-79", "cwe_name": "XSS"}
+{"id": 13, "language": "JavaScript", "code": "// function_13 placeholder code", "label": "vulnerable", "cwe_id": "CWE-306", "cwe_name": "Missing Authentication"}
+{"id": 14, "language": "JavaScript", "code": "// function_14 placeholder code", "label": "vulnerable", "cwe_id": "CWE-22", "cwe_name": "Path Traversal"}
+{"id": 15, "language": "JavaScript", "code": "// function_15 placeholder code", "label": "vulnerable", "cwe_id": "CWE-284", "cwe_name": "Improper Access Control"}
+{"id": 16, "language": "C#", "code": "// function_16 placeholder code", "label": "vulnerable", "cwe_id": "CWE-287", "cwe_name": "Improper Authentication"}
+{"id": 17, "language": "C++", "code": "// function_17 placeholder code", "label": "vulnerable", "cwe_id": "CWE-22", "cwe_name": "Path Traversal"}
+{"id": 18, "language": "C++", "code": "// function_18 placeholder code", "label": "vulnerable", "cwe_id": "CWE-20", "cwe_name": "Improper Input Validation"}
+{"id": 19, "language": "C", "code": "// function_19 placeholder code", "label": "vulnerable", "cwe_id": "CWE-22", "cwe_name": "Path Traversal"}
+{"id": 20, "language": "JavaScript", "code": "// function_20 placeholder code", "label": "vulnerable", "cwe_id": "CWE-20", "cwe_name": "Improper Input Validation"}
+{"id": 21, "language": "TypeScript", "code": "// function_21 placeholder code", "label": "vulnerable", "cwe_id": "CWE-89", "cwe_name": "SQL Injection"}
+{"id": 22, "language": "JavaScript", "code": "// function_22 placeholder code", "label": "vulnerable", "cwe_id": "CWE-89", "cwe_name": "SQL Injection"}
+{"id": 23, "language": "JavaScript", "code": "// function_23 placeholder code", "label": "vulnerable", "cwe_id": "CWE-284", "cwe_name": "Improper Access Control"}
+{"id": 24, "language": "C", "code": "// function_24 placeholder code", "label": "vulnerable", "cwe_id": "CWE-89", "cwe_name": "SQL Injection"}
+{"id": 25, "language": "TypeScript", "code": "// function_25 placeholder code", "label": "vulnerable", "cwe_id": "CWE-22", "cwe_name": "Path Traversal"}
+{"id": 26, "language": "JavaScript", "code": "// function_26 placeholder code", "label": "vulnerable", "cwe_id": "CWE-306", "cwe_name": "Missing Authentication"}
+{"id": 27, "language": "C#", "code": "// function_27 placeholder code", "label": "vulnerable", "cwe_id": "CWE-22", "cwe_name": "Path Traversal"}
+{"id": 28, "language": "Java", "code": "// function_28 placeholder code", "label": "vulnerable", "cwe_id": "CWE-22", "cwe_name": "Path Traversal"}
+{"id": 29, "language": "Java", "code": "// function_29 placeholder code", "label": "vulnerable", "cwe_id": "CWE-20", "cwe_name": "Improper Input Validation"}
+{"id": 30, "language": "TypeScript", "code": "// function_30 placeholder code", "label": "vulnerable", "cwe_id": "CWE-20", "cwe_name": "Improper Input Validation"}
+{"id": 31, "language": "TypeScript", "code": "// function_31 placeholder code", "label": "vulnerable", "cwe_id": "CWE-284", "cwe_name": "Improper Access Control"}
+{"id": 32, "language": "TypeScript", "code": "// function_32 placeholder code", "label": "vulnerable", "cwe_id": "CWE-284", "cwe_name": "Improper Access Control"}
+{"id": 33, "language": "C#", "code": "// function_33 placeholder code", "label": "vulnerable", "cwe_id": "CWE-20", "cwe_name": "Improper Input Validation"}
+{"id": 34, "language": "JavaScript", "code": "// function_34 placeholder code", "label": "vulnerable", "cwe_id": "CWE-306", "cwe_name": "Missing Authentication"}
+{"id": 35, "language": "JavaScript", "code": "// function_35 placeholder code", "label": "vulnerable", "cwe_id": "CWE-89", "cwe_name": "SQL Injection"}
+{"id": 36, "language": "JavaScript", "code": "// function_36 placeholder code", "label": "vulnerable", "cwe_id": "CWE-284", "cwe_name": "Improper Access Control"}
+{"id": 37, "language": "TypeScript", "code": "// function_37 placeholder code", "label": "vulnerable", "cwe_id": "CWE-79", "cwe_name": "XSS"}
+{"id": 38, "language": "JavaScript", "code": "// function_38 placeholder code", "label": "vulnerable", "cwe_id": "CWE-306", "cwe_name": "Missing Authentication"}
+{"id": 39, "language": "TypeScript", "code": "// function_39 placeholder code", "label": "vulnerable", "cwe_id": "CWE-287", "cwe_name": "Improper Authentication"}
+{"id": 40, "language": "C++", "code": "// function_40 placeholder code", "label": "vulnerable", "cwe_id": "CWE-89", "cwe_name": "SQL Injection"}
+{"id": 41, "language": "C++", "code": "// function_41 placeholder code", "label": "vulnerable", "cwe_id": "CWE-22", "cwe_name": "Path Traversal"}
+{"id": 42, "language": "C#", "code": "// function_42 placeholder code", "label": "vulnerable", "cwe_id": "CWE-22", "cwe_name": "Path Traversal"}
+{"id": 43, "language": "JavaScript", "code": "// function_43 placeholder code", "label": "vulnerable", "cwe_id": "CWE-79", "cwe_name": "XSS"}
+{"id": 44, "language": "JavaScript", "code": "// function_44 placeholder code", "label": "vulnerable", "cwe_id": "CWE-89", "cwe_name": "SQL Injection"}
+{"id": 45, "language": "JavaScript", "code": "// function_45 placeholder code", "label": "vulnerable", "cwe_id": "CWE-22", "cwe_name": "Path Traversal"}
+{"id": 46, "language": "JavaScript", "code": "// function_46 placeholder code", "label": "vulnerable", "cwe_id": "CWE-89", "cwe_name": "SQL Injection"}
+{"id": 47, "language": "TypeScript", "code": "// function_47 placeholder code", "label": "vulnerable", "cwe_id": "CWE-79", "cwe_name": "XSS"}
+{"id": 48, "language": "JavaScript", "code": "// function_48 placeholder code", "label": "vulnerable", "cwe_id": "CWE-22", "cwe_name": "Path Traversal"}
+{"id": 49, "language": "C++", "code": "// function_49 placeholder code", "label": "vulnerable", "cwe_id": "CWE-306", "cwe_name": "Missing Authentication"}
+{"id": 50, "language": "C#", "code": "// function_50 placeholder code", "label": "vulnerable", "cwe_id": "CWE-287", "cwe_name": "Improper Authentication"}
+{"id": 51, "language": "TypeScript", "code": "// function_51 placeholder code", "label": "vulnerable", "cwe_id": "CWE-287", "cwe_name": "Improper Authentication"}
+{"id": 52, "language": "JavaScript", "code": "// function_52 placeholder code", "label": "vulnerable", "cwe_id": "CWE-287", "cwe_name": "Improper Authentication"}
+{"id": 53, "language": "C#", "code": "// function_53 placeholder code", "label": "vulnerable", "cwe_id": "CWE-287", "cwe_name": "Improper Authentication"}
+{"id": 54, "language": "TypeScript", "code": "// function_54 placeholder code", "label": "vulnerable", "cwe_id": "CWE-89", "cwe_name": "SQL Injection"}
+{"id": 55, "language": "C++", "code": "// function_55 placeholder code", "label": "vulnerable", "cwe_id": "CWE-287", "cwe_name": "Improper Authentication"}
+{"id": 56, "language": "C#", "code": "// function_56 placeholder code", "label": "vulnerable", "cwe_id": "CWE-20", "cwe_name": "Improper Input Validation"}
+{"id": 57, "language": "TypeScript", "code": "// function_57 placeholder code", "label": "vulnerable", "cwe_id": "CWE-287", "cwe_name": "Improper Authentication"}
+{"id": 58, "language": "C", "code": "// function_58 placeholder code", "label": "vulnerable", "cwe_id": "CWE-22", "cwe_name": "Path Traversal"}
+{"id": 59, "language": "C#", "code": "// function_59 placeholder code", "label": "vulnerable", "cwe_id": "CWE-89", "cwe_name": "SQL Injection"}
+{"id": 60, "language": "C", "code": "// function_60 placeholder code", "label": "vulnerable", "cwe_id": "CWE-306", "cwe_name": "Missing Authentication"}
+{"id": 61, "language": "C#", "code": "// function_61 placeholder code", "label": "vulnerable", "cwe_id": "CWE-306", "cwe_name": "Missing Authentication"}
+{"id": 62, "language": "C++", "code": "// function_62 placeholder code", "label": "vulnerable", "cwe_id": "CWE-20", "cwe_name": "Improper Input Validation"}
+{"id": 63, "language": "TypeScript", "code": "// function_63 placeholder code", "label": "vulnerable", "cwe_id": "CWE-284", "cwe_name": "Improper Access Control"}
+{"id": 64, "language": "JavaScript", "code": "// function_64 placeholder code", "label": "vulnerable", "cwe_id": "CWE-22", "cwe_name": "Path Traversal"}
+{"id": 65, "language": "C", "code": "// function_65 placeholder code", "label": "vulnerable", "cwe_id": "CWE-89", "cwe_name": "SQL Injection"}
+{"id": 66, "language": "C#", "code": "// function_66 placeholder code", "label": "vulnerable", "cwe_id": "CWE-79", "cwe_name": "XSS"}
+{"id": 67, "language": "JavaScript", "code": "// function_67 placeholder code", "label": "vulnerable", "cwe_id": "CWE-306", "cwe_name": "Missing Authentication"}
+{"id": 68, "language": "Java", "code": "// function_68 placeholder code", "label": "vulnerable", "cwe_id": "CWE-20", "cwe_name": "Improper Input Validation"}
+{"id": 69, "language": "JavaScript", "code": "// function_69 placeholder code", "label": "vulnerable", "cwe_id": "CWE-284", "cwe_name": "Improper Access Control"}
+{"id": 70, "language": "TypeScript", "code": "// function_70 placeholder code", "label": "vulnerable", "cwe_id": "CWE-284", "cwe_name": "Improper Access Control"}
+{"id": 71, "language": "JavaScript", "code": "// function_71 placeholder code", "label": "vulnerable", "cwe_id": "CWE-20", "cwe_name": "Improper Input Validation"}
+{"id": 72, "language": "C#", "code": "// function_72 placeholder code", "label": "vulnerable", "cwe_id": "CWE-22", "cwe_name": "Path Traversal"}
+{"id": 73, "language": "TypeScript", "code": "// function_73 placeholder code", "label": "vulnerable", "cwe_id": "CWE-20", "cwe_name": "Improper Input Validation"}
+{"id": 74, "language": "C++", "code": "// function_74 placeholder code", "label": "vulnerable", "cwe_id": "CWE-22", "cwe_name": "Path Traversal"}
+{"id": 75, "language": "TypeScript", "code": "// function_75 placeholder code", "label": "vulnerable", "cwe_id": "CWE-79", "cwe_name": "XSS"}
+{"id": 76, "language": "C++", "code": "// function_76 placeholder code", "label": "vulnerable", "cwe_id": "CWE-79", "cwe_name": "XSS"}
+{"id": 77, "language": "C#", "code": "// function_77 placeholder code", "label": "vulnerable", "cwe_id": "CWE-20", "cwe_name": "Improper Input Validation"}
+{"id": 78, "language": "C", "code": "// function_78 placeholder code", "label": "vulnerable", "cwe_id": "CWE-22", "cwe_name": "Path Traversal"}
+{"id": 79, "language": "TypeScript", "code": "// function_79 placeholder code", "label": "vulnerable", "cwe_id": "CWE-22", "cwe_name": "Path Traversal"}
+{"id": 80, "language": "TypeScript", "code": "// function_80 placeholder code", "label": "vulnerable", "cwe_id": "CWE-287", "cwe_name": "Improper Authentication"}
+{"id": 81, "language": "C", "code": "// function_81 placeholder code", "label": "vulnerable", "cwe_id": "CWE-22", "cwe_name": "Path Traversal"}
+{"id": 82, "language": "C++", "code": "// function_82 placeholder code", "label": "vulnerable", "cwe_id": "CWE-89", "cwe_name": "SQL Injection"}
+{"id": 83, "language": "C++", "code": "// function_83 placeholder code", "label": "vulnerable", "cwe_id": "CWE-89", "cwe_name": "SQL Injection"}
+{"id": 84, "language": "C", "code": "// function_84 placeholder code", "label": "vulnerable", "cwe_id": "CWE-20", "cwe_name": "Improper Input Validation"}
+{"id": 85, "language": "JavaScript", "code": "// function_85 placeholder code", "label": "vulnerable", "cwe_id": "CWE-287", "cwe_name": "Improper Authentication"}
+{"id": 86, "language": "C", "code": "// function_86 placeholder code", "label": "vulnerable", "cwe_id": "CWE-20", "cwe_name": "Improper Input Validation"}
+{"id": 87, "language": "C#", "code": "// function_87 placeholder code", "label": "vulnerable", "cwe_id": "CWE-22", "cwe_name": "Path Traversal"}
+{"id": 88, "language": "C#", "code": "// function_88 placeholder code", "label": "vulnerable", "cwe_id": "CWE-89", "cwe_name": "SQL Injection"}
+{"id": 89, "language": "TypeScript", "code": "// function_89 placeholder code", "label": "vulnerable", "cwe_id": "CWE-20", "cwe_name": "Improper Input Validation"}
+{"id": 90, "language": "C#", "code": "// function_90 placeholder code", "label": "vulnerable", "cwe_id": "CWE-20", "cwe_name": "Improper Input Validation"}
+{"id": 91, "language": "C#", "code": "// function_91 placeholder code", "label": "vulnerable", "cwe_id": "CWE-22", "cwe_name": "Path Traversal"}
+{"id": 92, "language": "C#", "code": "// function_92 placeholder code", "label": "vulnerable", "cwe_id": "CWE-287", "cwe_name": "Improper Authentication"}
+{"id": 93, "language": "Java", "code": "// function_93 placeholder code", "label": "vulnerable", "cwe_id": "CWE-284", "cwe_name": "Improper Access Control"}
+{"id": 94, "language": "C", "code": "// function_94 placeholder code", "label": "vulnerable", "cwe_id": "CWE-79", "cwe_name": "XSS"}
+{"id": 95, "language": "C++", "code": "// function_95 placeholder code", "label": "vulnerable", "cwe_id": "CWE-79", "cwe_name": "XSS"}
+{"id": 96, "language": "C#", "code": "// function_96 placeholder code", "label": "vulnerable", "cwe_id": "CWE-306", "cwe_name": "Missing Authentication"}
+{"id": 97, "language": "C++", "code": "// function_97 placeholder code", "label": "vulnerable", "cwe_id": "CWE-89", "cwe_name": "SQL Injection"}
+{"id": 98, "language": "JavaScript", "code": "// function_98 placeholder code", "label": "vulnerable", "cwe_id": "CWE-287", "cwe_name": "Improper Authentication"}
+{"id": 99, "language": "JavaScript", "code": "// function_99 placeholder code", "label": "vulnerable", "cwe_id": "CWE-22", "cwe_name": "Path Traversal"}
+{"id": 100, "language": "C#", "code": "// function_100 placeholder code", "label": "vulnerable", "cwe_id": "CWE-79", "cwe_name": "XSS"}
+{"id": 101, "language": "C++", "code": "// function_101 placeholder code", "label": "vulnerable", "cwe_id": "CWE-89", "cwe_name": "SQL Injection"}
+{"id": 102, "language": "C", "code": "// function_102 placeholder code", "label": "vulnerable", "cwe_id": "CWE-306", "cwe_name": "Missing Authentication"}
+{"id": 103, "language": "C#", "code": "// function_103 placeholder code", "label": "vulnerable", "cwe_id": "CWE-284", "cwe_name": "Improper Access Control"}
+{"id": 104, "language": "C", "code": "// function_104 placeholder code", "label": "vulnerable", "cwe_id": "CWE-287", "cwe_name": "Improper Authentication"}
+{"id": 105, "language": "JavaScript", "code": "// function_105 placeholder code", "label": "vulnerable", "cwe_id": "CWE-20", "cwe_name": "Improper Input Validation"}
+{"id": 106, "language": "C", "code": "// function_106 placeholder code", "label": "vulnerable", "cwe_id": "CWE-20", "cwe_name": "Improper Input Validation"}
+{"id": 107, "language": "C#", "code": "// function_107 placeholder code", "label": "vulnerable", "cwe_id": "CWE-287", "cwe_name": "Improper Authentication"}
+{"id": 108, "language": "TypeScript", "code": "// function_108 placeholder code", "label": "vulnerable", "cwe_id": "CWE-20", "cwe_name": "Improper Input Validation"}
+{"id": 109, "language": "JavaScript", "code": "// function_109 placeholder code", "label": "vulnerable", "cwe_id": "CWE-284", "cwe_name": "Improper Access Control"}
+{"id": 110, "language": "JavaScript", "code": "// function_110 placeholder code", "label": "vulnerable", "cwe_id": "CWE-79", "cwe_name": "XSS"}
+{"id": 111, "language": "Java", "code": "// function_111 placeholder code", "label": "vulnerable", "cwe_id": "CWE-306", "cwe_name": "Missing Authentication"}
+{"id": 112, "language": "C", "code": "// function_112 placeholder code", "label": "vulnerable", "cwe_id": "CWE-79", "cwe_name": "XSS"}
+{"id": 113, "language": "C", "code": "// function_113 placeholder code", "label": "vulnerable", "cwe_id": "CWE-79", "cwe_name": "XSS"}
+{"id": 114, "language": "JavaScript", "code": "// function_114 placeholder code", "label": "vulnerable", "cwe_id": "CWE-22", "cwe_name": "Path Traversal"}
+{"id": 115, "language": "JavaScript", "code": "// function_115 placeholder code", "label": "vulnerable", "cwe_id": "CWE-306", "cwe_name": "Missing Authentication"}
+{"id": 116, "language": "C", "code": "// function_116 placeholder code", "label": "vulnerable", "cwe_id": "CWE-89", "cwe_name": "SQL Injection"}
+{"id": 117, "language": "C++", "code": "// function_117 placeholder code", "label": "vulnerable", "cwe_id": "CWE-284", "cwe_name": "Improper Access Control"}
+{"id": 118, "language": "C#", "code": "// function_118 placeholder code", "label": "vulnerable", "cwe_id": "CWE-287", "cwe_name": "Improper Authentication"}
+{"id": 119, "language": "Java", "code": "// function_119 placeholder code", "label": "vulnerable", "cwe_id": "CWE-284", "cwe_name": "Improper Access Control"}
+{"id": 120, "language": "JavaScript", "code": "// function_120 placeholder code", "label": "vulnerable", "cwe_id": "CWE-20", "cwe_name": "Improper Input Validation"}
+{"id": 121, "language": "C#", "code": "// function_121 placeholder code", "label": "vulnerable", "cwe_id": "CWE-284", "cwe_name": "Improper Access Control"}
+{"id": 122, "language": "Java", "code": "// function_122 placeholder code", "label": "vulnerable", "cwe_id": "CWE-284", "cwe_name": "Improper Access Control"}
+{"id": 123, "language": "JavaScript", "code": "// function_123 placeholder code", "label": "vulnerable", "cwe_id": "CWE-20", "cwe_name": "Improper Input Validation"}
+{"id": 124, "language": "TypeScript", "code": "// function_124 placeholder code", "label": "vulnerable", "cwe_id": "CWE-89", "cwe_name": "SQL Injection"}
+{"id": 125, "language": "C#", "code": "// function_125 placeholder code", "label": "vulnerable", "cwe_id": "CWE-79", "cwe_name": "XSS"}
+{"id": 126, "language": "TypeScript", "code": "// function_126 placeholder code", "label": "vulnerable", "cwe_id": "CWE-22", "cwe_name": "Path Traversal"}
+{"id": 127, "language": "TypeScript", "code": "// function_127 placeholder code", "label": "vulnerable", "cwe_id": "CWE-22", "cwe_name": "Path Traversal"}
+{"id": 128, "language": "Java", "code": "// function_128 placeholder code", "label": "vulnerable", "cwe_id": "CWE-89", "cwe_name": "SQL Injection"}
+{"id": 129, "language": "TypeScript", "code": "// function_129 placeholder code", "label": "vulnerable", "cwe_id": "CWE-79", "cwe_name": "XSS"}
+{"id": 130, "language": "C#", "code": "// function_130 placeholder code", "label": "vulnerable", "cwe_id": "CWE-306", "cwe_name": "Missing Authentication"}
+{"id": 131, "language": "C", "code": "// function_131 placeholder code", "label": "vulnerable", "cwe_id": "CWE-287", "cwe_name": "Improper Authentication"}
+{"id": 132, "language": "C++", "code": "// function_132 placeholder code", "label": "vulnerable", "cwe_id": "CWE-22", "cwe_name": "Path Traversal"}
+{"id": 133, "language": "TypeScript", "code": "// function_133 placeholder code", "label": "vulnerable", "cwe_id": "CWE-22", "cwe_name": "Path Traversal"}
+{"id": 134, "language": "C++", "code": "// function_134 placeholder code", "label": "vulnerable", "cwe_id": "CWE-306", "cwe_name": "Missing Authentication"}
+{"id": 135, "language": "C++", "code": "// function_135 placeholder code", "label": "vulnerable", "cwe_id": "CWE-287", "cwe_name": "Improper Authentication"}
+{"id": 136, "language": "TypeScript", "code": "// function_136 placeholder code", "label": "vulnerable", "cwe_id": "CWE-287", "cwe_name": "Improper Authentication"}
+{"id": 137, "language": "TypeScript", "code": "// function_137 placeholder code", "label": "vulnerable", "cwe_id": "CWE-287", "cwe_name": "Improper Authentication"}
+{"id": 138, "language": "JavaScript", "code": "// function_138 placeholder code", "label": "vulnerable", "cwe_id": "CWE-79", "cwe_name": "XSS"}
+{"id": 139, "language": "TypeScript", "code": "// function_139 placeholder code", "label": "vulnerable", "cwe_id": "CWE-79", "cwe_name": "XSS"}
+{"id": 140, "language": "Java", "code": "// function_140 placeholder code", "label": "vulnerable", "cwe_id": "CWE-89", "cwe_name": "SQL Injection"}
+{"id": 141, "language": "JavaScript", "code": "// function_141 placeholder code", "label": "vulnerable", "cwe_id": "CWE-306", "cwe_name": "Missing Authentication"}
+{"id": 142, "language": "Java", "code": "// function_142 placeholder code", "label": "vulnerable", "cwe_id": "CWE-89", "cwe_name": "SQL Injection"}
+{"id": 143, "language": "C", "code": "// function_143 placeholder code", "label": "vulnerable", "cwe_id": "CWE-89", "cwe_name": "SQL Injection"}
+{"id": 144, "language": "JavaScript", "code": "// function_144 placeholder code", "label": "vulnerable", "cwe_id": "CWE-89", "cwe_name": "SQL Injection"}
+{"id": 145, "language": "C", "code": "// function_145 placeholder code", "label": "vulnerable", "cwe_id": "CWE-287", "cwe_name": "Improper Authentication"}
+{"id": 146, "language": "C++", "code": "// function_146 placeholder code", "label": "vulnerable", "cwe_id": "CWE-20", "cwe_name": "Improper Input Validation"}
+{"id": 147, "language": "C++", "code": "// function_147 placeholder code", "label": "vulnerable", "cwe_id": "CWE-22", "cwe_name": "Path Traversal"}
+{"id": 148, "language": "C", "code": "// function_148 placeholder code", "label": "vulnerable", "cwe_id": "CWE-22", "cwe_name": "Path Traversal"}
+{"id": 149, "language": "C++", "code": "// function_149 placeholder code", "label": "vulnerable", "cwe_id": "CWE-306", "cwe_name": "Missing Authentication"}
+{"id": 150, "language": "JavaScript", "code": "// function_150 placeholder code", "label": "vulnerable", "cwe_id": "CWE-22", "cwe_name": "Path Traversal"}
+{"id": 151, "language": "TypeScript", "code": "// function_151 placeholder code", "label": "vulnerable", "cwe_id": "CWE-79", "cwe_name": "XSS"}
+{"id": 152, "language": "JavaScript", "code": "// function_152 placeholder code", "label": "vulnerable", "cwe_id": "CWE-306", "cwe_name": "Missing Authentication"}
+{"id": 153, "language": "JavaScript", "code": "// function_153 placeholder code", "label": "vulnerable", "cwe_id": "CWE-284", "cwe_name": "Improper Access Control"}
+{"id": 154, "language": "JavaScript", "code": "// function_154 placeholder code", "label": "vulnerable", "cwe_id": "CWE-79", "cwe_name": "XSS"}
+{"id": 155, "language": "C#", "code": "// function_155 placeholder code", "label": "vulnerable", "cwe_id": "CWE-89", "cwe_name": "SQL Injection"}
+{"id": 156, "language": "JavaScript", "code": "// function_156 placeholder code", "label": "vulnerable", "cwe_id": "CWE-306", "cwe_name": "Missing Authentication"}
+{"id": 157, "language": "TypeScript", "code": "// function_157 placeholder code", "label": "vulnerable", "cwe_id": "CWE-89", "cwe_name": "SQL Injection"}
+{"id": 158, "language": "Java", "code": "// function_158 placeholder code", "label": "vulnerable", "cwe_id": "CWE-306", "cwe_name": "Missing Authentication"}
+{"id": 159, "language": "C", "code": "// function_159 placeholder code", "label": "vulnerable", "cwe_id": "CWE-284", "cwe_name": "Improper Access Control"}
+{"id": 160, "language": "JavaScript", "code": "// function_160 placeholder code", "label": "vulnerable", "cwe_id": "CWE-22", "cwe_name": "Path Traversal"}
+{"id": 161, "language": "C++", "code": "// function_161 placeholder code", "label": "vulnerable", "cwe_id": "CWE-79", "cwe_name": "XSS"}
+{"id": 162, "language": "C#", "code": "// function_162 placeholder code", "label": "vulnerable", "cwe_id": "CWE-89", "cwe_name": "SQL Injection"}
+{"id": 163, "language": "JavaScript", "code": "// function_163 placeholder code", "label": "vulnerable", "cwe_id": "CWE-89", "cwe_name": "SQL Injection"}
+{"id": 164, "language": "JavaScript", "code": "// function_164 placeholder code", "label": "vulnerable", "cwe_id": "CWE-306", "cwe_name": "Missing Authentication"}
+{"id": 165, "language": "TypeScript", "code": "// function_165 placeholder code", "label": "vulnerable", "cwe_id": "CWE-79", "cwe_name": "XSS"}
+{"id": 166, "language": "C#", "code": "// function_166 placeholder code", "label": "vulnerable", "cwe_id": "CWE-306", "cwe_name": "Missing Authentication"}
+{"id": 167, "language": "Java", "code": "// function_167 placeholder code", "label": "vulnerable", "cwe_id": "CWE-89", "cwe_name": "SQL Injection"}
+{"id": 168, "language": "TypeScript", "code": "// function_168 placeholder code", "label": "vulnerable", "cwe_id": "CWE-79", "cwe_name": "XSS"}
+{"id": 169, "language": "C#", "code": "// function_169 placeholder code", "label": "vulnerable", "cwe_id": "CWE-287", "cwe_name": "Improper Authentication"}
+{"id": 170, "language": "C++", "code": "// function_170 placeholder code", "label": "vulnerable", "cwe_id": "CWE-287", "cwe_name": "Improper Authentication"}
+{"id": 171, "language": "C++", "code": "// function_171 placeholder code", "label": "vulnerable", "cwe_id": "CWE-22", "cwe_name": "Path Traversal"}
+{"id": 172, "language": "C#", "code": "// function_172 placeholder code", "label": "vulnerable", "cwe_id": "CWE-89", "cwe_name": "SQL Injection"}
+{"id": 173, "language": "C#", "code": "// function_173 placeholder code", "label": "vulnerable", "cwe_id": "CWE-89", "cwe_name": "SQL Injection"}
+{"id": 174, "language": "C#", "code": "// function_174 placeholder code", "label": "vulnerable", "cwe_id": "CWE-89", "cwe_name": "SQL Injection"}
+{"id": 175, "language": "JavaScript", "code": "// function_175 placeholder code", "label": "vulnerable", "cwe_id": "CWE-22", "cwe_name": "Path Traversal"}
+{"id": 176, "language": "C#", "code": "// function_176 placeholder code", "label": "vulnerable", "cwe_id": "CWE-287", "cwe_name": "Improper Authentication"}
+{"id": 177, "language": "TypeScript", "code": "// function_177 placeholder code", "label": "vulnerable", "cwe_id": "CWE-287", "cwe_name": "Improper Authentication"}
+{"id": 178, "language": "C++", "code": "// function_178 placeholder code", "label": "vulnerable", "cwe_id": "CWE-79", "cwe_name": "XSS"}
+{"id": 179, "language": "JavaScript", "code": "// function_179 placeholder code", "label": "vulnerable", "cwe_id": "CWE-287", "cwe_name": "Improper Authentication"}
+{"id": 180, "language": "JavaScript", "code": "// function_180 placeholder code", "label": "vulnerable", "cwe_id": "CWE-287", "cwe_name": "Improper Authentication"}
+{"id": 181, "language": "TypeScript", "code": "// function_181 placeholder code", "label": "vulnerable", "cwe_id": "CWE-287", "cwe_name": "Improper Authentication"}
+{"id": 182, "language": "C#", "code": "// function_182 placeholder code", "label": "vulnerable", "cwe_id": "CWE-79", "cwe_name": "XSS"}
+{"id": 183, "language": "C#", "code": "// function_183 placeholder code", "label": "vulnerable", "cwe_id": "CWE-287", "cwe_name": "Improper Authentication"}
+{"id": 184, "language": "C#", "code": "// function_184 placeholder code", "label": "vulnerable", "cwe_id": "CWE-306", "cwe_name": "Missing Authentication"}
+{"id": 185, "language": "C#", "code": "// function_185 placeholder code", "label": "vulnerable", "cwe_id": "CWE-89", "cwe_name": "SQL Injection"}
+{"id": 186, "language": "C", "code": "// function_186 placeholder code", "label": "vulnerable", "cwe_id": "CWE-284", "cwe_name": "Improper Access Control"}
+{"id": 187, "language": "TypeScript", "code": "// function_187 placeholder code", "label": "vulnerable", "cwe_id": "CWE-89", "cwe_name": "SQL Injection"}
+{"id": 188, "language": "C#", "code": "// function_188 placeholder code", "label": "vulnerable", "cwe_id": "CWE-79", "cwe_name": "XSS"}
+{"id": 189, "language": "JavaScript", "code": "// function_189 placeholder code", "label": "vulnerable", "cwe_id": "CWE-22", "cwe_name": "Path Traversal"}
+{"id": 190, "language": "Java", "code": "// function_190 placeholder code", "label": "vulnerable", "cwe_id": "CWE-306", "cwe_name": "Missing Authentication"}
+{"id": 191, "language": "C++", "code": "// function_191 placeholder code", "label": "vulnerable", "cwe_id": "CWE-79", "cwe_name": "XSS"}
+{"id": 192, "language": "C#", "code": "// function_192 placeholder code", "label": "vulnerable", "cwe_id": "CWE-79", "cwe_name": "XSS"}
+{"id": 193, "language": "C++", "code": "// function_193 placeholder code", "label": "vulnerable", "cwe_id": "CWE-287", "cwe_name": "Improper Authentication"}
+{"id": 194, "language": "C++", "code": "// function_194 placeholder code", "label": "vulnerable", "cwe_id": "CWE-284", "cwe_name": "Improper Access Control"}
+{"id": 195, "language": "C", "code": "// function_195 placeholder code", "label": "vulnerable", "cwe_id": "CWE-287", "cwe_name": "Improper Authentication"}
+{"id": 196, "language": "TypeScript", "code": "// function_196 placeholder code", "label": "vulnerable", "cwe_id": "CWE-284", "cwe_name": "Improper Access Control"}
+{"id": 197, "language": "TypeScript", "code": "// function_197 placeholder code", "label": "vulnerable", "cwe_id": "CWE-287", "cwe_name": "Improper Authentication"}
+{"id": 198, "language": "Java", "code": "// function_198 placeholder code", "label": "vulnerable", "cwe_id": "CWE-22", "cwe_name": "Path Traversal"}
+{"id": 199, "language": "JavaScript", "code": "// function_199 placeholder code", "label": "vulnerable", "cwe_id": "CWE-79", "cwe_name": "XSS"}
+{"id": 200, "language": "JavaScript", "code": "// function_200 placeholder code", "label": "vulnerable", "cwe_id": "CWE-22", "cwe_name": "Path Traversal"}
+{"id": 201, "language": "C++", "code": "// function_201 placeholder code", "label": "vulnerable", "cwe_id": "CWE-79", "cwe_name": "XSS"}
+{"id": 202, "language": "Java", "code": "// function_202 placeholder code", "label": "vulnerable", "cwe_id": "CWE-287", "cwe_name": "Improper Authentication"}
+{"id": 203, "language": "C++", "code": "// function_203 placeholder code", "label": "vulnerable", "cwe_id": "CWE-287", "cwe_name": "Improper Authentication"}
+{"id": 204, "language": "C++", "code": "// function_204 placeholder code", "label": "vulnerable", "cwe_id": "CWE-287", "cwe_name": "Improper Authentication"}
+{"id": 205, "language": "JavaScript", "code": "// function_205 placeholder code", "label": "vulnerable", "cwe_id": "CWE-22", "cwe_name": "Path Traversal"}
+{"id": 206, "language": "JavaScript", "code": "// function_206 placeholder code", "label": "vulnerable", "cwe_id": "CWE-22", "cwe_name": "Path Traversal"}
+{"id": 207, "language": "TypeScript", "code": "// function_207 placeholder code", "label": "vulnerable", "cwe_id": "CWE-284", "cwe_name": "Improper Access Control"}
+{"id": 208, "language": "C#", "code": "// function_208 placeholder code", "label": "vulnerable", "cwe_id": "CWE-284", "cwe_name": "Improper Access Control"}
+{"id": 209, "language": "C++", "code": "// function_209 placeholder code", "label": "vulnerable", "cwe_id": "CWE-79", "cwe_name": "XSS"}
+{"id": 210, "language": "JavaScript", "code": "// function_210 placeholder code", "label": "vulnerable", "cwe_id": "CWE-89", "cwe_name": "SQL Injection"}
+{"id": 211, "language": "Java", "code": "// function_211 placeholder code", "label": "vulnerable", "cwe_id": "CWE-79", "cwe_name": "XSS"}
+{"id": 212, "language": "C++", "code": "// function_212 placeholder code", "label": "vulnerable", "cwe_id": "CWE-22", "cwe_name": "Path Traversal"}
+{"id": 213, "language": "Java", "code": "// function_213 placeholder code", "label": "vulnerable", "cwe_id": "CWE-287", "cwe_name": "Improper Authentication"}
+{"id": 214, "language": "C#", "code": "// function_214 placeholder code", "label": "vulnerable", "cwe_id": "CWE-22", "cwe_name": "Path Traversal"}
+{"id": 215, "language": "Java", "code": "// function_215 placeholder code", "label": "vulnerable", "cwe_id": "CWE-287", "cwe_name": "Improper Authentication"}
+{"id": 216, "language": "C#", "code": "// function_216 placeholder code", "label": "vulnerable", "cwe_id": "CWE-22", "cwe_name": "Path Traversal"}
+{"id": 217, "language": "C#", "code": "// function_217 placeholder code", "label": "vulnerable", "cwe_id": "CWE-89", "cwe_name": "SQL Injection"}
+{"id": 218, "language": "C", "code": "// function_218 placeholder code", "label": "vulnerable", "cwe_id": "CWE-89", "cwe_name": "SQL Injection"}
+{"id": 219, "language": "TypeScript", "code": "// function_219 placeholder code", "label": "vulnerable", "cwe_id": "CWE-20", "cwe_name": "Improper Input Validation"}
+{"id": 220, "language": "TypeScript", "code": "// function_220 placeholder code", "label": "vulnerable", "cwe_id": "CWE-306", "cwe_name": "Missing Authentication"}
+{"id": 221, "language": "TypeScript", "code": "// function_221 placeholder code", "label": "vulnerable", "cwe_id": "CWE-22", "cwe_name": "Path Traversal"}
+{"id": 222, "language": "C", "code": "// function_222 placeholder code", "label": "vulnerable", "cwe_id": "CWE-79", "cwe_name": "XSS"}
+{"id": 223, "language": "C", "code": "// function_223 placeholder code", "label": "vulnerable", "cwe_id": "CWE-79", "cwe_name": "XSS"}
+{"id": 224, "language": "Java", "code": "// function_224 placeholder code", "label": "vulnerable", "cwe_id": "CWE-20", "cwe_name": "Improper Input Validation"}
+{"id": 225, "language": "C#", "code": "// function_225 placeholder code", "label": "vulnerable", "cwe_id": "CWE-22", "cwe_name": "Path Traversal"}
+{"id": 226, "language": "C", "code": "// function_226 placeholder code", "label": "vulnerable", "cwe_id": "CWE-22", "cwe_name": "Path Traversal"}
+{"id": 227, "language": "C++", "code": "// function_227 placeholder code", "label": "vulnerable", "cwe_id": "CWE-284", "cwe_name": "Improper Access Control"}
+{"id": 228, "language": "C#", "code": "// function_228 placeholder code", "label": "vulnerable", "cwe_id": "CWE-20", "cwe_name": "Improper Input Validation"}
+{"id": 229, "language": "Java", "code": "// function_229 placeholder code", "label": "vulnerable", "cwe_id": "CWE-306", "cwe_name": "Missing Authentication"}
+{"id": 230, "language": "C#", "code": "// function_230 placeholder code", "label": "vulnerable", "cwe_id": "CWE-22", "cwe_name": "Path Traversal"}
+{"id": 231, "language": "C#", "code": "// function_231 placeholder code", "label": "vulnerable", "cwe_id": "CWE-89", "cwe_name": "SQL Injection"}
+{"id": 232, "language": "C#", "code": "// function_232 placeholder code", "label": "vulnerable", "cwe_id": "CWE-284", "cwe_name": "Improper Access Control"}
+{"id": 233, "language": "C", "code": "// function_233 placeholder code", "label": "vulnerable", "cwe_id": "CWE-22", "cwe_name": "Path Traversal"}
+{"id": 234, "language": "TypeScript", "code": "// function_234 placeholder code", "label": "vulnerable", "cwe_id": "CWE-79", "cwe_name": "XSS"}
+{"id": 235, "language": "C", "code": "// function_235 placeholder code", "label": "vulnerable", "cwe_id": "CWE-89", "cwe_name": "SQL Injection"}
+{"id": 236, "language": "C", "code": "// function_236 placeholder code", "label": "vulnerable", "cwe_id": "CWE-287", "cwe_name": "Improper Authentication"}
+{"id": 237, "language": "C++", "code": "// function_237 placeholder code", "label": "vulnerable", "cwe_id": "CWE-89", "cwe_name": "SQL Injection"}
+{"id": 238, "language": "C#", "code": "// function_238 placeholder code", "label": "vulnerable", "cwe_id": "CWE-89", "cwe_name": "SQL Injection"}
+{"id": 239, "language": "C#", "code": "// function_239 placeholder code", "label": "vulnerable", "cwe_id": "CWE-20", "cwe_name": "Improper Input Validation"}
+{"id": 240, "language": "C", "code": "// function_240 placeholder code", "label": "vulnerable", "cwe_id": "CWE-287", "cwe_name": "Improper Authentication"}
+{"id": 241, "language": "C#", "code": "// function_241 placeholder code", "label": "vulnerable", "cwe_id": "CWE-89", "cwe_name": "SQL Injection"}
+{"id": 242, "language": "Java", "code": "// function_242 placeholder code", "label": "vulnerable", "cwe_id": "CWE-20", "cwe_name": "Improper Input Validation"}
+{"id": 243, "language": "C++", "code": "// function_243 placeholder code", "label": "vulnerable", "cwe_id": "CWE-284", "cwe_name": "Improper Access Control"}
+{"id": 244, "language": "C", "code": "// function_244 placeholder code", "label": "vulnerable", "cwe_id": "CWE-287", "cwe_name": "Improper Authentication"}
+{"id": 245, "language": "Java", "code": "// function_245 placeholder code", "label": "vulnerable", "cwe_id": "CWE-287", "cwe_name": "Improper Authentication"}
+{"id": 246, "language": "TypeScript", "code": "// function_246 placeholder code", "label": "vulnerable", "cwe_id": "CWE-306", "cwe_name": "Missing Authentication"}
+{"id": 247, "language": "JavaScript", "code": "// function_247 placeholder code", "label": "vulnerable", "cwe_id": "CWE-20", "cwe_name": "Improper Input Validation"}
+{"id": 248, "language": "C#", "code": "// function_248 placeholder code", "label": "vulnerable", "cwe_id": "CWE-20", "cwe_name": "Improper Input Validation"}
+{"id": 249, "language": "C", "code": "// function_249 placeholder code", "label": "vulnerable", "cwe_id": "CWE-22", "cwe_name": "Path Traversal"}
+{"id": 250, "language": "C++", "code": "// function_250 placeholder code", "label": "vulnerable", "cwe_id": "CWE-89", "cwe_name": "SQL Injection"}
+{"id": 251, "language": "Java", "code": "// function_251 placeholder code", "label": "vulnerable", "cwe_id": "CWE-287", "cwe_name": "Improper Authentication"}
+{"id": 252, "language": "C#", "code": "// function_252 placeholder code", "label": "vulnerable", "cwe_id": "CWE-306", "cwe_name": "Missing Authentication"}
+{"id": 253, "language": "C++", "code": "// function_253 placeholder code", "label": "vulnerable", "cwe_id": "CWE-284", "cwe_name": "Improper Access Control"}
+{"id": 254, "language": "C", "code": "// function_254 placeholder code", "label": "vulnerable", "cwe_id": "CWE-20", "cwe_name": "Improper Input Validation"}
+{"id": 255, "language": "C++", "code": "// function_255 placeholder code", "label": "vulnerable", "cwe_id": "CWE-287", "cwe_name": "Improper Authentication"}
+{"id": 256, "language": "JavaScript", "code": "// function_256 placeholder code", "label": "vulnerable", "cwe_id": "CWE-306", "cwe_name": "Missing Authentication"}
+{"id": 257, "language": "Java", "code": "// function_257 placeholder code", "label": "vulnerable", "cwe_id": "CWE-287", "cwe_name": "Improper Authentication"}
+{"id": 258, "language": "TypeScript", "code": "// function_258 placeholder code", "label": "vulnerable", "cwe_id": "CWE-306", "cwe_name": "Missing Authentication"}
+{"id": 259, "language": "C", "code": "// function_259 placeholder code", "label": "vulnerable", "cwe_id": "CWE-79", "cwe_name": "XSS"}
+{"id": 260, "language": "C#", "code": "// function_260 placeholder code", "label": "vulnerable", "cwe_id": "CWE-287", "cwe_name": "Improper Authentication"}
+{"id": 261, "language": "C", "code": "// function_261 placeholder code", "label": "vulnerable", "cwe_id": "CWE-79", "cwe_name": "XSS"}
+{"id": 262, "language": "C", "code": "// function_262 placeholder code", "label": "vulnerable", "cwe_id": "CWE-89", "cwe_name": "SQL Injection"}
+{"id": 263, "language": "C++", "code": "// function_263 placeholder code", "label": "vulnerable", "cwe_id": "CWE-20", "cwe_name": "Improper Input Validation"}
+{"id": 264, "language": "C#", "code": "// function_264 placeholder code", "label": "vulnerable", "cwe_id": "CWE-89", "cwe_name": "SQL Injection"}
+{"id": 265, "language": "C#", "code": "// function_265 placeholder code", "label": "vulnerable", "cwe_id": "CWE-20", "cwe_name": "Improper Input Validation"}
+{"id": 266, "language": "C", "code": "// function_266 placeholder code", "label": "vulnerable", "cwe_id": "CWE-287", "cwe_name": "Improper Authentication"}
+{"id": 267, "language": "Java", "code": "// function_267 placeholder code", "label": "vulnerable", "cwe_id": "CWE-287", "cwe_name": "Improper Authentication"}
+{"id": 268, "language": "C++", "code": "// function_268 placeholder code", "label": "vulnerable", "cwe_id": "CWE-306", "cwe_name": "Missing Authentication"}
+{"id": 269, "language": "C++", "code": "// function_269 placeholder code", "label": "vulnerable", "cwe_id": "CWE-284", "cwe_name": "Improper Access Control"}
+{"id": 270, "language": "Java", "code": "// function_270 placeholder code", "label": "vulnerable", "cwe_id": "CWE-89", "cwe_name": "SQL Injection"}
+{"id": 271, "language": "C#", "code": "// function_271 placeholder code", "label": "vulnerable", "cwe_id": "CWE-20", "cwe_name": "Improper Input Validation"}
+{"id": 272, "language": "C", "code": "// function_272 placeholder code", "label": "vulnerable", "cwe_id": "CWE-20", "cwe_name": "Improper Input Validation"}
+{"id": 273, "language": "JavaScript", "code": "// function_273 placeholder code", "label": "vulnerable", "cwe_id": "CWE-20", "cwe_name": "Improper Input Validation"}
+{"id": 274, "language": "C#", "code": "// function_274 placeholder code", "label": "vulnerable", "cwe_id": "CWE-306", "cwe_name": "Missing Authentication"}
+{"id": 275, "language": "C++", "code": "// function_275 placeholder code", "label": "vulnerable", "cwe_id": "CWE-22", "cwe_name": "Path Traversal"}
+{"id": 276, "language": "TypeScript", "code": "// function_276 placeholder code", "label": "vulnerable", "cwe_id": "CWE-22", "cwe_name": "Path Traversal"}
+{"id": 277, "language": "TypeScript", "code": "// function_277 placeholder code", "label": "vulnerable", "cwe_id": "CWE-89", "cwe_name": "SQL Injection"}
+{"id": 278, "language": "C", "code": "// function_278 placeholder code", "label": "vulnerable", "cwe_id": "CWE-22", "cwe_name": "Path Traversal"}
+{"id": 279, "language": "JavaScript", "code": "// function_279 placeholder code", "label": "vulnerable", "cwe_id": "CWE-20", "cwe_name": "Improper Input Validation"}
+{"id": 280, "language": "JavaScript", "code": "// function_280 placeholder code", "label": "vulnerable", "cwe_id": "CWE-79", "cwe_name": "XSS"}
+{"id": 281, "language": "C", "code": "// function_281 placeholder code", "label": "vulnerable", "cwe_id": "CWE-306", "cwe_name": "Missing Authentication"}
+{"id": 282, "language": "C++", "code": "// function_282 placeholder code", "label": "vulnerable", "cwe_id": "CWE-79", "cwe_name": "XSS"}
+{"id": 283, "language": "TypeScript", "code": "// function_283 placeholder code", "label": "vulnerable", "cwe_id": "CWE-284", "cwe_name": "Improper Access Control"}
+{"id": 284, "language": "C#", "code": "// function_284 placeholder code", "label": "vulnerable", "cwe_id": "CWE-20", "cwe_name": "Improper Input Validation"}
+{"id": 285, "language": "C", "code": "// function_285 placeholder code", "label": "vulnerable", "cwe_id": "CWE-20", "cwe_name": "Improper Input Validation"}
+{"id": 286, "language": "C", "code": "// function_286 placeholder code", "label": "vulnerable", "cwe_id": "CWE-79", "cwe_name": "XSS"}
+{"id": 287, "language": "JavaScript", "code": "// function_287 placeholder code", "label": "vulnerable", "cwe_id": "CWE-22", "cwe_name": "Path Traversal"}
+{"id": 288, "language": "Java", "code": "// function_288 placeholder code", "label": "vulnerable", "cwe_id": "CWE-20", "cwe_name": "Improper Input Validation"}
+{"id": 289, "language": "Java", "code": "// function_289 placeholder code", "label": "vulnerable", "cwe_id": "CWE-284", "cwe_name": "Improper Access Control"}
+{"id": 290, "language": "Java", "code": "// function_290 placeholder code", "label": "vulnerable", "cwe_id": "CWE-284", "cwe_name": "Improper Access Control"}
+{"id": 291, "language": "JavaScript", "code": "// function_291 placeholder code", "label": "vulnerable", "cwe_id": "CWE-306", "cwe_name": "Missing Authentication"}
+{"id": 292, "language": "C#", "code": "// function_292 placeholder code", "label": "vulnerable", "cwe_id": "CWE-306", "cwe_name": "Missing Authentication"}
+{"id": 293, "language": "JavaScript", "code": "// function_293 placeholder code", "label": "vulnerable", "cwe_id": "CWE-22", "cwe_name": "Path Traversal"}
+{"id": 294, "language": "C++", "code": "// function_294 placeholder code", "label": "vulnerable", "cwe_id": "CWE-20", "cwe_name": "Improper Input Validation"}
+{"id": 295, "language": "Java", "code": "// function_295 placeholder code", "label": "vulnerable", "cwe_id": "CWE-306", "cwe_name": "Missing Authentication"}
+{"id": 296, "language": "C#", "code": "// function_296 placeholder code", "label": "vulnerable", "cwe_id": "CWE-20", "cwe_name": "Improper Input Validation"}
+{"id": 297, "language": "C++", "code": "// function_297 placeholder code", "label": "vulnerable", "cwe_id": "CWE-306", "cwe_name": "Missing Authentication"}
+{"id": 298, "language": "C++", "code": "// function_298 placeholder code", "label": "vulnerable", "cwe_id": "CWE-20", "cwe_name": "Improper Input Validation"}
+{"id": 299, "language": "C#", "code": "// function_299 placeholder code", "label": "vulnerable", "cwe_id": "CWE-89", "cwe_name": "SQL Injection"}
+{"id": 300, "language": "C++", "code": "// function_300 placeholder code", "label": "vulnerable", "cwe_id": "CWE-284", "cwe_name": "Improper Access Control"}
+{"id": 301, "language": "C", "code": "// function_301 placeholder code", "label": "vulnerable", "cwe_id": "CWE-306", "cwe_name": "Missing Authentication"}
+{"id": 302, "language": "C", "code": "// function_302 placeholder code", "label": "vulnerable", "cwe_id": "CWE-20", "cwe_name": "Improper Input Validation"}
+{"id": 303, "language": "TypeScript", "code": "// function_303 placeholder code", "label": "vulnerable", "cwe_id": "CWE-284", "cwe_name": "Improper Access Control"}
+{"id": 304, "language": "Java", "code": "// function_304 placeholder code", "label": "vulnerable", "cwe_id": "CWE-89", "cwe_name": "SQL Injection"}
+{"id": 305, "language": "JavaScript", "code": "// function_305 placeholder code", "label": "vulnerable", "cwe_id": "CWE-89", "cwe_name": "SQL Injection"}
+{"id": 306, "language": "C++", "code": "// function_306 placeholder code", "label": "vulnerable", "cwe_id": "CWE-284", "cwe_name": "Improper Access Control"}
+{"id": 307, "language": "Java", "code": "// function_307 placeholder code", "label": "vulnerable", "cwe_id": "CWE-306", "cwe_name": "Missing Authentication"}
+{"id": 308, "language": "C", "code": "// function_308 placeholder code", "label": "vulnerable", "cwe_id": "CWE-89", "cwe_name": "SQL Injection"}
+{"id": 309, "language": "Java", "code": "// function_309 placeholder code", "label": "vulnerable", "cwe_id": "CWE-89", "cwe_name": "SQL Injection"}
+{"id": 310, "language": "C++", "code": "// function_310 placeholder code", "label": "vulnerable", "cwe_id": "CWE-284", "cwe_name": "Improper Access Control"}
+{"id": 311, "language": "Java", "code": "// function_311 placeholder code", "label": "vulnerable", "cwe_id": "CWE-89", "cwe_name": "SQL Injection"}
+{"id": 312, "language": "C", "code": "// function_312 placeholder code", "label": "vulnerable", "cwe_id": "CWE-287", "cwe_name": "Improper Authentication"}
+{"id": 313, "language": "Java", "code": "// function_313 placeholder code", "label": "vulnerable", "cwe_id": "CWE-89", "cwe_name": "SQL Injection"}
+{"id": 314, "language": "C", "code": "// function_314 placeholder code", "label": "vulnerable", "cwe_id": "CWE-284", "cwe_name": "Improper Access Control"}
+{"id": 315, "language": "TypeScript", "code": "// function_315 placeholder code", "label": "vulnerable", "cwe_id": "CWE-89", "cwe_name": "SQL Injection"}
+{"id": 316, "language": "C#", "code": "// function_316 placeholder code", "label": "vulnerable", "cwe_id": "CWE-89", "cwe_name": "SQL Injection"}
+{"id": 317, "language": "C", "code": "// function_317 placeholder code", "label": "vulnerable", "cwe_id": "CWE-306", "cwe_name": "Missing Authentication"}
+{"id": 318, "language": "Java", "code": "// function_318 placeholder code", "label": "vulnerable", "cwe_id": "CWE-287", "cwe_name": "Improper Authentication"}
+{"id": 319, "language": "C#", "code": "// function_319 placeholder code", "label": "vulnerable", "cwe_id": "CWE-79", "cwe_name": "XSS"}
+{"id": 320, "language": "JavaScript", "code": "// function_320 placeholder code", "label": "vulnerable", "cwe_id": "CWE-79", "cwe_name": "XSS"}
+{"id": 321, "language": "C", "code": "// function_321 placeholder code", "label": "vulnerable", "cwe_id": "CWE-79", "cwe_name": "XSS"}
+{"id": 322, "language": "JavaScript", "code": "// function_322 placeholder code", "label": "vulnerable", "cwe_id": "CWE-89", "cwe_name": "SQL Injection"}
+{"id": 323, "language": "Java", "code": "// function_323 placeholder code", "label": "vulnerable", "cwe_id": "CWE-20", "cwe_name": "Improper Input Validation"}
+{"id": 324, "language": "C", "code": "// function_324 placeholder code", "label": "vulnerable", "cwe_id": "CWE-89", "cwe_name": "SQL Injection"}
+{"id": 325, "language": "C#", "code": "// function_325 placeholder code", "label": "vulnerable", "cwe_id": "CWE-284", "cwe_name": "Improper Access Control"}
+{"id": 326, "language": "C++", "code": "// function_326 placeholder code", "label": "vulnerable", "cwe_id": "CWE-22", "cwe_name": "Path Traversal"}
+{"id": 327, "language": "C#", "code": "// function_327 placeholder code", "label": "vulnerable", "cwe_id": "CWE-20", "cwe_name": "Improper Input Validation"}
+{"id": 328, "language": "JavaScript", "code": "// function_328 placeholder code", "label": "vulnerable", "cwe_id": "CWE-306", "cwe_name": "Missing Authentication"}
+{"id": 329, "language": "C", "code": "// function_329 placeholder code", "label": "vulnerable", "cwe_id": "CWE-89", "cwe_name": "SQL Injection"}
+{"id": 330, "language": "C++", "code": "// function_330 placeholder code", "label": "vulnerable", "cwe_id": "CWE-22", "cwe_name": "Path Traversal"}
+{"id": 331, "language": "C", "code": "// function_331 placeholder code", "label": "vulnerable", "cwe_id": "CWE-79", "cwe_name": "XSS"}
+{"id": 332, "language": "C#", "code": "// function_332 placeholder code", "label": "vulnerable", "cwe_id": "CWE-284", "cwe_name": "Improper Access Control"}
+{"id": 333, "language": "TypeScript", "code": "// function_333 placeholder code", "label": "vulnerable", "cwe_id": "CWE-284", "cwe_name": "Improper Access Control"}
+{"id": 334, "language": "C++", "code": "// function_334 placeholder code", "label": "vulnerable", "cwe_id": "CWE-284", "cwe_name": "Improper Access Control"}
+{"id": 335, "language": "Java", "code": "// function_335 placeholder code", "label": "vulnerable", "cwe_id": "CWE-89", "cwe_name": "SQL Injection"}
+{"id": 336, "language": "Java", "code": "// function_336 placeholder code", "label": "vulnerable", "cwe_id": "CWE-284", "cwe_name": "Improper Access Control"}
+{"id": 337, "language": "C", "code": "// function_337 placeholder code", "label": "vulnerable", "cwe_id": "CWE-284", "cwe_name": "Improper Access Control"}
+{"id": 338, "language": "Java", "code": "// function_338 placeholder code", "label": "vulnerable", "cwe_id": "CWE-306", "cwe_name": "Missing Authentication"}
+{"id": 339, "language": "C", "code": "// function_339 placeholder code", "label": "vulnerable", "cwe_id": "CWE-79", "cwe_name": "XSS"}
+{"id": 340, "language": "C", "code": "// function_340 placeholder code", "label": "vulnerable", "cwe_id": "CWE-79", "cwe_name": "XSS"}
+{"id": 341, "language": "Java", "code": "// function_341 placeholder code", "label": "vulnerable", "cwe_id": "CWE-284", "cwe_name": "Improper Access Control"}
+{"id": 342, "language": "JavaScript", "code": "// function_342 placeholder code", "label": "vulnerable", "cwe_id": "CWE-79", "cwe_name": "XSS"}
+{"id": 343, "language": "C#", "code": "// function_343 placeholder code", "label": "vulnerable", "cwe_id": "CWE-20", "cwe_name": "Improper Input Validation"}
+{"id": 344, "language": "C#", "code": "// function_344 placeholder code", "label": "vulnerable", "cwe_id": "CWE-20", "cwe_name": "Improper Input Validation"}
+{"id": 345, "language": "C++", "code": "// function_345 placeholder code", "label": "vulnerable", "cwe_id": "CWE-306", "cwe_name": "Missing Authentication"}
+{"id": 346, "language": "C++", "code": "// function_346 placeholder code", "label": "vulnerable", "cwe_id": "CWE-20", "cwe_name": "Improper Input Validation"}
+{"id": 347, "language": "C++", "code": "// function_347 placeholder code", "label": "vulnerable", "cwe_id": "CWE-79", "cwe_name": "XSS"}
+{"id": 348, "language": "C++", "code": "// function_348 placeholder code", "label": "vulnerable", "cwe_id": "CWE-287", "cwe_name": "Improper Authentication"}
+{"id": 349, "language": "C", "code": "// function_349 placeholder code", "label": "vulnerable", "cwe_id": "CWE-284", "cwe_name": "Improper Access Control"}
+{"id": 350, "language": "Java", "code": "// function_350 placeholder code", "label": "vulnerable", "cwe_id": "CWE-284", "cwe_name": "Improper Access Control"}
+{"id": 351, "language": "TypeScript", "code": "// function_351 placeholder code", "label": "vulnerable", "cwe_id": "CWE-284", "cwe_name": "Improper Access Control"}
+{"id": 352, "language": "C++", "code": "// function_352 placeholder code", "label": "vulnerable", "cwe_id": "CWE-89", "cwe_name": "SQL Injection"}
+{"id": 353, "language": "C", "code": "// function_353 placeholder code", "label": "vulnerable", "cwe_id": "CWE-20", "cwe_name": "Improper Input Validation"}
+{"id": 354, "language": "TypeScript", "code": "// function_354 placeholder code", "label": "vulnerable", "cwe_id": "CWE-89", "cwe_name": "SQL Injection"}
+{"id": 355, "language": "C", "code": "// function_355 placeholder code", "label": "vulnerable", "cwe_id": "CWE-89", "cwe_name": "SQL Injection"}
+{"id": 356, "language": "TypeScript", "code": "// function_356 placeholder code", "label": "vulnerable", "cwe_id": "CWE-22", "cwe_name": "Path Traversal"}
+{"id": 357, "language": "JavaScript", "code": "// function_357 placeholder code", "label": "vulnerable", "cwe_id": "CWE-306", "cwe_name": "Missing Authentication"}
+{"id": 358, "language": "C++", "code": "// function_358 placeholder code", "label": "vulnerable", "cwe_id": "CWE-306", "cwe_name": "Missing Authentication"}
+{"id": 359, "language": "JavaScript", "code": "// function_359 placeholder code", "label": "vulnerable", "cwe_id": "CWE-20", "cwe_name": "Improper Input Validation"}
+{"id": 360, "language": "Java", "code": "// function_360 placeholder code", "label": "vulnerable", "cwe_id": "CWE-284", "cwe_name": "Improper Access Control"}
+{"id": 361, "language": "C#", "code": "// function_361 placeholder code", "label": "vulnerable", "cwe_id": "CWE-20", "cwe_name": "Improper Input Validation"}
+{"id": 362, "language": "TypeScript", "code": "// function_362 placeholder code", "label": "vulnerable", "cwe_id": "CWE-287", "cwe_name": "Improper Authentication"}
+{"id": 363, "language": "TypeScript", "code": "// function_363 placeholder code", "label": "vulnerable", "cwe_id": "CWE-89", "cwe_name": "SQL Injection"}
+{"id": 364, "language": "C", "code": "// function_364 placeholder code", "label": "vulnerable", "cwe_id": "CWE-89", "cwe_name": "SQL Injection"}
+{"id": 365, "language": "C#", "code": "// function_365 placeholder code", "label": "vulnerable", "cwe_id": "CWE-20", "cwe_name": "Improper Input Validation"}
+{"id": 366, "language": "TypeScript", "code": "// function_366 placeholder code", "label": "vulnerable", "cwe_id": "CWE-89", "cwe_name": "SQL Injection"}
+{"id": 367, "language": "C#", "code": "// function_367 placeholder code", "label": "vulnerable", "cwe_id": "CWE-20", "cwe_name": "Improper Input Validation"}
+{"id": 368, "language": "TypeScript", "code": "// function_368 placeholder code", "label": "vulnerable", "cwe_id": "CWE-20", "cwe_name": "Improper Input Validation"}
+{"id": 369, "language": "C++", "code": "// function_369 placeholder code", "label": "vulnerable", "cwe_id": "CWE-22", "cwe_name": "Path Traversal"}
+{"id": 370, "language": "JavaScript", "code": "// function_370 placeholder code", "label": "vulnerable", "cwe_id": "CWE-22", "cwe_name": "Path Traversal"}
+{"id": 371, "language": "C#", "code": "// function_371 placeholder code", "label": "vulnerable", "cwe_id": "CWE-79", "cwe_name": "XSS"}
+{"id": 372, "language": "JavaScript", "code": "// function_372 placeholder code", "label": "vulnerable", "cwe_id": "CWE-284", "cwe_name": "Improper Access Control"}
+{"id": 373, "language": "C++", "code": "// function_373 placeholder code", "label": "vulnerable", "cwe_id": "CWE-20", "cwe_name": "Improper Input Validation"}
+{"id": 374, "language": "JavaScript", "code": "// function_374 placeholder code", "label": "vulnerable", "cwe_id": "CWE-287", "cwe_name": "Improper Authentication"}
+{"id": 375, "language": "C++", "code": "// function_375 placeholder code", "label": "vulnerable", "cwe_id": "CWE-79", "cwe_name": "XSS"}
+{"id": 376, "language": "Java", "code": "// function_376 placeholder code", "label": "vulnerable", "cwe_id": "CWE-20", "cwe_name": "Improper Input Validation"}
+{"id": 377, "language": "JavaScript", "code": "// function_377 placeholder code", "label": "vulnerable", "cwe_id": "CWE-89", "cwe_name": "SQL Injection"}
+{"id": 378, "language": "TypeScript", "code": "// function_378 placeholder code", "label": "vulnerable", "cwe_id": "CWE-20", "cwe_name": "Improper Input Validation"}
+{"id": 379, "language": "JavaScript", "code": "// function_379 placeholder code", "label": "vulnerable", "cwe_id": "CWE-287", "cwe_name": "Improper Authentication"}
+{"id": 380, "language": "C", "code": "// function_380 placeholder code", "label": "vulnerable", "cwe_id": "CWE-22", "cwe_name": "Path Traversal"}
+{"id": 381, "language": "Java", "code": "// function_381 placeholder code", "label": "vulnerable", "cwe_id": "CWE-22", "cwe_name": "Path Traversal"}
+{"id": 382, "language": "C++", "code": "// function_382 placeholder code", "label": "vulnerable", "cwe_id": "CWE-20", "cwe_name": "Improper Input Validation"}
+{"id": 383, "language": "JavaScript", "code": "// function_383 placeholder code", "label": "vulnerable", "cwe_id": "CWE-284", "cwe_name": "Improper Access Control"}
+{"id": 384, "language": "JavaScript", "code": "// function_384 placeholder code", "label": "vulnerable", "cwe_id": "CWE-20", "cwe_name": "Improper Input Validation"}
+{"id": 385, "language": "C", "code": "// function_385 placeholder code", "label": "vulnerable", "cwe_id": "CWE-79", "cwe_name": "XSS"}
+{"id": 386, "language": "C", "code": "// function_386 placeholder code", "label": "vulnerable", "cwe_id": "CWE-20", "cwe_name": "Improper Input Validation"}
+{"id": 387, "language": "C++", "code": "// function_387 placeholder code", "label": "vulnerable", "cwe_id": "CWE-89", "cwe_name": "SQL Injection"}
+{"id": 388, "language": "C++", "code": "// function_388 placeholder code", "label": "vulnerable", "cwe_id": "CWE-287", "cwe_name": "Improper Authentication"}
+{"id": 389, "language": "Java", "code": "// function_389 placeholder code", "label": "vulnerable", "cwe_id": "CWE-22", "cwe_name": "Path Traversal"}
+{"id": 390, "language": "C#", "code": "// function_390 placeholder code", "label": "vulnerable", "cwe_id": "CWE-79", "cwe_name": "XSS"}
+{"id": 391, "language": "JavaScript", "code": "// function_391 placeholder code", "label": "vulnerable", "cwe_id": "CWE-20", "cwe_name": "Improper Input Validation"}
+{"id": 392, "language": "C", "code": "// function_392 placeholder code", "label": "vulnerable", "cwe_id": "CWE-284", "cwe_name": "Improper Access Control"}
+{"id": 393, "language": "TypeScript", "code": "// function_393 placeholder code", "label": "vulnerable", "cwe_id": "CWE-22", "cwe_name": "Path Traversal"}
+{"id": 394, "language": "JavaScript", "code": "// function_394 placeholder code", "label": "vulnerable", "cwe_id": "CWE-79", "cwe_name": "XSS"}
+{"id": 395, "language": "TypeScript", "code": "// function_395 placeholder code", "label": "vulnerable", "cwe_id": "CWE-20", "cwe_name": "Improper Input Validation"}
+{"id": 396, "language": "C#", "code": "// function_396 placeholder code", "label": "vulnerable", "cwe_id": "CWE-20", "cwe_name": "Improper Input Validation"}
+{"id": 397, "language": "C#", "code": "// function_397 placeholder code", "label": "vulnerable", "cwe_id": "CWE-22", "cwe_name": "Path Traversal"}
+{"id": 398, "language": "C++", "code": "// function_398 placeholder code", "label": "vulnerable", "cwe_id": "CWE-79", "cwe_name": "XSS"}
+{"id": 399, "language": "C++", "code": "// function_399 placeholder code", "label": "vulnerable", "cwe_id": "CWE-284", "cwe_name": "Improper Access Control"}
+{"id": 400, "language": "C", "code": "// function_400 placeholder code", "label": "vulnerable", "cwe_id": "CWE-89", "cwe_name": "SQL Injection"}
+{"id": 401, "language": "TypeScript", "code": "// function_401 placeholder code", "label": "vulnerable", "cwe_id": "CWE-22", "cwe_name": "Path Traversal"}
+{"id": 402, "language": "TypeScript", "code": "// function_402 placeholder code", "label": "vulnerable", "cwe_id": "CWE-22", "cwe_name": "Path Traversal"}
+{"id": 403, "language": "JavaScript", "code": "// function_403 placeholder code", "label": "vulnerable", "cwe_id": "CWE-79", "cwe_name": "XSS"}
+{"id": 404, "language": "C++", "code": "// function_404 placeholder code", "label": "vulnerable", "cwe_id": "CWE-20", "cwe_name": "Improper Input Validation"}
+{"id": 405, "language": "Java", "code": "// function_405 placeholder code", "label": "vulnerable", "cwe_id": "CWE-284", "cwe_name": "Improper Access Control"}
+{"id": 406, "language": "Java", "code": "// function_406 placeholder code", "label": "vulnerable", "cwe_id": "CWE-284", "cwe_name": "Improper Access Control"}
+{"id": 407, "language": "TypeScript", "code": "// function_407 placeholder code", "label": "vulnerable", "cwe_id": "CWE-287", "cwe_name": "Improper Authentication"}
+{"id": 408, "language": "Java", "code": "// function_408 placeholder code", "label": "vulnerable", "cwe_id": "CWE-284", "cwe_name": "Improper Access Control"}
+{"id": 409, "language": "C#", "code": "// function_409 placeholder code", "label": "vulnerable", "cwe_id": "CWE-306", "cwe_name": "Missing Authentication"}
+{"id": 410, "language": "TypeScript", "code": "// function_410 placeholder code", "label": "vulnerable", "cwe_id": "CWE-22", "cwe_name": "Path Traversal"}
+{"id": 411, "language": "C++", "code": "// function_411 placeholder code", "label": "vulnerable", "cwe_id": "CWE-79", "cwe_name": "XSS"}
+{"id": 412, "language": "Java", "code": "// function_412 placeholder code", "label": "vulnerable", "cwe_id": "CWE-22", "cwe_name": "Path Traversal"}
+{"id": 413, "language": "C#", "code": "// function_413 placeholder code", "label": "vulnerable", "cwe_id": "CWE-22", "cwe_name": "Path Traversal"}
+{"id": 414, "language": "C++", "code": "// function_414 placeholder code", "label": "vulnerable", "cwe_id": "CWE-89", "cwe_name": "SQL Injection"}
+{"id": 415, "language": "JavaScript", "code": "// function_415 placeholder code", "label": "vulnerable", "cwe_id": "CWE-22", "cwe_name": "Path Traversal"}
+{"id": 416, "language": "Java", "code": "// function_416 placeholder code", "label": "vulnerable", "cwe_id": "CWE-284", "cwe_name": "Improper Access Control"}
+{"id": 417, "language": "JavaScript", "code": "// function_417 placeholder code", "label": "vulnerable", "cwe_id": "CWE-89", "cwe_name": "SQL Injection"}
+{"id": 418, "language": "C", "code": "// function_418 placeholder code", "label": "vulnerable", "cwe_id": "CWE-306", "cwe_name": "Missing Authentication"}
+{"id": 419, "language": "JavaScript", "code": "// function_419 placeholder code", "label": "vulnerable", "cwe_id": "CWE-22", "cwe_name": "Path Traversal"}
+{"id": 420, "language": "C++", "code": "// function_420 placeholder code", "label": "vulnerable", "cwe_id": "CWE-284", "cwe_name": "Improper Access Control"}
+{"id": 421, "language": "C#", "code": "// function_421 placeholder code", "label": "vulnerable", "cwe_id": "CWE-22", "cwe_name": "Path Traversal"}
+{"id": 422, "language": "C", "code": "// function_422 placeholder code", "label": "vulnerable", "cwe_id": "CWE-89", "cwe_name": "SQL Injection"}
+{"id": 423, "language": "TypeScript", "code": "// function_423 placeholder code", "label": "vulnerable", "cwe_id": "CWE-22", "cwe_name": "Path Traversal"}
+{"id": 424, "language": "C++", "code": "// function_424 placeholder code", "label": "vulnerable", "cwe_id": "CWE-79", "cwe_name": "XSS"}
+{"id": 425, "language": "TypeScript", "code": "// function_425 placeholder code", "label": "vulnerable", "cwe_id": "CWE-89", "cwe_name": "SQL Injection"}
+{"id": 426, "language": "TypeScript", "code": "// function_426 placeholder code", "label": "vulnerable", "cwe_id": "CWE-20", "cwe_name": "Improper Input Validation"}
+{"id": 427, "language": "C#", "code": "// function_427 placeholder code", "label": "vulnerable", "cwe_id": "CWE-79", "cwe_name": "XSS"}
+{"id": 428, "language": "C#", "code": "// function_428 placeholder code", "label": "vulnerable", "cwe_id": "CWE-287", "cwe_name": "Improper Authentication"}
+{"id": 429, "language": "C++", "code": "// function_429 placeholder code", "label": "vulnerable", "cwe_id": "CWE-287", "cwe_name": "Improper Authentication"}
+{"id": 430, "language": "C", "code": "// function_430 placeholder code", "label": "vulnerable", "cwe_id": "CWE-287", "cwe_name": "Improper Authentication"}
+{"id": 431, "language": "TypeScript", "code": "// function_431 placeholder code", "label": "vulnerable", "cwe_id": "CWE-79", "cwe_name": "XSS"}
+{"id": 432, "language": "C#", "code": "// function_432 placeholder code", "label": "vulnerable", "cwe_id": "CWE-20", "cwe_name": "Improper Input Validation"}
+{"id": 433, "language": "C#", "code": "// function_433 placeholder code", "label": "vulnerable", "cwe_id": "CWE-89", "cwe_name": "SQL Injection"}
+{"id": 434, "language": "C#", "code": "// function_434 placeholder code", "label": "vulnerable", "cwe_id": "CWE-20", "cwe_name": "Improper Input Validation"}
+{"id": 435, "language": "Java", "code": "// function_435 placeholder code", "label": "vulnerable", "cwe_id": "CWE-287", "cwe_name": "Improper Authentication"}
+{"id": 436, "language": "C++", "code": "// function_436 placeholder code", "label": "vulnerable", "cwe_id": "CWE-284", "cwe_name": "Improper Access Control"}
+{"id": 437, "language": "Java", "code": "// function_437 placeholder code", "label": "vulnerable", "cwe_id": "CWE-20", "cwe_name": "Improper Input Validation"}
+{"id": 438, "language": "C++", "code": "// function_438 placeholder code", "label": "vulnerable", "cwe_id": "CWE-287", "cwe_name": "Improper Authentication"}
+{"id": 439, "language": "TypeScript", "code": "// function_439 placeholder code", "label": "vulnerable", "cwe_id": "CWE-306", "cwe_name": "Missing Authentication"}
+{"id": 440, "language": "C++", "code": "// function_440 placeholder code", "label": "vulnerable", "cwe_id": "CWE-79", "cwe_name": "XSS"}
+{"id": 441, "language": "C#", "code": "// function_441 placeholder code", "label": "vulnerable", "cwe_id": "CWE-22", "cwe_name": "Path Traversal"}
+{"id": 442, "language": "TypeScript", "code": "// function_442 placeholder code", "label": "vulnerable", "cwe_id": "CWE-22", "cwe_name": "Path Traversal"}
+{"id": 443, "language": "Java", "code": "// function_443 placeholder code", "label": "vulnerable", "cwe_id": "CWE-89", "cwe_name": "SQL Injection"}
+{"id": 444, "language": "C++", "code": "// function_444 placeholder code", "label": "vulnerable", "cwe_id": "CWE-79", "cwe_name": "XSS"}
+{"id": 445, "language": "C#", "code": "// function_445 placeholder code", "label": "vulnerable", "cwe_id": "CWE-22", "cwe_name": "Path Traversal"}
+{"id": 446, "language": "C", "code": "// function_446 placeholder code", "label": "vulnerable", "cwe_id": "CWE-287", "cwe_name": "Improper Authentication"}
+{"id": 447, "language": "TypeScript", "code": "// function_447 placeholder code", "label": "vulnerable", "cwe_id": "CWE-306", "cwe_name": "Missing Authentication"}
+{"id": 448, "language": "C#", "code": "// function_448 placeholder code", "label": "vulnerable", "cwe_id": "CWE-22", "cwe_name": "Path Traversal"}
+{"id": 449, "language": "C#", "code": "// function_449 placeholder code", "label": "vulnerable", "cwe_id": "CWE-89", "cwe_name": "SQL Injection"}
+{"id": 450, "language": "C#", "code": "// function_450 placeholder code", "label": "vulnerable", "cwe_id": "CWE-287", "cwe_name": "Improper Authentication"}
+{"id": 451, "language": "TypeScript", "code": "// function_451 placeholder code", "label": "vulnerable", "cwe_id": "CWE-22", "cwe_name": "Path Traversal"}
+{"id": 452, "language": "TypeScript", "code": "// function_452 placeholder code", "label": "vulnerable", "cwe_id": "CWE-20", "cwe_name": "Improper Input Validation"}
+{"id": 453, "language": "Java", "code": "// function_453 placeholder code", "label": "vulnerable", "cwe_id": "CWE-22", "cwe_name": "Path Traversal"}
+{"id": 454, "language": "C", "code": "// function_454 placeholder code", "label": "vulnerable", "cwe_id": "CWE-287", "cwe_name": "Improper Authentication"}
+{"id": 455, "language": "C++", "code": "// function_455 placeholder code", "label": "vulnerable", "cwe_id": "CWE-79", "cwe_name": "XSS"}
+{"id": 456, "language": "C", "code": "// function_456 placeholder code", "label": "vulnerable", "cwe_id": "CWE-89", "cwe_name": "SQL Injection"}
+{"id": 457, "language": "C", "code": "// function_457 placeholder code", "label": "vulnerable", "cwe_id": "CWE-22", "cwe_name": "Path Traversal"}
+{"id": 458, "language": "C++", "code": "// function_458 placeholder code", "label": "vulnerable", "cwe_id": "CWE-89", "cwe_name": "SQL Injection"}
+{"id": 459, "language": "TypeScript", "code": "// function_459 placeholder code", "label": "vulnerable", "cwe_id": "CWE-306", "cwe_name": "Missing Authentication"}
+{"id": 460, "language": "C", "code": "// function_460 placeholder code", "label": "vulnerable", "cwe_id": "CWE-306", "cwe_name": "Missing Authentication"}
+{"id": 461, "language": "Java", "code": "// function_461 placeholder code", "label": "vulnerable", "cwe_id": "CWE-22", "cwe_name": "Path Traversal"}
+{"id": 462, "language": "C#", "code": "// function_462 placeholder code", "label": "vulnerable", "cwe_id": "CWE-89", "cwe_name": "SQL Injection"}
+{"id": 463, "language": "C#", "code": "// function_463 placeholder code", "label": "vulnerable", "cwe_id": "CWE-79", "cwe_name": "XSS"}
+{"id": 464, "language": "JavaScript", "code": "// function_464 placeholder code", "label": "vulnerable", "cwe_id": "CWE-79", "cwe_name": "XSS"}
+{"id": 465, "language": "TypeScript", "code": "// function_465 placeholder code", "label": "vulnerable", "cwe_id": "CWE-89", "cwe_name": "SQL Injection"}
+{"id": 466, "language": "C#", "code": "// function_466 placeholder code", "label": "vulnerable", "cwe_id": "CWE-20", "cwe_name": "Improper Input Validation"}
+{"id": 467, "language": "C#", "code": "// function_467 placeholder code", "label": "vulnerable", "cwe_id": "CWE-284", "cwe_name": "Improper Access Control"}
+{"id": 468, "language": "C", "code": "// function_468 placeholder code", "label": "vulnerable", "cwe_id": "CWE-284", "cwe_name": "Improper Access Control"}
+{"id": 469, "language": "C", "code": "// function_469 placeholder code", "label": "vulnerable", "cwe_id": "CWE-89", "cwe_name": "SQL Injection"}
+{"id": 470, "language": "C++", "code": "// function_470 placeholder code", "label": "vulnerable", "cwe_id": "CWE-306", "cwe_name": "Missing Authentication"}
+{"id": 471, "language": "TypeScript", "code": "// function_471 placeholder code", "label": "vulnerable", "cwe_id": "CWE-306", "cwe_name": "Missing Authentication"}
+{"id": 472, "language": "JavaScript", "code": "// function_472 placeholder code", "label": "vulnerable", "cwe_id": "CWE-79", "cwe_name": "XSS"}
+{"id": 473, "language": "Java", "code": "// function_473 placeholder code", "label": "vulnerable", "cwe_id": "CWE-89", "cwe_name": "SQL Injection"}
+{"id": 474, "language": "Java", "code": "// function_474 placeholder code", "label": "vulnerable", "cwe_id": "CWE-20", "cwe_name": "Improper Input Validation"}
+{"id": 475, "language": "Java", "code": "// function_475 placeholder code", "label": "vulnerable", "cwe_id": "CWE-287", "cwe_name": "Improper Authentication"}
+{"id": 476, "language": "Java", "code": "// function_476 placeholder code", "label": "vulnerable", "cwe_id": "CWE-20", "cwe_name": "Improper Input Validation"}
+{"id": 477, "language": "C", "code": "// function_477 placeholder code", "label": "vulnerable", "cwe_id": "CWE-22", "cwe_name": "Path Traversal"}
+{"id": 478, "language": "JavaScript", "code": "// function_478 placeholder code", "label": "vulnerable", "cwe_id": "CWE-287", "cwe_name": "Improper Authentication"}
+{"id": 479, "language": "JavaScript", "code": "// function_479 placeholder code", "label": "vulnerable", "cwe_id": "CWE-89", "cwe_name": "SQL Injection"}
+{"id": 480, "language": "Java", "code": "// function_480 placeholder code", "label": "vulnerable", "cwe_id": "CWE-20", "cwe_name": "Improper Input Validation"}
+{"id": 481, "language": "C#", "code": "// function_481 placeholder code", "label": "vulnerable", "cwe_id": "CWE-287", "cwe_name": "Improper Authentication"}
+{"id": 482, "language": "C++", "code": "// function_482 placeholder code", "label": "vulnerable", "cwe_id": "CWE-20", "cwe_name": "Improper Input Validation"}
+{"id": 483, "language": "Java", "code": "// function_483 placeholder code", "label": "vulnerable", "cwe_id": "CWE-22", "cwe_name": "Path Traversal"}
+{"id": 484, "language": "TypeScript", "code": "// function_484 placeholder code", "label": "vulnerable", "cwe_id": "CWE-89", "cwe_name": "SQL Injection"}
+{"id": 485, "language": "TypeScript", "code": "// function_485 placeholder code", "label": "vulnerable", "cwe_id": "CWE-306", "cwe_name": "Missing Authentication"}
+{"id": 486, "language": "C++", "code": "// function_486 placeholder code", "label": "vulnerable", "cwe_id": "CWE-89", "cwe_name": "SQL Injection"}
+{"id": 487, "language": "Java", "code": "// function_487 placeholder code", "label": "vulnerable", "cwe_id": "CWE-79", "cwe_name": "XSS"}
+{"id": 488, "language": "C", "code": "// function_488 placeholder code", "label": "vulnerable", "cwe_id": "CWE-89", "cwe_name": "SQL Injection"}
+{"id": 489, "language": "TypeScript", "code": "// function_489 placeholder code", "label": "vulnerable", "cwe_id": "CWE-20", "cwe_name": "Improper Input Validation"}
+{"id": 490, "language": "JavaScript", "code": "// function_490 placeholder code", "label": "vulnerable", "cwe_id": "CWE-284", "cwe_name": "Improper Access Control"}
+{"id": 491, "language": "TypeScript", "code": "// function_491 placeholder code", "label": "vulnerable", "cwe_id": "CWE-306", "cwe_name": "Missing Authentication"}
+{"id": 492, "language": "C", "code": "// function_492 placeholder code", "label": "vulnerable", "cwe_id": "CWE-284", "cwe_name": "Improper Access Control"}
+{"id": 493, "language": "Java", "code": "// function_493 placeholder code", "label": "vulnerable", "cwe_id": "CWE-22", "cwe_name": "Path Traversal"}
+{"id": 494, "language": "Java", "code": "// function_494 placeholder code", "label": "vulnerable", "cwe_id": "CWE-79", "cwe_name": "XSS"}
+{"id": 495, "language": "JavaScript", "code": "// function_495 placeholder code", "label": "vulnerable", "cwe_id": "CWE-79", "cwe_name": "XSS"}
+{"id": 496, "language": "JavaScript", "code": "// function_496 placeholder code", "label": "vulnerable", "cwe_id": "CWE-284", "cwe_name": "Improper Access Control"}
+{"id": 497, "language": "JavaScript", "code": "// function_497 placeholder code", "label": "vulnerable", "cwe_id": "CWE-284", "cwe_name": "Improper Access Control"}
+{"id": 498, "language": "Java", "code": "// function_498 placeholder code", "label": "vulnerable", "cwe_id": "CWE-284", "cwe_name": "Improper Access Control"}
+{"id": 499, "language": "C", "code": "// function_499 placeholder code", "label": "vulnerable", "cwe_id": "CWE-79", "cwe_name": "XSS"}
+{"id": 500, "language": "C#", "code": "// function_500 placeholder code", "label": "vulnerable", "cwe_id": "CWE-287", "cwe_name": "Improper Authentication"}
+{"id": 501, "language": "Java", "code": "// function_501 placeholder code", "label": "vulnerable", "cwe_id": "CWE-287", "cwe_name": "Improper Authentication"}
+{"id": 502, "language": "JavaScript", "code": "// function_502 placeholder code", "label": "vulnerable", "cwe_id": "CWE-306", "cwe_name": "Missing Authentication"}
+{"id": 503, "language": "C++", "code": "// function_503 placeholder code", "label": "vulnerable", "cwe_id": "CWE-284", "cwe_name": "Improper Access Control"}
+{"id": 504, "language": "C#", "code": "// function_504 placeholder code", "label": "vulnerable", "cwe_id": "CWE-89", "cwe_name": "SQL Injection"}
+{"id": 505, "language": "C#", "code": "// function_505 placeholder code", "label": "vulnerable", "cwe_id": "CWE-89", "cwe_name": "SQL Injection"}
+{"id": 506, "language": "C#", "code": "// function_506 placeholder code", "label": "vulnerable", "cwe_id": "CWE-284", "cwe_name": "Improper Access Control"}
+{"id": 507, "language": "C++", "code": "// function_507 placeholder code", "label": "vulnerable", "cwe_id": "CWE-20", "cwe_name": "Improper Input Validation"}
+{"id": 508, "language": "C++", "code": "// function_508 placeholder code", "label": "vulnerable", "cwe_id": "CWE-89", "cwe_name": "SQL Injection"}
+{"id": 509, "language": "C++", "code": "// function_509 placeholder code", "label": "vulnerable", "cwe_id": "CWE-306", "cwe_name": "Missing Authentication"}
+{"id": 510, "language": "TypeScript", "code": "// function_510 placeholder code", "label": "vulnerable", "cwe_id": "CWE-79", "cwe_name": "XSS"}
+{"id": 511, "language": "JavaScript", "code": "// function_511 placeholder code", "label": "vulnerable", "cwe_id": "CWE-287", "cwe_name": "Improper Authentication"}
+{"id": 512, "language": "C#", "code": "// function_512 placeholder code", "label": "vulnerable", "cwe_id": "CWE-79", "cwe_name": "XSS"}
+{"id": 513, "language": "C", "code": "// function_513 placeholder code", "label": "vulnerable", "cwe_id": "CWE-284", "cwe_name": "Improper Access Control"}
+{"id": 514, "language": "C#", "code": "// function_514 placeholder code", "label": "vulnerable", "cwe_id": "CWE-20", "cwe_name": "Improper Input Validation"}
+{"id": 515, "language": "TypeScript", "code": "// function_515 placeholder code", "label": "vulnerable", "cwe_id": "CWE-89", "cwe_name": "SQL Injection"}
+{"id": 516, "language": "C", "code": "// function_516 placeholder code", "label": "vulnerable", "cwe_id": "CWE-20", "cwe_name": "Improper Input Validation"}
+{"id": 517, "language": "C#", "code": "// function_517 placeholder code", "label": "vulnerable", "cwe_id": "CWE-89", "cwe_name": "SQL Injection"}
+{"id": 518, "language": "C#", "code": "// function_518 placeholder code", "label": "vulnerable", "cwe_id": "CWE-306", "cwe_name": "Missing Authentication"}
+{"id": 519, "language": "JavaScript", "code": "// function_519 placeholder code", "label": "vulnerable", "cwe_id": "CWE-22", "cwe_name": "Path Traversal"}
+{"id": 520, "language": "TypeScript", "code": "// function_520 placeholder code", "label": "vulnerable", "cwe_id": "CWE-306", "cwe_name": "Missing Authentication"}
+{"id": 521, "language": "C", "code": "// function_521 placeholder code", "label": "vulnerable", "cwe_id": "CWE-306", "cwe_name": "Missing Authentication"}
+{"id": 522, "language": "TypeScript", "code": "// function_522 placeholder code", "label": "vulnerable", "cwe_id": "CWE-287", "cwe_name": "Improper Authentication"}
+{"id": 523, "language": "C++", "code": "// function_523 placeholder code", "label": "vulnerable", "cwe_id": "CWE-89", "cwe_name": "SQL Injection"}
+{"id": 524, "language": "JavaScript", "code": "// function_524 placeholder code", "label": "vulnerable", "cwe_id": "CWE-20", "cwe_name": "Improper Input Validation"}
+{"id": 525, "language": "C++", "code": "// function_525 placeholder code", "label": "vulnerable", "cwe_id": "CWE-284", "cwe_name": "Improper Access Control"}
+{"id": 526, "language": "C", "code": "// function_526 placeholder code", "label": "vulnerable", "cwe_id": "CWE-22", "cwe_name": "Path Traversal"}
+{"id": 527, "language": "C#", "code": "// function_527 placeholder code", "label": "vulnerable", "cwe_id": "CWE-306", "cwe_name": "Missing Authentication"}
+{"id": 528, "language": "Java", "code": "// function_528 placeholder code", "label": "vulnerable", "cwe_id": "CWE-79", "cwe_name": "XSS"}
+{"id": 529, "language": "TypeScript", "code": "// function_529 placeholder code", "label": "vulnerable", "cwe_id": "CWE-22", "cwe_name": "Path Traversal"}
+{"id": 530, "language": "C++", "code": "// function_530 placeholder code", "label": "vulnerable", "cwe_id": "CWE-89", "cwe_name": "SQL Injection"}
+{"id": 531, "language": "Java", "code": "// function_531 placeholder code", "label": "vulnerable", "cwe_id": "CWE-20", "cwe_name": "Improper Input Validation"}
+{"id": 532, "language": "C", "code": "// function_532 placeholder code", "label": "vulnerable", "cwe_id": "CWE-287", "cwe_name": "Improper Authentication"}
+{"id": 533, "language": "TypeScript", "code": "// function_533 placeholder code", "label": "vulnerable", "cwe_id": "CWE-89", "cwe_name": "SQL Injection"}
+{"id": 534, "language": "C", "code": "// function_534 placeholder code", "label": "vulnerable", "cwe_id": "CWE-79", "cwe_name": "XSS"}
+{"id": 535, "language": "C", "code": "// function_535 placeholder code", "label": "vulnerable", "cwe_id": "CWE-284", "cwe_name": "Improper Access Control"}
+{"id": 536, "language": "TypeScript", "code": "// function_536 placeholder code", "label": "vulnerable", "cwe_id": "CWE-89", "cwe_name": "SQL Injection"}
+{"id": 537, "language": "JavaScript", "code": "// function_537 placeholder code", "label": "vulnerable", "cwe_id": "CWE-306", "cwe_name": "Missing Authentication"}
+{"id": 538, "language": "C#", "code": "// function_538 placeholder code", "label": "vulnerable", "cwe_id": "CWE-89", "cwe_name": "SQL Injection"}
+{"id": 539, "language": "C++", "code": "// function_539 placeholder code", "label": "vulnerable", "cwe_id": "CWE-306", "cwe_name": "Missing Authentication"}
+{"id": 540, "language": "C#", "code": "// function_540 placeholder code", "label": "vulnerable", "cwe_id": "CWE-287", "cwe_name": "Improper Authentication"}
+{"id": 541, "language": "TypeScript", "code": "// function_541 placeholder code", "label": "vulnerable", "cwe_id": "CWE-22", "cwe_name": "Path Traversal"}
+{"id": 542, "language": "C", "code": "// function_542 placeholder code", "label": "vulnerable", "cwe_id": "CWE-89", "cwe_name": "SQL Injection"}
+{"id": 543, "language": "C", "code": "// function_543 placeholder code", "label": "vulnerable", "cwe_id": "CWE-89", "cwe_name": "SQL Injection"}
+{"id": 544, "language": "TypeScript", "code": "// function_544 placeholder code", "label": "vulnerable", "cwe_id": "CWE-287", "cwe_name": "Improper Authentication"}
+{"id": 545, "language": "C++", "code": "// function_545 placeholder code", "label": "vulnerable", "cwe_id": "CWE-284", "cwe_name": "Improper Access Control"}
+{"id": 546, "language": "C#", "code": "// function_546 placeholder code", "label": "vulnerable", "cwe_id": "CWE-89", "cwe_name": "SQL Injection"}
+{"id": 547, "language": "JavaScript", "code": "// function_547 placeholder code", "label": "vulnerable", "cwe_id": "CWE-79", "cwe_name": "XSS"}
+{"id": 548, "language": "C++", "code": "// function_548 placeholder code", "label": "vulnerable", "cwe_id": "CWE-20", "cwe_name": "Improper Input Validation"}
+{"id": 549, "language": "C#", "code": "// function_549 placeholder code", "label": "vulnerable", "cwe_id": "CWE-79", "cwe_name": "XSS"}
+{"id": 550, "language": "Java", "code": "// function_550 placeholder code", "label": "vulnerable", "cwe_id": "CWE-284", "cwe_name": "Improper Access Control"}
+{"id": 551, "language": "JavaScript", "code": "// function_551 placeholder code", "label": "vulnerable", "cwe_id": "CWE-284", "cwe_name": "Improper Access Control"}
+{"id": 552, "language": "TypeScript", "code": "// function_552 placeholder code", "label": "vulnerable", "cwe_id": "CWE-22", "cwe_name": "Path Traversal"}
+{"id": 553, "language": "Java", "code": "// function_553 placeholder code", "label": "vulnerable", "cwe_id": "CWE-284", "cwe_name": "Improper Access Control"}
+{"id": 554, "language": "C#", "code": "// function_554 placeholder code", "label": "vulnerable", "cwe_id": "CWE-284", "cwe_name": "Improper Access Control"}
+{"id": 555, "language": "TypeScript", "code": "// function_555 placeholder code", "label": "vulnerable", "cwe_id": "CWE-20", "cwe_name": "Improper Input Validation"}
+{"id": 556, "language": "C++", "code": "// function_556 placeholder code", "label": "vulnerable", "cwe_id": "CWE-22", "cwe_name": "Path Traversal"}
+{"id": 557, "language": "TypeScript", "code": "// function_557 placeholder code", "label": "vulnerable", "cwe_id": "CWE-22", "cwe_name": "Path Traversal"}
+{"id": 558, "language": "Java", "code": "// function_558 placeholder code", "label": "vulnerable", "cwe_id": "CWE-79", "cwe_name": "XSS"}
+{"id": 559, "language": "JavaScript", "code": "// function_559 placeholder code", "label": "vulnerable", "cwe_id": "CWE-22", "cwe_name": "Path Traversal"}
+{"id": 560, "language": "JavaScript", "code": "// function_560 placeholder code", "label": "vulnerable", "cwe_id": "CWE-89", "cwe_name": "SQL Injection"}
+{"id": 561, "language": "Java", "code": "// function_561 placeholder code", "label": "vulnerable", "cwe_id": "CWE-287", "cwe_name": "Improper Authentication"}
+{"id": 562, "language": "C++", "code": "// function_562 placeholder code", "label": "vulnerable", "cwe_id": "CWE-306", "cwe_name": "Missing Authentication"}
+{"id": 563, "language": "Java", "code": "// function_563 placeholder code", "label": "vulnerable", "cwe_id": "CWE-89", "cwe_name": "SQL Injection"}
+{"id": 564, "language": "C", "code": "// function_564 placeholder code", "label": "vulnerable", "cwe_id": "CWE-79", "cwe_name": "XSS"}
+{"id": 565, "language": "C", "code": "// function_565 placeholder code", "label": "vulnerable", "cwe_id": "CWE-306", "cwe_name": "Missing Authentication"}
+{"id": 566, "language": "TypeScript", "code": "// function_566 placeholder code", "label": "vulnerable", "cwe_id": "CWE-22", "cwe_name": "Path Traversal"}
+{"id": 567, "language": "C++", "code": "// function_567 placeholder code", "label": "vulnerable", "cwe_id": "CWE-284", "cwe_name": "Improper Access Control"}
+{"id": 568, "language": "C", "code": "// function_568 placeholder code", "label": "vulnerable", "cwe_id": "CWE-79", "cwe_name": "XSS"}
+{"id": 569, "language": "C#", "code": "// function_569 placeholder code", "label": "vulnerable", "cwe_id": "CWE-79", "cwe_name": "XSS"}
+{"id": 570, "language": "JavaScript", "code": "// function_570 placeholder code", "label": "vulnerable", "cwe_id": "CWE-306", "cwe_name": "Missing Authentication"}
+{"id": 571, "language": "TypeScript", "code": "// function_571 placeholder code", "label": "vulnerable", "cwe_id": "CWE-306", "cwe_name": "Missing Authentication"}
+{"id": 572, "language": "C++", "code": "// function_572 placeholder code", "label": "vulnerable", "cwe_id": "CWE-306", "cwe_name": "Missing Authentication"}
+{"id": 573, "language": "JavaScript", "code": "// function_573 placeholder code", "label": "vulnerable", "cwe_id": "CWE-20", "cwe_name": "Improper Input Validation"}
+{"id": 574, "language": "TypeScript", "code": "// function_574 placeholder code", "label": "vulnerable", "cwe_id": "CWE-79", "cwe_name": "XSS"}
+{"id": 575, "language": "C++", "code": "// function_575 placeholder code", "label": "vulnerable", "cwe_id": "CWE-20", "cwe_name": "Improper Input Validation"}
+{"id": 576, "language": "C", "code": "// function_576 placeholder code", "label": "vulnerable", "cwe_id": "CWE-306", "cwe_name": "Missing Authentication"}
+{"id": 577, "language": "Java", "code": "// function_577 placeholder code", "label": "vulnerable", "cwe_id": "CWE-89", "cwe_name": "SQL Injection"}
+{"id": 578, "language": "JavaScript", "code": "// function_578 placeholder code", "label": "vulnerable", "cwe_id": "CWE-79", "cwe_name": "XSS"}
+{"id": 579, "language": "Java", "code": "// function_579 placeholder code", "label": "vulnerable", "cwe_id": "CWE-284", "cwe_name": "Improper Access Control"}
+{"id": 580, "language": "JavaScript", "code": "// function_580 placeholder code", "label": "vulnerable", "cwe_id": "CWE-79", "cwe_name": "XSS"}
+{"id": 581, "language": "JavaScript", "code": "// function_581 placeholder code", "label": "vulnerable", "cwe_id": "CWE-306", "cwe_name": "Missing Authentication"}
+{"id": 582, "language": "C", "code": "// function_582 placeholder code", "label": "vulnerable", "cwe_id": "CWE-287", "cwe_name": "Improper Authentication"}
+{"id": 583, "language": "TypeScript", "code": "// function_583 placeholder code", "label": "vulnerable", "cwe_id": "CWE-20", "cwe_name": "Improper Input Validation"}
+{"id": 584, "language": "Java", "code": "// function_584 placeholder code", "label": "vulnerable", "cwe_id": "CWE-306", "cwe_name": "Missing Authentication"}
+{"id": 585, "language": "JavaScript", "code": "// function_585 placeholder code", "label": "vulnerable", "cwe_id": "CWE-306", "cwe_name": "Missing Authentication"}
+{"id": 586, "language": "JavaScript", "code": "// function_586 placeholder code", "label": "vulnerable", "cwe_id": "CWE-287", "cwe_name": "Improper Authentication"}
+{"id": 587, "language": "C", "code": "// function_587 placeholder code", "label": "vulnerable", "cwe_id": "CWE-306", "cwe_name": "Missing Authentication"}
+{"id": 588, "language": "Java", "code": "// function_588 placeholder code", "label": "vulnerable", "cwe_id": "CWE-306", "cwe_name": "Missing Authentication"}
+{"id": 589, "language": "C#", "code": "// function_589 placeholder code", "label": "vulnerable", "cwe_id": "CWE-284", "cwe_name": "Improper Access Control"}
+{"id": 590, "language": "C#", "code": "// function_590 placeholder code", "label": "vulnerable", "cwe_id": "CWE-287", "cwe_name": "Improper Authentication"}
+{"id": 591, "language": "C#", "code": "// function_591 placeholder code", "label": "vulnerable", "cwe_id": "CWE-287", "cwe_name": "Improper Authentication"}
+{"id": 592, "language": "JavaScript", "code": "// function_592 placeholder code", "label": "vulnerable", "cwe_id": "CWE-20", "cwe_name": "Improper Input Validation"}
+{"id": 593, "language": "JavaScript", "code": "// function_593 placeholder code", "label": "vulnerable", "cwe_id": "CWE-22", "cwe_name": "Path Traversal"}
+{"id": 594, "language": "C#", "code": "// function_594 placeholder code", "label": "vulnerable", "cwe_id": "CWE-306", "cwe_name": "Missing Authentication"}
+{"id": 595, "language": "Java", "code": "// function_595 placeholder code", "label": "vulnerable", "cwe_id": "CWE-89", "cwe_name": "SQL Injection"}
+{"id": 596, "language": "TypeScript", "code": "// function_596 placeholder code", "label": "vulnerable", "cwe_id": "CWE-79", "cwe_name": "XSS"}
+{"id": 597, "language": "JavaScript", "code": "// function_597 placeholder code", "label": "vulnerable", "cwe_id": "CWE-306", "cwe_name": "Missing Authentication"}
+{"id": 598, "language": "C", "code": "// function_598 placeholder code", "label": "vulnerable", "cwe_id": "CWE-22", "cwe_name": "Path Traversal"}
+{"id": 599, "language": "Java", "code": "// function_599 placeholder code", "label": "vulnerable", "cwe_id": "CWE-22", "cwe_name": "Path Traversal"}
+{"id": 600, "language": "TypeScript", "code": "// function_600 placeholder code", "label": "vulnerable", "cwe_id": "CWE-22", "cwe_name": "Path Traversal"}
+{"id": 601, "language": "C++", "code": "// function_601 placeholder code", "label": "vulnerable", "cwe_id": "CWE-20", "cwe_name": "Improper Input Validation"}
+{"id": 602, "language": "C#", "code": "// function_602 placeholder code", "label": "vulnerable", "cwe_id": "CWE-79", "cwe_name": "XSS"}
+{"id": 603, "language": "C", "code": "// function_603 placeholder code", "label": "vulnerable", "cwe_id": "CWE-22", "cwe_name": "Path Traversal"}
+{"id": 604, "language": "C", "code": "// function_604 placeholder code", "label": "vulnerable", "cwe_id": "CWE-20", "cwe_name": "Improper Input Validation"}
+{"id": 605, "language": "C#", "code": "// function_605 placeholder code", "label": "vulnerable", "cwe_id": "CWE-284", "cwe_name": "Improper Access Control"}
+{"id": 606, "language": "C++", "code": "// function_606 placeholder code", "label": "vulnerable", "cwe_id": "CWE-287", "cwe_name": "Improper Authentication"}
+{"id": 607, "language": "C", "code": "// function_607 placeholder code", "label": "vulnerable", "cwe_id": "CWE-284", "cwe_name": "Improper Access Control"}
+{"id": 608, "language": "Java", "code": "// function_608 placeholder code", "label": "vulnerable", "cwe_id": "CWE-22", "cwe_name": "Path Traversal"}
+{"id": 609, "language": "TypeScript", "code": "// function_609 placeholder code", "label": "vulnerable", "cwe_id": "CWE-22", "cwe_name": "Path Traversal"}
+{"id": 610, "language": "C", "code": "// function_610 placeholder code", "label": "vulnerable", "cwe_id": "CWE-20", "cwe_name": "Improper Input Validation"}
+{"id": 611, "language": "C#", "code": "// function_611 placeholder code", "label": "vulnerable", "cwe_id": "CWE-287", "cwe_name": "Improper Authentication"}
+{"id": 612, "language": "C", "code": "// function_612 placeholder code", "label": "vulnerable", "cwe_id": "CWE-79", "cwe_name": "XSS"}
+{"id": 613, "language": "Java", "code": "// function_613 placeholder code", "label": "vulnerable", "cwe_id": "CWE-79", "cwe_name": "XSS"}
+{"id": 614, "language": "TypeScript", "code": "// function_614 placeholder code", "label": "vulnerable", "cwe_id": "CWE-287", "cwe_name": "Improper Authentication"}
+{"id": 615, "language": "C++", "code": "// function_615 placeholder code", "label": "vulnerable", "cwe_id": "CWE-89", "cwe_name": "SQL Injection"}
+{"id": 616, "language": "Java", "code": "// function_616 placeholder code", "label": "vulnerable", "cwe_id": "CWE-287", "cwe_name": "Improper Authentication"}
+{"id": 617, "language": "TypeScript", "code": "// function_617 placeholder code", "label": "vulnerable", "cwe_id": "CWE-284", "cwe_name": "Improper Access Control"}
+{"id": 618, "language": "C", "code": "// function_618 placeholder code", "label": "vulnerable", "cwe_id": "CWE-20", "cwe_name": "Improper Input Validation"}
+{"id": 619, "language": "C", "code": "// function_619 placeholder code", "label": "vulnerable", "cwe_id": "CWE-79", "cwe_name": "XSS"}
+{"id": 620, "language": "Java", "code": "// function_620 placeholder code", "label": "vulnerable", "cwe_id": "CWE-284", "cwe_name": "Improper Access Control"}
+{"id": 621, "language": "C#", "code": "// function_621 placeholder code", "label": "vulnerable", "cwe_id": "CWE-287", "cwe_name": "Improper Authentication"}
+{"id": 622, "language": "Java", "code": "// function_622 placeholder code", "label": "vulnerable", "cwe_id": "CWE-22", "cwe_name": "Path Traversal"}
+{"id": 623, "language": "TypeScript", "code": "// function_623 placeholder code", "label": "vulnerable", "cwe_id": "CWE-20", "cwe_name": "Improper Input Validation"}
+{"id": 624, "language": "JavaScript", "code": "// function_624 placeholder code", "label": "vulnerable", "cwe_id": "CWE-22", "cwe_name": "Path Traversal"}
+{"id": 625, "language": "C#", "code": "// function_625 placeholder code", "label": "vulnerable", "cwe_id": "CWE-306", "cwe_name": "Missing Authentication"}
+{"id": 626, "language": "C", "code": "// function_626 placeholder code", "label": "vulnerable", "cwe_id": "CWE-306", "cwe_name": "Missing Authentication"}
+{"id": 627, "language": "C#", "code": "// function_627 placeholder code", "label": "vulnerable", "cwe_id": "CWE-20", "cwe_name": "Improper Input Validation"}
+{"id": 628, "language": "Java", "code": "// function_628 placeholder code", "label": "vulnerable", "cwe_id": "CWE-22", "cwe_name": "Path Traversal"}
+{"id": 629, "language": "C", "code": "// function_629 placeholder code", "label": "vulnerable", "cwe_id": "CWE-20", "cwe_name": "Improper Input Validation"}
+{"id": 630, "language": "C++", "code": "// function_630 placeholder code", "label": "vulnerable", "cwe_id": "CWE-22", "cwe_name": "Path Traversal"}
+{"id": 631, "language": "C", "code": "// function_631 placeholder code", "label": "vulnerable", "cwe_id": "CWE-89", "cwe_name": "SQL Injection"}
+{"id": 632, "language": "JavaScript", "code": "// function_632 placeholder code", "label": "vulnerable", "cwe_id": "CWE-22", "cwe_name": "Path Traversal"}
+{"id": 633, "language": "C", "code": "// function_633 placeholder code", "label": "vulnerable", "cwe_id": "CWE-89", "cwe_name": "SQL Injection"}
+{"id": 634, "language": "TypeScript", "code": "// function_634 placeholder code", "label": "vulnerable", "cwe_id": "CWE-89", "cwe_name": "SQL Injection"}
+{"id": 635, "language": "C", "code": "// function_635 placeholder code", "label": "vulnerable", "cwe_id": "CWE-306", "cwe_name": "Missing Authentication"}
+{"id": 636, "language": "Java", "code": "// function_636 placeholder code", "label": "vulnerable", "cwe_id": "CWE-22", "cwe_name": "Path Traversal"}
+{"id": 637, "language": "C#", "code": "// function_637 placeholder code", "label": "vulnerable", "cwe_id": "CWE-306", "cwe_name": "Missing Authentication"}
+{"id": 638, "language": "C", "code": "// function_638 placeholder code", "label": "vulnerable", "cwe_id": "CWE-89", "cwe_name": "SQL Injection"}
+{"id": 639, "language": "C++", "code": "// function_639 placeholder code", "label": "vulnerable", "cwe_id": "CWE-284", "cwe_name": "Improper Access Control"}
+{"id": 640, "language": "C#", "code": "// function_640 placeholder code", "label": "vulnerable", "cwe_id": "CWE-284", "cwe_name": "Improper Access Control"}
+{"id": 641, "language": "C#", "code": "// function_641 placeholder code", "label": "vulnerable", "cwe_id": "CWE-306", "cwe_name": "Missing Authentication"}
+{"id": 642, "language": "C", "code": "// function_642 placeholder code", "label": "vulnerable", "cwe_id": "CWE-284", "cwe_name": "Improper Access Control"}
+{"id": 643, "language": "C++", "code": "// function_643 placeholder code", "label": "vulnerable", "cwe_id": "CWE-79", "cwe_name": "XSS"}
+{"id": 644, "language": "Java", "code": "// function_644 placeholder code", "label": "vulnerable", "cwe_id": "CWE-287", "cwe_name": "Improper Authentication"}
+{"id": 645, "language": "C", "code": "// function_645 placeholder code", "label": "vulnerable", "cwe_id": "CWE-79", "cwe_name": "XSS"}
+{"id": 646, "language": "C#", "code": "// function_646 placeholder code", "label": "vulnerable", "cwe_id": "CWE-89", "cwe_name": "SQL Injection"}
+{"id": 647, "language": "C#", "code": "// function_647 placeholder code", "label": "vulnerable", "cwe_id": "CWE-79", "cwe_name": "XSS"}
+{"id": 648, "language": "TypeScript", "code": "// function_648 placeholder code", "label": "clean"}
+{"id": 649, "language": "C#", "code": "// function_649 placeholder code", "label": "clean"}
+{"id": 650, "language": "C", "code": "// function_650 placeholder code", "label": "clean"}
+{"id": 651, "language": "TypeScript", "code": "// function_651 placeholder code", "label": "clean"}
+{"id": 652, "language": "JavaScript", "code": "// function_652 placeholder code", "label": "clean"}
+{"id": 653, "language": "TypeScript", "code": "// function_653 placeholder code", "label": "clean"}
+{"id": 654, "language": "TypeScript", "code": "// function_654 placeholder code", "label": "clean"}
+{"id": 655, "language": "C#", "code": "// function_655 placeholder code", "label": "clean"}
+{"id": 656, "language": "C#", "code": "// function_656 placeholder code", "label": "clean"}
+{"id": 657, "language": "Java", "code": "// function_657 placeholder code", "label": "clean"}
+{"id": 658, "language": "JavaScript", "code": "// function_658 placeholder code", "label": "clean"}
+{"id": 659, "language": "C", "code": "// function_659 placeholder code", "label": "clean"}
+{"id": 660, "language": "C", "code": "// function_660 placeholder code", "label": "clean"}
+{"id": 661, "language": "C#", "code": "// function_661 placeholder code", "label": "clean"}
+{"id": 662, "language": "Java", "code": "// function_662 placeholder code", "label": "clean"}
+{"id": 663, "language": "C++", "code": "// function_663 placeholder code", "label": "clean"}
+{"id": 664, "language": "C++", "code": "// function_664 placeholder code", "label": "clean"}
+{"id": 665, "language": "JavaScript", "code": "// function_665 placeholder code", "label": "clean"}
+{"id": 666, "language": "JavaScript", "code": "// function_666 placeholder code", "label": "clean"}
+{"id": 667, "language": "Java", "code": "// function_667 placeholder code", "label": "clean"}
+{"id": 668, "language": "C++", "code": "// function_668 placeholder code", "label": "clean"}
+{"id": 669, "language": "C#", "code": "// function_669 placeholder code", "label": "clean"}
+{"id": 670, "language": "C++", "code": "// function_670 placeholder code", "label": "clean"}
+{"id": 671, "language": "JavaScript", "code": "// function_671 placeholder code", "label": "clean"}
+{"id": 672, "language": "Java", "code": "// function_672 placeholder code", "label": "clean"}
+{"id": 673, "language": "TypeScript", "code": "// function_673 placeholder code", "label": "clean"}
+{"id": 674, "language": "JavaScript", "code": "// function_674 placeholder code", "label": "clean"}
+{"id": 675, "language": "JavaScript", "code": "// function_675 placeholder code", "label": "clean"}
+{"id": 676, "language": "JavaScript", "code": "// function_676 placeholder code", "label": "clean"}
+{"id": 677, "language": "JavaScript", "code": "// function_677 placeholder code", "label": "clean"}
+{"id": 678, "language": "JavaScript", "code": "// function_678 placeholder code", "label": "clean"}
+{"id": 679, "language": "Java", "code": "// function_679 placeholder code", "label": "clean"}
+{"id": 680, "language": "JavaScript", "code": "// function_680 placeholder code", "label": "clean"}
+{"id": 681, "language": "JavaScript", "code": "// function_681 placeholder code", "label": "clean"}
+{"id": 682, "language": "Java", "code": "// function_682 placeholder code", "label": "clean"}
+{"id": 683, "language": "TypeScript", "code": "// function_683 placeholder code", "label": "clean"}
+{"id": 684, "language": "JavaScript", "code": "// function_684 placeholder code", "label": "clean"}
+{"id": 685, "language": "C", "code": "// function_685 placeholder code", "label": "clean"}
+{"id": 686, "language": "C#", "code": "// function_686 placeholder code", "label": "clean"}
+{"id": 687, "language": "Java", "code": "// function_687 placeholder code", "label": "clean"}
+{"id": 688, "language": "C#", "code": "// function_688 placeholder code", "label": "clean"}
+{"id": 689, "language": "JavaScript", "code": "// function_689 placeholder code", "label": "clean"}
+{"id": 690, "language": "C", "code": "// function_690 placeholder code", "label": "clean"}
+{"id": 691, "language": "C#", "code": "// function_691 placeholder code", "label": "clean"}
+{"id": 692, "language": "JavaScript", "code": "// function_692 placeholder code", "label": "clean"}
+{"id": 693, "language": "Java", "code": "// function_693 placeholder code", "label": "clean"}
+{"id": 694, "language": "JavaScript", "code": "// function_694 placeholder code", "label": "clean"}
+{"id": 695, "language": "TypeScript", "code": "// function_695 placeholder code", "label": "clean"}
+{"id": 696, "language": "Java", "code": "// function_696 placeholder code", "label": "clean"}
+{"id": 697, "language": "Java", "code": "// function_697 placeholder code", "label": "clean"}
+{"id": 698, "language": "C", "code": "// function_698 placeholder code", "label": "clean"}
+{"id": 699, "language": "Java", "code": "// function_699 placeholder code", "label": "clean"}
+{"id": 700, "language": "C#", "code": "// function_700 placeholder code", "label": "clean"}
+{"id": 701, "language": "TypeScript", "code": "// function_701 placeholder code", "label": "clean"}
+{"id": 702, "language": "C", "code": "// function_702 placeholder code", "label": "clean"}
+{"id": 703, "language": "JavaScript", "code": "// function_703 placeholder code", "label": "clean"}
+{"id": 704, "language": "C++", "code": "// function_704 placeholder code", "label": "clean"}
+{"id": 705, "language": "JavaScript", "code": "// function_705 placeholder code", "label": "clean"}
+{"id": 706, "language": "C", "code": "// function_706 placeholder code", "label": "clean"}
+{"id": 707, "language": "JavaScript", "code": "// function_707 placeholder code", "label": "clean"}
+{"id": 708, "language": "TypeScript", "code": "// function_708 placeholder code", "label": "clean"}
+{"id": 709, "language": "C", "code": "// function_709 placeholder code", "label": "clean"}
+{"id": 710, "language": "C++", "code": "// function_710 placeholder code", "label": "clean"}
+{"id": 711, "language": "C", "code": "// function_711 placeholder code", "label": "clean"}
+{"id": 712, "language": "C", "code": "// function_712 placeholder code", "label": "clean"}
+{"id": 713, "language": "C", "code": "// function_713 placeholder code", "label": "clean"}
+{"id": 714, "language": "JavaScript", "code": "// function_714 placeholder code", "label": "clean"}
+{"id": 715, "language": "JavaScript", "code": "// function_715 placeholder code", "label": "clean"}
+{"id": 716, "language": "Java", "code": "// function_716 placeholder code", "label": "clean"}
+{"id": 717, "language": "TypeScript", "code": "// function_717 placeholder code", "label": "clean"}
+{"id": 718, "language": "Java", "code": "// function_718 placeholder code", "label": "clean"}
+{"id": 719, "language": "TypeScript", "code": "// function_719 placeholder code", "label": "clean"}
+{"id": 720, "language": "TypeScript", "code": "// function_720 placeholder code", "label": "clean"}
+{"id": 721, "language": "C++", "code": "// function_721 placeholder code", "label": "clean"}
+{"id": 722, "language": "C#", "code": "// function_722 placeholder code", "label": "clean"}
+{"id": 723, "language": "C#", "code": "// function_723 placeholder code", "label": "clean"}
+{"id": 724, "language": "C", "code": "// function_724 placeholder code", "label": "clean"}
+{"id": 725, "language": "C++", "code": "// function_725 placeholder code", "label": "clean"}
+{"id": 726, "language": "JavaScript", "code": "// function_726 placeholder code", "label": "clean"}
+{"id": 727, "language": "TypeScript", "code": "// function_727 placeholder code", "label": "clean"}
+{"id": 728, "language": "C++", "code": "// function_728 placeholder code", "label": "clean"}
+{"id": 729, "language": "TypeScript", "code": "// function_729 placeholder code", "label": "clean"}
+{"id": 730, "language": "C", "code": "// function_730 placeholder code", "label": "clean"}
+{"id": 731, "language": "C++", "code": "// function_731 placeholder code", "label": "clean"}
+{"id": 732, "language": "Java", "code": "// function_732 placeholder code", "label": "clean"}
+{"id": 733, "language": "TypeScript", "code": "// function_733 placeholder code", "label": "clean"}
+{"id": 734, "language": "TypeScript", "code": "// function_734 placeholder code", "label": "clean"}
+{"id": 735, "language": "JavaScript", "code": "// function_735 placeholder code", "label": "clean"}
+{"id": 736, "language": "C", "code": "// function_736 placeholder code", "label": "clean"}
+{"id": 737, "language": "C", "code": "// function_737 placeholder code", "label": "clean"}
+{"id": 738, "language": "TypeScript", "code": "// function_738 placeholder code", "label": "clean"}
+{"id": 739, "language": "C#", "code": "// function_739 placeholder code", "label": "clean"}
+{"id": 740, "language": "JavaScript", "code": "// function_740 placeholder code", "label": "clean"}
+{"id": 741, "language": "C#", "code": "// function_741 placeholder code", "label": "clean"}
+{"id": 742, "language": "C#", "code": "// function_742 placeholder code", "label": "clean"}
+{"id": 743, "language": "C#", "code": "// function_743 placeholder code", "label": "clean"}
+{"id": 744, "language": "C++", "code": "// function_744 placeholder code", "label": "clean"}
+{"id": 745, "language": "Java", "code": "// function_745 placeholder code", "label": "clean"}
+{"id": 746, "language": "TypeScript", "code": "// function_746 placeholder code", "label": "clean"}
+{"id": 747, "language": "JavaScript", "code": "// function_747 placeholder code", "label": "clean"}
+{"id": 748, "language": "JavaScript", "code": "// function_748 placeholder code", "label": "clean"}
+{"id": 749, "language": "JavaScript", "code": "// function_749 placeholder code", "label": "clean"}
+{"id": 750, "language": "C#", "code": "// function_750 placeholder code", "label": "clean"}
+{"id": 751, "language": "TypeScript", "code": "// function_751 placeholder code", "label": "clean"}
+{"id": 752, "language": "TypeScript", "code": "// function_752 placeholder code", "label": "clean"}
+{"id": 753, "language": "JavaScript", "code": "// function_753 placeholder code", "label": "clean"}
+{"id": 754, "language": "Java", "code": "// function_754 placeholder code", "label": "clean"}
+{"id": 755, "language": "C++", "code": "// function_755 placeholder code", "label": "clean"}
+{"id": 756, "language": "Java", "code": "// function_756 placeholder code", "label": "clean"}
+{"id": 757, "language": "C++", "code": "// function_757 placeholder code", "label": "clean"}
+{"id": 758, "language": "C#", "code": "// function_758 placeholder code", "label": "clean"}
+{"id": 759, "language": "Java", "code": "// function_759 placeholder code", "label": "clean"}
+{"id": 760, "language": "TypeScript", "code": "// function_760 placeholder code", "label": "clean"}
+{"id": 761, "language": "JavaScript", "code": "// function_761 placeholder code", "label": "clean"}
+{"id": 762, "language": "JavaScript", "code": "// function_762 placeholder code", "label": "clean"}
+{"id": 763, "language": "C#", "code": "// function_763 placeholder code", "label": "clean"}
+{"id": 764, "language": "C++", "code": "// function_764 placeholder code", "label": "clean"}
+{"id": 765, "language": "JavaScript", "code": "// function_765 placeholder code", "label": "clean"}
+{"id": 766, "language": "JavaScript", "code": "// function_766 placeholder code", "label": "clean"}
+{"id": 767, "language": "C", "code": "// function_767 placeholder code", "label": "clean"}
+{"id": 768, "language": "C", "code": "// function_768 placeholder code", "label": "clean"}
+{"id": 769, "language": "TypeScript", "code": "// function_769 placeholder code", "label": "clean"}
+{"id": 770, "language": "JavaScript", "code": "// function_770 placeholder code", "label": "clean"}
+{"id": 771, "language": "C++", "code": "// function_771 placeholder code", "label": "clean"}
+{"id": 772, "language": "TypeScript", "code": "// function_772 placeholder code", "label": "clean"}
+{"id": 773, "language": "Java", "code": "// function_773 placeholder code", "label": "clean"}
+{"id": 774, "language": "TypeScript", "code": "// function_774 placeholder code", "label": "clean"}
+{"id": 775, "language": "TypeScript", "code": "// function_775 placeholder code", "label": "clean"}
+{"id": 776, "language": "C#", "code": "// function_776 placeholder code", "label": "clean"}
+{"id": 777, "language": "C#", "code": "// function_777 placeholder code", "label": "clean"}
+{"id": 778, "language": "C#", "code": "// function_778 placeholder code", "label": "clean"}
+{"id": 779, "language": "C++", "code": "// function_779 placeholder code", "label": "clean"}
+{"id": 780, "language": "JavaScript", "code": "// function_780 placeholder code", "label": "clean"}
+{"id": 781, "language": "JavaScript", "code": "// function_781 placeholder code", "label": "clean"}
+{"id": 782, "language": "C++", "code": "// function_782 placeholder code", "label": "clean"}
+{"id": 783, "language": "TypeScript", "code": "// function_783 placeholder code", "label": "clean"}
+{"id": 784, "language": "Java", "code": "// function_784 placeholder code", "label": "clean"}
+{"id": 785, "language": "JavaScript", "code": "// function_785 placeholder code", "label": "clean"}
+{"id": 786, "language": "TypeScript", "code": "// function_786 placeholder code", "label": "clean"}
+{"id": 787, "language": "JavaScript", "code": "// function_787 placeholder code", "label": "clean"}
+{"id": 788, "language": "C#", "code": "// function_788 placeholder code", "label": "clean"}
+{"id": 789, "language": "C", "code": "// function_789 placeholder code", "label": "clean"}
+{"id": 790, "language": "C", "code": "// function_790 placeholder code", "label": "clean"}
+{"id": 791, "language": "JavaScript", "code": "// function_791 placeholder code", "label": "clean"}
+{"id": 792, "language": "TypeScript", "code": "// function_792 placeholder code", "label": "clean"}
+{"id": 793, "language": "Java", "code": "// function_793 placeholder code", "label": "clean"}
+{"id": 794, "language": "TypeScript", "code": "// function_794 placeholder code", "label": "clean"}
+{"id": 795, "language": "C", "code": "// function_795 placeholder code", "label": "clean"}
+{"id": 796, "language": "C", "code": "// function_796 placeholder code", "label": "clean"}
+{"id": 797, "language": "JavaScript", "code": "// function_797 placeholder code", "label": "clean"}
+{"id": 798, "language": "JavaScript", "code": "// function_798 placeholder code", "label": "clean"}
+{"id": 799, "language": "C", "code": "// function_799 placeholder code", "label": "clean"}
+{"id": 800, "language": "C#", "code": "// function_800 placeholder code", "label": "clean"}
+{"id": 801, "language": "JavaScript", "code": "// function_801 placeholder code", "label": "clean"}
+{"id": 802, "language": "JavaScript", "code": "// function_802 placeholder code", "label": "clean"}
+{"id": 803, "language": "Java", "code": "// function_803 placeholder code", "label": "clean"}
+{"id": 804, "language": "Java", "code": "// function_804 placeholder code", "label": "clean"}
+{"id": 805, "language": "C#", "code": "// function_805 placeholder code", "label": "clean"}
+{"id": 806, "language": "Java", "code": "// function_806 placeholder code", "label": "clean"}
+{"id": 807, "language": "TypeScript", "code": "// function_807 placeholder code", "label": "clean"}
+{"id": 808, "language": "Java", "code": "// function_808 placeholder code", "label": "clean"}
+{"id": 809, "language": "TypeScript", "code": "// function_809 placeholder code", "label": "clean"}
+{"id": 810, "language": "TypeScript", "code": "// function_810 placeholder code", "label": "clean"}
+{"id": 811, "language": "JavaScript", "code": "// function_811 placeholder code", "label": "clean"}
+{"id": 812, "language": "Java", "code": "// function_812 placeholder code", "label": "clean"}
+{"id": 813, "language": "Java", "code": "// function_813 placeholder code", "label": "clean"}
+{"id": 814, "language": "C++", "code": "// function_814 placeholder code", "label": "clean"}
+{"id": 815, "language": "JavaScript", "code": "// function_815 placeholder code", "label": "clean"}
+{"id": 816, "language": "JavaScript", "code": "// function_816 placeholder code", "label": "clean"}
+{"id": 817, "language": "JavaScript", "code": "// function_817 placeholder code", "label": "clean"}
+{"id": 818, "language": "Java", "code": "// function_818 placeholder code", "label": "clean"}
+{"id": 819, "language": "JavaScript", "code": "// function_819 placeholder code", "label": "clean"}
+{"id": 820, "language": "TypeScript", "code": "// function_820 placeholder code", "label": "clean"}
+{"id": 821, "language": "JavaScript", "code": "// function_821 placeholder code", "label": "clean"}
+{"id": 822, "language": "JavaScript", "code": "// function_822 placeholder code", "label": "clean"}
+{"id": 823, "language": "C#", "code": "// function_823 placeholder code", "label": "clean"}
+{"id": 824, "language": "C#", "code": "// function_824 placeholder code", "label": "clean"}
+{"id": 825, "language": "C", "code": "// function_825 placeholder code", "label": "clean"}
+{"id": 826, "language": "JavaScript", "code": "// function_826 placeholder code", "label": "clean"}
+{"id": 827, "language": "C#", "code": "// function_827 placeholder code", "label": "clean"}
+{"id": 828, "language": "JavaScript", "code": "// function_828 placeholder code", "label": "clean"}
+{"id": 829, "language": "JavaScript", "code": "// function_829 placeholder code", "label": "clean"}
+{"id": 830, "language": "TypeScript", "code": "// function_830 placeholder code", "label": "clean"}
+{"id": 831, "language": "C", "code": "// function_831 placeholder code", "label": "clean"}
+{"id": 832, "language": "TypeScript", "code": "// function_832 placeholder code", "label": "clean"}
+{"id": 833, "language": "C#", "code": "// function_833 placeholder code", "label": "clean"}
+{"id": 834, "language": "C", "code": "// function_834 placeholder code", "label": "clean"}
+{"id": 835, "language": "JavaScript", "code": "// function_835 placeholder code", "label": "clean"}
+{"id": 836, "language": "C#", "code": "// function_836 placeholder code", "label": "clean"}
+{"id": 837, "language": "C++", "code": "// function_837 placeholder code", "label": "clean"}
+{"id": 838, "language": "C#", "code": "// function_838 placeholder code", "label": "clean"}
+{"id": 839, "language": "TypeScript", "code": "// function_839 placeholder code", "label": "clean"}
+{"id": 840, "language": "C", "code": "// function_840 placeholder code", "label": "clean"}
+{"id": 841, "language": "JavaScript", "code": "// function_841 placeholder code", "label": "clean"}
+{"id": 842, "language": "JavaScript", "code": "// function_842 placeholder code", "label": "clean"}
+{"id": 843, "language": "TypeScript", "code": "// function_843 placeholder code", "label": "clean"}
+{"id": 844, "language": "TypeScript", "code": "// function_844 placeholder code", "label": "clean"}
+{"id": 845, "language": "C#", "code": "// function_845 placeholder code", "label": "clean"}
+{"id": 846, "language": "C", "code": "// function_846 placeholder code", "label": "clean"}
+{"id": 847, "language": "JavaScript", "code": "// function_847 placeholder code", "label": "clean"}
+{"id": 848, "language": "JavaScript", "code": "// function_848 placeholder code", "label": "clean"}
+{"id": 849, "language": "TypeScript", "code": "// function_849 placeholder code", "label": "clean"}
+{"id": 850, "language": "C#", "code": "// function_850 placeholder code", "label": "clean"}
+{"id": 851, "language": "C++", "code": "// function_851 placeholder code", "label": "clean"}
+{"id": 852, "language": "C#", "code": "// function_852 placeholder code", "label": "clean"}
+{"id": 853, "language": "C++", "code": "// function_853 placeholder code", "label": "clean"}
+{"id": 854, "language": "Java", "code": "// function_854 placeholder code", "label": "clean"}
+{"id": 855, "language": "C", "code": "// function_855 placeholder code", "label": "clean"}
+{"id": 856, "language": "C", "code": "// function_856 placeholder code", "label": "clean"}
+{"id": 857, "language": "C++", "code": "// function_857 placeholder code", "label": "clean"}
+{"id": 858, "language": "JavaScript", "code": "// function_858 placeholder code", "label": "clean"}
+{"id": 859, "language": "Java", "code": "// function_859 placeholder code", "label": "clean"}
+{"id": 860, "language": "TypeScript", "code": "// function_860 placeholder code", "label": "clean"}
+{"id": 861, "language": "Java", "code": "// function_861 placeholder code", "label": "clean"}
+{"id": 862, "language": "JavaScript", "code": "// function_862 placeholder code", "label": "clean"}
+{"id": 863, "language": "C++", "code": "// function_863 placeholder code", "label": "clean"}
+{"id": 864, "language": "JavaScript", "code": "// function_864 placeholder code", "label": "clean"}
+{"id": 865, "language": "Java", "code": "// function_865 placeholder code", "label": "clean"}
+{"id": 866, "language": "C#", "code": "// function_866 placeholder code", "label": "clean"}
+{"id": 867, "language": "C++", "code": "// function_867 placeholder code", "label": "clean"}
+{"id": 868, "language": "C", "code": "// function_868 placeholder code", "label": "clean"}
+{"id": 869, "language": "C++", "code": "// function_869 placeholder code", "label": "clean"}
+{"id": 870, "language": "Java", "code": "// function_870 placeholder code", "label": "clean"}
+{"id": 871, "language": "C++", "code": "// function_871 placeholder code", "label": "clean"}
+{"id": 872, "language": "Java", "code": "// function_872 placeholder code", "label": "clean"}
+{"id": 873, "language": "JavaScript", "code": "// function_873 placeholder code", "label": "clean"}
+{"id": 874, "language": "Java", "code": "// function_874 placeholder code", "label": "clean"}
+{"id": 875, "language": "C#", "code": "// function_875 placeholder code", "label": "clean"}
+{"id": 876, "language": "JavaScript", "code": "// function_876 placeholder code", "label": "clean"}
+{"id": 877, "language": "TypeScript", "code": "// function_877 placeholder code", "label": "clean"}
+{"id": 878, "language": "C++", "code": "// function_878 placeholder code", "label": "clean"}
+{"id": 879, "language": "C++", "code": "// function_879 placeholder code", "label": "clean"}
+{"id": 880, "language": "C#", "code": "// function_880 placeholder code", "label": "clean"}
+{"id": 881, "language": "JavaScript", "code": "// function_881 placeholder code", "label": "clean"}
+{"id": 882, "language": "Java", "code": "// function_882 placeholder code", "label": "clean"}
+{"id": 883, "language": "TypeScript", "code": "// function_883 placeholder code", "label": "clean"}
+{"id": 884, "language": "TypeScript", "code": "// function_884 placeholder code", "label": "clean"}
+{"id": 885, "language": "TypeScript", "code": "// function_885 placeholder code", "label": "clean"}
+{"id": 886, "language": "C", "code": "// function_886 placeholder code", "label": "clean"}
+{"id": 887, "language": "Java", "code": "// function_887 placeholder code", "label": "clean"}
+{"id": 888, "language": "Java", "code": "// function_888 placeholder code", "label": "clean"}
+{"id": 889, "language": "JavaScript", "code": "// function_889 placeholder code", "label": "clean"}
+{"id": 890, "language": "C++", "code": "// function_890 placeholder code", "label": "clean"}
+{"id": 891, "language": "JavaScript", "code": "// function_891 placeholder code", "label": "clean"}
+{"id": 892, "language": "C", "code": "// function_892 placeholder code", "label": "clean"}
+{"id": 893, "language": "C#", "code": "// function_893 placeholder code", "label": "clean"}
+{"id": 894, "language": "Java", "code": "// function_894 placeholder code", "label": "clean"}
+{"id": 895, "language": "C++", "code": "// function_895 placeholder code", "label": "clean"}
+{"id": 896, "language": "JavaScript", "code": "// function_896 placeholder code", "label": "clean"}
+{"id": 897, "language": "TypeScript", "code": "// function_897 placeholder code", "label": "clean"}
+{"id": 898, "language": "C#", "code": "// function_898 placeholder code", "label": "clean"}
+{"id": 899, "language": "TypeScript", "code": "// function_899 placeholder code", "label": "clean"}
+{"id": 900, "language": "C#", "code": "// function_900 placeholder code", "label": "clean"}
+{"id": 901, "language": "JavaScript", "code": "// function_901 placeholder code", "label": "clean"}
+{"id": 902, "language": "C#", "code": "// function_902 placeholder code", "label": "clean"}
+{"id": 903, "language": "Java", "code": "// function_903 placeholder code", "label": "clean"}
+{"id": 904, "language": "C#", "code": "// function_904 placeholder code", "label": "clean"}
+{"id": 905, "language": "TypeScript", "code": "// function_905 placeholder code", "label": "clean"}
+{"id": 906, "language": "TypeScript", "code": "// function_906 placeholder code", "label": "clean"}
+{"id": 907, "language": "TypeScript", "code": "// function_907 placeholder code", "label": "clean"}
+{"id": 908, "language": "TypeScript", "code": "// function_908 placeholder code", "label": "clean"}
+{"id": 909, "language": "JavaScript", "code": "// function_909 placeholder code", "label": "clean"}
+{"id": 910, "language": "C", "code": "// function_910 placeholder code", "label": "clean"}
+{"id": 911, "language": "JavaScript", "code": "// function_911 placeholder code", "label": "clean"}
+{"id": 912, "language": "C", "code": "// function_912 placeholder code", "label": "clean"}
+{"id": 913, "language": "Java", "code": "// function_913 placeholder code", "label": "clean"}
+{"id": 914, "language": "C#", "code": "// function_914 placeholder code", "label": "clean"}
+{"id": 915, "language": "C#", "code": "// function_915 placeholder code", "label": "clean"}
+{"id": 916, "language": "C#", "code": "// function_916 placeholder code", "label": "clean"}
+{"id": 917, "language": "TypeScript", "code": "// function_917 placeholder code", "label": "clean"}
+{"id": 918, "language": "C", "code": "// function_918 placeholder code", "label": "clean"}
+{"id": 919, "language": "C", "code": "// function_919 placeholder code", "label": "clean"}
+{"id": 920, "language": "C#", "code": "// function_920 placeholder code", "label": "clean"}
+{"id": 921, "language": "C#", "code": "// function_921 placeholder code", "label": "clean"}
+{"id": 922, "language": "JavaScript", "code": "// function_922 placeholder code", "label": "clean"}
+{"id": 923, "language": "Java", "code": "// function_923 placeholder code", "label": "clean"}
+{"id": 924, "language": "JavaScript", "code": "// function_924 placeholder code", "label": "clean"}
+{"id": 925, "language": "C++", "code": "// function_925 placeholder code", "label": "clean"}
+{"id": 926, "language": "C#", "code": "// function_926 placeholder code", "label": "clean"}
+{"id": 927, "language": "TypeScript", "code": "// function_927 placeholder code", "label": "clean"}
+{"id": 928, "language": "Java", "code": "// function_928 placeholder code", "label": "clean"}
+{"id": 929, "language": "JavaScript", "code": "// function_929 placeholder code", "label": "clean"}
+{"id": 930, "language": "C++", "code": "// function_930 placeholder code", "label": "clean"}
+{"id": 931, "language": "TypeScript", "code": "// function_931 placeholder code", "label": "clean"}
+{"id": 932, "language": "Java", "code": "// function_932 placeholder code", "label": "clean"}
+{"id": 933, "language": "TypeScript", "code": "// function_933 placeholder code", "label": "clean"}
+{"id": 934, "language": "C++", "code": "// function_934 placeholder code", "label": "clean"}
+{"id": 935, "language": "C++", "code": "// function_935 placeholder code", "label": "clean"}
+{"id": 936, "language": "C", "code": "// function_936 placeholder code", "label": "clean"}
+{"id": 937, "language": "Java", "code": "// function_937 placeholder code", "label": "clean"}
+{"id": 938, "language": "JavaScript", "code": "// function_938 placeholder code", "label": "clean"}
+{"id": 939, "language": "C", "code": "// function_939 placeholder code", "label": "clean"}
+{"id": 940, "language": "JavaScript", "code": "// function_940 placeholder code", "label": "clean"}
+{"id": 941, "language": "Java", "code": "// function_941 placeholder code", "label": "clean"}
+{"id": 942, "language": "TypeScript", "code": "// function_942 placeholder code", "label": "clean"}
+{"id": 943, "language": "JavaScript", "code": "// function_943 placeholder code", "label": "clean"}
+{"id": 944, "language": "Java", "code": "// function_944 placeholder code", "label": "clean"}
+{"id": 945, "language": "C++", "code": "// function_945 placeholder code", "label": "clean"}
+{"id": 946, "language": "C++", "code": "// function_946 placeholder code", "label": "clean"}
+{"id": 947, "language": "C#", "code": "// function_947 placeholder code", "label": "clean"}
+{"id": 948, "language": "JavaScript", "code": "// function_948 placeholder code", "label": "clean"}
+{"id": 949, "language": "C#", "code": "// function_949 placeholder code", "label": "clean"}
+{"id": 950, "language": "JavaScript", "code": "// function_950 placeholder code", "label": "clean"}
+{"id": 951, "language": "Java", "code": "// function_951 placeholder code", "label": "clean"}
+{"id": 952, "language": "JavaScript", "code": "// function_952 placeholder code", "label": "clean"}
+{"id": 953, "language": "JavaScript", "code": "// function_953 placeholder code", "label": "clean"}
+{"id": 954, "language": "C", "code": "// function_954 placeholder code", "label": "clean"}
+{"id": 955, "language": "TypeScript", "code": "// function_955 placeholder code", "label": "clean"}
+{"id": 956, "language": "Java", "code": "// function_956 placeholder code", "label": "clean"}
+{"id": 957, "language": "JavaScript", "code": "// function_957 placeholder code", "label": "clean"}
+{"id": 958, "language": "JavaScript", "code": "// function_958 placeholder code", "label": "clean"}
+{"id": 959, "language": "C#", "code": "// function_959 placeholder code", "label": "clean"}
+{"id": 960, "language": "C", "code": "// function_960 placeholder code", "label": "clean"}
+{"id": 961, "language": "C++", "code": "// function_961 placeholder code", "label": "clean"}
+{"id": 962, "language": "Java", "code": "// function_962 placeholder code", "label": "clean"}
+{"id": 963, "language": "TypeScript", "code": "// function_963 placeholder code", "label": "clean"}
+{"id": 964, "language": "C++", "code": "// function_964 placeholder code", "label": "clean"}
+{"id": 965, "language": "C++", "code": "// function_965 placeholder code", "label": "clean"}
+{"id": 966, "language": "C", "code": "// function_966 placeholder code", "label": "clean"}
+{"id": 967, "language": "TypeScript", "code": "// function_967 placeholder code", "label": "clean"}
+{"id": 968, "language": "C++", "code": "// function_968 placeholder code", "label": "clean"}
+{"id": 969, "language": "C#", "code": "// function_969 placeholder code", "label": "clean"}
+{"id": 970, "language": "TypeScript", "code": "// function_970 placeholder code", "label": "clean"}
+{"id": 971, "language": "Java", "code": "// function_971 placeholder code", "label": "clean"}
+{"id": 972, "language": "C#", "code": "// function_972 placeholder code", "label": "clean"}
+{"id": 973, "language": "JavaScript", "code": "// function_973 placeholder code", "label": "clean"}
+{"id": 974, "language": "C++", "code": "// function_974 placeholder code", "label": "clean"}
+{"id": 975, "language": "TypeScript", "code": "// function_975 placeholder code", "label": "clean"}
+{"id": 976, "language": "TypeScript", "code": "// function_976 placeholder code", "label": "clean"}
+{"id": 977, "language": "C#", "code": "// function_977 placeholder code", "label": "clean"}
+{"id": 978, "language": "C++", "code": "// function_978 placeholder code", "label": "clean"}
+{"id": 979, "language": "C++", "code": "// function_979 placeholder code", "label": "clean"}
+{"id": 980, "language": "C++", "code": "// function_980 placeholder code", "label": "clean"}
+{"id": 981, "language": "Java", "code": "// function_981 placeholder code", "label": "clean"}
+{"id": 982, "language": "C", "code": "// function_982 placeholder code", "label": "clean"}
+{"id": 983, "language": "Java", "code": "// function_983 placeholder code", "label": "clean"}
+{"id": 984, "language": "C++", "code": "// function_984 placeholder code", "label": "clean"}
+{"id": 985, "language": "Java", "code": "// function_985 placeholder code", "label": "clean"}
+{"id": 986, "language": "JavaScript", "code": "// function_986 placeholder code", "label": "clean"}
+{"id": 987, "language": "C++", "code": "// function_987 placeholder code", "label": "clean"}
+{"id": 988, "language": "JavaScript", "code": "// function_988 placeholder code", "label": "clean"}
+{"id": 989, "language": "C++", "code": "// function_989 placeholder code", "label": "clean"}
+{"id": 990, "language": "C#", "code": "// function_990 placeholder code", "label": "clean"}
+{"id": 991, "language": "C++", "code": "// function_991 placeholder code", "label": "clean"}
+{"id": 992, "language": "TypeScript", "code": "// function_992 placeholder code", "label": "clean"}
+{"id": 993, "language": "Java", "code": "// function_993 placeholder code", "label": "clean"}
+{"id": 994, "language": "C#", "code": "// function_994 placeholder code", "label": "clean"}
+{"id": 995, "language": "TypeScript", "code": "// function_995 placeholder code", "label": "clean"}
+{"id": 996, "language": "C#", "code": "// function_996 placeholder code", "label": "clean"}
+{"id": 997, "language": "Java", "code": "// function_997 placeholder code", "label": "clean"}
+{"id": 998, "language": "TypeScript", "code": "// function_998 placeholder code", "label": "clean"}
+{"id": 999, "language": "TypeScript", "code": "// function_999 placeholder code", "label": "clean"}
+{"id": 1000, "language": "Java", "code": "// function_1000 placeholder code", "label": "clean"}
+{"id": 1001, "language": "TypeScript", "code": "// function_1001 placeholder code", "label": "clean"}
+{"id": 1002, "language": "C++", "code": "// function_1002 placeholder code", "label": "clean"}
+{"id": 1003, "language": "C#", "code": "// function_1003 placeholder code", "label": "clean"}
+{"id": 1004, "language": "C", "code": "// function_1004 placeholder code", "label": "clean"}
+{"id": 1005, "language": "C", "code": "// function_1005 placeholder code", "label": "clean"}
+{"id": 1006, "language": "JavaScript", "code": "// function_1006 placeholder code", "label": "clean"}
+{"id": 1007, "language": "JavaScript", "code": "// function_1007 placeholder code", "label": "clean"}
+{"id": 1008, "language": "JavaScript", "code": "// function_1008 placeholder code", "label": "clean"}
+{"id": 1009, "language": "Java", "code": "// function_1009 placeholder code", "label": "clean"}
+{"id": 1010, "language": "C++", "code": "// function_1010 placeholder code", "label": "clean"}
+{"id": 1011, "language": "JavaScript", "code": "// function_1011 placeholder code", "label": "clean"}
+{"id": 1012, "language": "C#", "code": "// function_1012 placeholder code", "label": "clean"}
+{"id": 1013, "language": "C", "code": "// function_1013 placeholder code", "label": "clean"}
+{"id": 1014, "language": "C", "code": "// function_1014 placeholder code", "label": "clean"}
+{"id": 1015, "language": "TypeScript", "code": "// function_1015 placeholder code", "label": "clean"}
+{"id": 1016, "language": "C", "code": "// function_1016 placeholder code", "label": "clean"}
+{"id": 1017, "language": "C", "code": "// function_1017 placeholder code", "label": "clean"}
+{"id": 1018, "language": "TypeScript", "code": "// function_1018 placeholder code", "label": "clean"}
+{"id": 1019, "language": "TypeScript", "code": "// function_1019 placeholder code", "label": "clean"}
+{"id": 1020, "language": "C++", "code": "// function_1020 placeholder code", "label": "clean"}
+{"id": 1021, "language": "Java", "code": "// function_1021 placeholder code", "label": "clean"}
+{"id": 1022, "language": "C", "code": "// function_1022 placeholder code", "label": "clean"}
+{"id": 1023, "language": "C#", "code": "// function_1023 placeholder code", "label": "clean"}
+{"id": 1024, "language": "TypeScript", "code": "// function_1024 placeholder code", "label": "clean"}
+{"id": 1025, "language": "C++", "code": "// function_1025 placeholder code", "label": "clean"}
+{"id": 1026, "language": "Java", "code": "// function_1026 placeholder code", "label": "clean"}
+{"id": 1027, "language": "JavaScript", "code": "// function_1027 placeholder code", "label": "clean"}
+{"id": 1028, "language": "C", "code": "// function_1028 placeholder code", "label": "clean"}
+{"id": 1029, "language": "C#", "code": "// function_1029 placeholder code", "label": "clean"}
+{"id": 1030, "language": "C#", "code": "// function_1030 placeholder code", "label": "clean"}
+{"id": 1031, "language": "C", "code": "// function_1031 placeholder code", "label": "clean"}
+{"id": 1032, "language": "TypeScript", "code": "// function_1032 placeholder code", "label": "clean"}
+{"id": 1033, "language": "JavaScript", "code": "// function_1033 placeholder code", "label": "clean"}
+{"id": 1034, "language": "C#", "code": "// function_1034 placeholder code", "label": "clean"}
+{"id": 1035, "language": "C++", "code": "// function_1035 placeholder code", "label": "clean"}
+{"id": 1036, "language": "C++", "code": "// function_1036 placeholder code", "label": "clean"}
+{"id": 1037, "language": "Java", "code": "// function_1037 placeholder code", "label": "clean"}
+{"id": 1038, "language": "C#", "code": "// function_1038 placeholder code", "label": "clean"}
+{"id": 1039, "language": "TypeScript", "code": "// function_1039 placeholder code", "label": "clean"}
+{"id": 1040, "language": "C", "code": "// function_1040 placeholder code", "label": "clean"}
+{"id": 1041, "language": "TypeScript", "code": "// function_1041 placeholder code", "label": "clean"}
+{"id": 1042, "language": "TypeScript", "code": "// function_1042 placeholder code", "label": "clean"}
+{"id": 1043, "language": "TypeScript", "code": "// function_1043 placeholder code", "label": "clean"}
+{"id": 1044, "language": "C++", "code": "// function_1044 placeholder code", "label": "clean"}
+{"id": 1045, "language": "Java", "code": "// function_1045 placeholder code", "label": "clean"}
+{"id": 1046, "language": "TypeScript", "code": "// function_1046 placeholder code", "label": "clean"}
+{"id": 1047, "language": "C++", "code": "// function_1047 placeholder code", "label": "clean"}
+{"id": 1048, "language": "C#", "code": "// function_1048 placeholder code", "label": "clean"}
+{"id": 1049, "language": "JavaScript", "code": "// function_1049 placeholder code", "label": "clean"}
+{"id": 1050, "language": "Java", "code": "// function_1050 placeholder code", "label": "clean"}
+{"id": 1051, "language": "C++", "code": "// function_1051 placeholder code", "label": "clean"}
+{"id": 1052, "language": "JavaScript", "code": "// function_1052 placeholder code", "label": "clean"}
+{"id": 1053, "language": "C++", "code": "// function_1053 placeholder code", "label": "clean"}
+{"id": 1054, "language": "C#", "code": "// function_1054 placeholder code", "label": "clean"}
+{"id": 1055, "language": "C++", "code": "// function_1055 placeholder code", "label": "clean"}
+{"id": 1056, "language": "C", "code": "// function_1056 placeholder code", "label": "clean"}
+{"id": 1057, "language": "C", "code": "// function_1057 placeholder code", "label": "clean"}
+{"id": 1058, "language": "Java", "code": "// function_1058 placeholder code", "label": "clean"}
+{"id": 1059, "language": "JavaScript", "code": "// function_1059 placeholder code", "label": "clean"}
+{"id": 1060, "language": "TypeScript", "code": "// function_1060 placeholder code", "label": "clean"}
+{"id": 1061, "language": "C", "code": "// function_1061 placeholder code", "label": "clean"}
+{"id": 1062, "language": "JavaScript", "code": "// function_1062 placeholder code", "label": "clean"}
+{"id": 1063, "language": "C++", "code": "// function_1063 placeholder code", "label": "clean"}
+{"id": 1064, "language": "C#", "code": "// function_1064 placeholder code", "label": "clean"}
+{"id": 1065, "language": "TypeScript", "code": "// function_1065 placeholder code", "label": "clean"}
+{"id": 1066, "language": "Java", "code": "// function_1066 placeholder code", "label": "clean"}
+{"id": 1067, "language": "TypeScript", "code": "// function_1067 placeholder code", "label": "clean"}
+{"id": 1068, "language": "C++", "code": "// function_1068 placeholder code", "label": "clean"}
+{"id": 1069, "language": "JavaScript", "code": "// function_1069 placeholder code", "label": "clean"}
+{"id": 1070, "language": "C", "code": "// function_1070 placeholder code", "label": "clean"}
+{"id": 1071, "language": "C++", "code": "// function_1071 placeholder code", "label": "clean"}
+{"id": 1072, "language": "JavaScript", "code": "// function_1072 placeholder code", "label": "clean"}
+{"id": 1073, "language": "C++", "code": "// function_1073 placeholder code", "label": "clean"}
+{"id": 1074, "language": "C", "code": "// function_1074 placeholder code", "label": "clean"}
+{"id": 1075, "language": "Java", "code": "// function_1075 placeholder code", "label": "clean"}
+{"id": 1076, "language": "C", "code": "// function_1076 placeholder code", "label": "clean"}
+{"id": 1077, "language": "JavaScript", "code": "// function_1077 placeholder code", "label": "clean"}
+{"id": 1078, "language": "Java", "code": "// function_1078 placeholder code", "label": "clean"}
+{"id": 1079, "language": "JavaScript", "code": "// function_1079 placeholder code", "label": "clean"}
+{"id": 1080, "language": "JavaScript", "code": "// function_1080 placeholder code", "label": "clean"}
+{"id": 1081, "language": "Java", "code": "// function_1081 placeholder code", "label": "clean"}
+{"id": 1082, "language": "C++", "code": "// function_1082 placeholder code", "label": "clean"}
+{"id": 1083, "language": "Java", "code": "// function_1083 placeholder code", "label": "clean"}
+{"id": 1084, "language": "Java", "code": "// function_1084 placeholder code", "label": "clean"}
+{"id": 1085, "language": "JavaScript", "code": "// function_1085 placeholder code", "label": "clean"}
+{"id": 1086, "language": "TypeScript", "code": "// function_1086 placeholder code", "label": "clean"}
+{"id": 1087, "language": "JavaScript", "code": "// function_1087 placeholder code", "label": "clean"}
+{"id": 1088, "language": "Java", "code": "// function_1088 placeholder code", "label": "clean"}
+{"id": 1089, "language": "JavaScript", "code": "// function_1089 placeholder code", "label": "clean"}
+{"id": 1090, "language": "Java", "code": "// function_1090 placeholder code", "label": "clean"}
+{"id": 1091, "language": "C", "code": "// function_1091 placeholder code", "label": "clean"}
+{"id": 1092, "language": "C++", "code": "// function_1092 placeholder code", "label": "clean"}
+{"id": 1093, "language": "C++", "code": "// function_1093 placeholder code", "label": "clean"}
+{"id": 1094, "language": "C", "code": "// function_1094 placeholder code", "label": "clean"}
+{"id": 1095, "language": "Java", "code": "// function_1095 placeholder code", "label": "clean"}
+{"id": 1096, "language": "C", "code": "// function_1096 placeholder code", "label": "clean"}
+{"id": 1097, "language": "C++", "code": "// function_1097 placeholder code", "label": "clean"}
+{"id": 1098, "language": "C++", "code": "// function_1098 placeholder code", "label": "clean"}
+{"id": 1099, "language": "JavaScript", "code": "// function_1099 placeholder code", "label": "clean"}
+{"id": 1100, "language": "C++", "code": "// function_1100 placeholder code", "label": "clean"}
+{"id": 1101, "language": "Java", "code": "// function_1101 placeholder code", "label": "clean"}
+{"id": 1102, "language": "C#", "code": "// function_1102 placeholder code", "label": "clean"}
+{"id": 1103, "language": "C#", "code": "// function_1103 placeholder code", "label": "clean"}
+{"id": 1104, "language": "TypeScript", "code": "// function_1104 placeholder code", "label": "clean"}
+{"id": 1105, "language": "C", "code": "// function_1105 placeholder code", "label": "clean"}
+{"id": 1106, "language": "C#", "code": "// function_1106 placeholder code", "label": "clean"}
+{"id": 1107, "language": "TypeScript", "code": "// function_1107 placeholder code", "label": "clean"}
+{"id": 1108, "language": "JavaScript", "code": "// function_1108 placeholder code", "label": "clean"}
+{"id": 1109, "language": "C++", "code": "// function_1109 placeholder code", "label": "clean"}
+{"id": 1110, "language": "C++", "code": "// function_1110 placeholder code", "label": "clean"}
+{"id": 1111, "language": "JavaScript", "code": "// function_1111 placeholder code", "label": "clean"}
+{"id": 1112, "language": "C++", "code": "// function_1112 placeholder code", "label": "clean"}
+{"id": 1113, "language": "Java", "code": "// function_1113 placeholder code", "label": "clean"}
+{"id": 1114, "language": "C#", "code": "// function_1114 placeholder code", "label": "clean"}
+{"id": 1115, "language": "C", "code": "// function_1115 placeholder code", "label": "clean"}
+{"id": 1116, "language": "C", "code": "// function_1116 placeholder code", "label": "clean"}
+{"id": 1117, "language": "C++", "code": "// function_1117 placeholder code", "label": "clean"}
+{"id": 1118, "language": "C++", "code": "// function_1118 placeholder code", "label": "clean"}
+{"id": 1119, "language": "C++", "code": "// function_1119 placeholder code", "label": "clean"}
+{"id": 1120, "language": "C++", "code": "// function_1120 placeholder code", "label": "clean"}
+{"id": 1121, "language": "Java", "code": "// function_1121 placeholder code", "label": "clean"}
+{"id": 1122, "language": "C#", "code": "// function_1122 placeholder code", "label": "clean"}
+{"id": 1123, "language": "C", "code": "// function_1123 placeholder code", "label": "clean"}
+{"id": 1124, "language": "C++", "code": "// function_1124 placeholder code", "label": "clean"}
+{"id": 1125, "language": "TypeScript", "code": "// function_1125 placeholder code", "label": "clean"}
+{"id": 1126, "language": "TypeScript", "code": "// function_1126 placeholder code", "label": "clean"}
+{"id": 1127, "language": "C++", "code": "// function_1127 placeholder code", "label": "clean"}
+{"id": 1128, "language": "TypeScript", "code": "// function_1128 placeholder code", "label": "clean"}
+{"id": 1129, "language": "C#", "code": "// function_1129 placeholder code", "label": "clean"}
+{"id": 1130, "language": "Java", "code": "// function_1130 placeholder code", "label": "clean"}
+{"id": 1131, "language": "JavaScript", "code": "// function_1131 placeholder code", "label": "clean"}
+{"id": 1132, "language": "JavaScript", "code": "// function_1132 placeholder code", "label": "clean"}
+{"id": 1133, "language": "C#", "code": "// function_1133 placeholder code", "label": "clean"}
+{"id": 1134, "language": "C", "code": "// function_1134 placeholder code", "label": "clean"}
+{"id": 1135, "language": "C", "code": "// function_1135 placeholder code", "label": "clean"}
+{"id": 1136, "language": "C", "code": "// function_1136 placeholder code", "label": "clean"}
+{"id": 1137, "language": "C", "code": "// function_1137 placeholder code", "label": "clean"}
+{"id": 1138, "language": "Java", "code": "// function_1138 placeholder code", "label": "clean"}
+{"id": 1139, "language": "TypeScript", "code": "// function_1139 placeholder code", "label": "clean"}
+{"id": 1140, "language": "Java", "code": "// function_1140 placeholder code", "label": "clean"}
+{"id": 1141, "language": "C++", "code": "// function_1141 placeholder code", "label": "clean"}
+{"id": 1142, "language": "C", "code": "// function_1142 placeholder code", "label": "clean"}
+{"id": 1143, "language": "TypeScript", "code": "// function_1143 placeholder code", "label": "clean"}
+{"id": 1144, "language": "C#", "code": "// function_1144 placeholder code", "label": "clean"}
+{"id": 1145, "language": "Java", "code": "// function_1145 placeholder code", "label": "clean"}
+{"id": 1146, "language": "C#", "code": "// function_1146 placeholder code", "label": "clean"}
+{"id": 1147, "language": "JavaScript", "code": "// function_1147 placeholder code", "label": "clean"}
+{"id": 1148, "language": "C#", "code": "// function_1148 placeholder code", "label": "clean"}
+{"id": 1149, "language": "JavaScript", "code": "// function_1149 placeholder code", "label": "clean"}
+{"id": 1150, "language": "C", "code": "// function_1150 placeholder code", "label": "clean"}
+{"id": 1151, "language": "C++", "code": "// function_1151 placeholder code", "label": "clean"}
+{"id": 1152, "language": "JavaScript", "code": "// function_1152 placeholder code", "label": "clean"}
+{"id": 1153, "language": "Java", "code": "// function_1153 placeholder code", "label": "clean"}
+{"id": 1154, "language": "C#", "code": "// function_1154 placeholder code", "label": "clean"}
+{"id": 1155, "language": "JavaScript", "code": "// function_1155 placeholder code", "label": "clean"}
+{"id": 1156, "language": "JavaScript", "code": "// function_1156 placeholder code", "label": "clean"}
+{"id": 1157, "language": "C++", "code": "// function_1157 placeholder code", "label": "clean"}
+{"id": 1158, "language": "TypeScript", "code": "// function_1158 placeholder code", "label": "clean"}
+{"id": 1159, "language": "C#", "code": "// function_1159 placeholder code", "label": "clean"}
+{"id": 1160, "language": "TypeScript", "code": "// function_1160 placeholder code", "label": "clean"}
+{"id": 1161, "language": "JavaScript", "code": "// function_1161 placeholder code", "label": "clean"}
+{"id": 1162, "language": "TypeScript", "code": "// function_1162 placeholder code", "label": "clean"}
+{"id": 1163, "language": "C++", "code": "// function_1163 placeholder code", "label": "clean"}
+{"id": 1164, "language": "C#", "code": "// function_1164 placeholder code", "label": "clean"}
+{"id": 1165, "language": "C++", "code": "// function_1165 placeholder code", "label": "clean"}
+{"id": 1166, "language": "TypeScript", "code": "// function_1166 placeholder code", "label": "clean"}
+{"id": 1167, "language": "C#", "code": "// function_1167 placeholder code", "label": "clean"}
+{"id": 1168, "language": "C", "code": "// function_1168 placeholder code", "label": "clean"}
+{"id": 1169, "language": "JavaScript", "code": "// function_1169 placeholder code", "label": "clean"}
+{"id": 1170, "language": "JavaScript", "code": "// function_1170 placeholder code", "label": "clean"}
+{"id": 1171, "language": "C#", "code": "// function_1171 placeholder code", "label": "clean"}
+{"id": 1172, "language": "TypeScript", "code": "// function_1172 placeholder code", "label": "clean"}
+{"id": 1173, "language": "C#", "code": "// function_1173 placeholder code", "label": "clean"}
+{"id": 1174, "language": "TypeScript", "code": "// function_1174 placeholder code", "label": "clean"}
+{"id": 1175, "language": "C++", "code": "// function_1175 placeholder code", "label": "clean"}
+{"id": 1176, "language": "C", "code": "// function_1176 placeholder code", "label": "clean"}
+{"id": 1177, "language": "C", "code": "// function_1177 placeholder code", "label": "clean"}
+{"id": 1178, "language": "TypeScript", "code": "// function_1178 placeholder code", "label": "clean"}
+{"id": 1179, "language": "JavaScript", "code": "// function_1179 placeholder code", "label": "clean"}
+{"id": 1180, "language": "C", "code": "// function_1180 placeholder code", "label": "clean"}
+{"id": 1181, "language": "JavaScript", "code": "// function_1181 placeholder code", "label": "clean"}
+{"id": 1182, "language": "JavaScript", "code": "// function_1182 placeholder code", "label": "clean"}
+{"id": 1183, "language": "C++", "code": "// function_1183 placeholder code", "label": "clean"}
+{"id": 1184, "language": "JavaScript", "code": "// function_1184 placeholder code", "label": "clean"}
+{"id": 1185, "language": "C++", "code": "// function_1185 placeholder code", "label": "clean"}
+{"id": 1186, "language": "C", "code": "// function_1186 placeholder code", "label": "clean"}
+{"id": 1187, "language": "Java", "code": "// function_1187 placeholder code", "label": "clean"}
+{"id": 1188, "language": "TypeScript", "code": "// function_1188 placeholder code", "label": "clean"}
+{"id": 1189, "language": "C#", "code": "// function_1189 placeholder code", "label": "clean"}
+{"id": 1190, "language": "C++", "code": "// function_1190 placeholder code", "label": "clean"}
+{"id": 1191, "language": "C", "code": "// function_1191 placeholder code", "label": "clean"}
+{"id": 1192, "language": "C#", "code": "// function_1192 placeholder code", "label": "clean"}
+{"id": 1193, "language": "JavaScript", "code": "// function_1193 placeholder code", "label": "clean"}
+{"id": 1194, "language": "C++", "code": "// function_1194 placeholder code", "label": "clean"}
+{"id": 1195, "language": "C#", "code": "// function_1195 placeholder code", "label": "clean"}
+{"id": 1196, "language": "C#", "code": "// function_1196 placeholder code", "label": "clean"}
+{"id": 1197, "language": "C", "code": "// function_1197 placeholder code", "label": "clean"}
+{"id": 1198, "language": "C++", "code": "// function_1198 placeholder code", "label": "clean"}
+{"id": 1199, "language": "C", "code": "// function_1199 placeholder code", "label": "clean"}
+{"id": 1200, "language": "C", "code": "// function_1200 placeholder code", "label": "clean"}
+{"id": 1201, "language": "C#", "code": "// function_1201 placeholder code", "label": "clean"}
+{"id": 1202, "language": "Java", "code": "// function_1202 placeholder code", "label": "clean"}
+{"id": 1203, "language": "C#", "code": "// function_1203 placeholder code", "label": "clean"}
+{"id": 1204, "language": "C#", "code": "// function_1204 placeholder code", "label": "clean"}
+{"id": 1205, "language": "Java", "code": "// function_1205 placeholder code", "label": "clean"}
+{"id": 1206, "language": "C#", "code": "// function_1206 placeholder code", "label": "clean"}
+{"id": 1207, "language": "JavaScript", "code": "// function_1207 placeholder code", "label": "clean"}
+{"id": 1208, "language": "Java", "code": "// function_1208 placeholder code", "label": "clean"}
+{"id": 1209, "language": "JavaScript", "code": "// function_1209 placeholder code", "label": "clean"}
+{"id": 1210, "language": "Java", "code": "// function_1210 placeholder code", "label": "clean"}
+{"id": 1211, "language": "C#", "code": "// function_1211 placeholder code", "label": "clean"}
+{"id": 1212, "language": "JavaScript", "code": "// function_1212 placeholder code", "label": "clean"}
+{"id": 1213, "language": "TypeScript", "code": "// function_1213 placeholder code", "label": "clean"}
+{"id": 1214, "language": "C", "code": "// function_1214 placeholder code", "label": "clean"}
+{"id": 1215, "language": "C++", "code": "// function_1215 placeholder code", "label": "clean"}
+{"id": 1216, "language": "C#", "code": "// function_1216 placeholder code", "label": "clean"}
+{"id": 1217, "language": "C++", "code": "// function_1217 placeholder code", "label": "clean"}
+{"id": 1218, "language": "C#", "code": "// function_1218 placeholder code", "label": "clean"}
+{"id": 1219, "language": "C#", "code": "// function_1219 placeholder code", "label": "clean"}
+{"id": 1220, "language": "C++", "code": "// function_1220 placeholder code", "label": "clean"}
+{"id": 1221, "language": "C", "code": "// function_1221 placeholder code", "label": "clean"}
+{"id": 1222, "language": "C#", "code": "// function_1222 placeholder code", "label": "clean"}
+{"id": 1223, "language": "JavaScript", "code": "// function_1223 placeholder code", "label": "clean"}
+{"id": 1224, "language": "C++", "code": "// function_1224 placeholder code", "label": "clean"}
+{"id": 1225, "language": "C#", "code": "// function_1225 placeholder code", "label": "clean"}
+{"id": 1226, "language": "TypeScript", "code": "// function_1226 placeholder code", "label": "clean"}
+{"id": 1227, "language": "JavaScript", "code": "// function_1227 placeholder code", "label": "clean"}
+{"id": 1228, "language": "TypeScript", "code": "// function_1228 placeholder code", "label": "clean"}
+{"id": 1229, "language": "JavaScript", "code": "// function_1229 placeholder code", "label": "clean"}
+{"id": 1230, "language": "JavaScript", "code": "// function_1230 placeholder code", "label": "clean"}
+{"id": 1231, "language": "Java", "code": "// function_1231 placeholder code", "label": "clean"}
+{"id": 1232, "language": "C++", "code": "// function_1232 placeholder code", "label": "clean"}
+{"id": 1233, "language": "JavaScript", "code": "// function_1233 placeholder code", "label": "clean"}
+{"id": 1234, "language": "TypeScript", "code": "// function_1234 placeholder code", "label": "clean"}
+{"id": 1235, "language": "C", "code": "// function_1235 placeholder code", "label": "clean"}
+{"id": 1236, "language": "TypeScript", "code": "// function_1236 placeholder code", "label": "clean"}
+{"id": 1237, "language": "JavaScript", "code": "// function_1237 placeholder code", "label": "clean"}
+{"id": 1238, "language": "C++", "code": "// function_1238 placeholder code", "label": "clean"}
+{"id": 1239, "language": "C++", "code": "// function_1239 placeholder code", "label": "clean"}
+{"id": 1240, "language": "C#", "code": "// function_1240 placeholder code", "label": "clean"}
+{"id": 1241, "language": "C++", "code": "// function_1241 placeholder code", "label": "clean"}
+{"id": 1242, "language": "C#", "code": "// function_1242 placeholder code", "label": "clean"}
+{"id": 1243, "language": "C", "code": "// function_1243 placeholder code", "label": "clean"}
+{"id": 1244, "language": "JavaScript", "code": "// function_1244 placeholder code", "label": "clean"}
+{"id": 1245, "language": "C++", "code": "// function_1245 placeholder code", "label": "clean"}
+{"id": 1246, "language": "Java", "code": "// function_1246 placeholder code", "label": "clean"}
+{"id": 1247, "language": "C++", "code": "// function_1247 placeholder code", "label": "clean"}
