@@ -1,0 +1,60 @@
+{
+  "scan_id": "d5e61db1",
+  "repository_path": "/tmp/pytest-of-japhari/pytest-0/test_full_pipeline_mocked0",
+  "scan_timestamp": "2026-04-13T17:47:12.620524+00:00",
+  "model": "qwen2.5-coder:32b",
+  "summary": {
+    "total_files": 1,
+    "total_chunks": 1,
+    "total_vulnerabilities": 1,
+    "by_severity": {
+      "CRITICAL": 1
+    },
+    "by_language": {
+      "java": 1
+    },
+    "scan_duration_s": 8.73
+  },
+  "findings": [
+    {
+      "chunk_id": "/tmp/pytest-of-japhari/pytest-0/test_full_pipeline_mocked0/UserDao.java::_::findUser:3",
+      "file_path": "/tmp/pytest-of-japhari/pytest-0/test_full_pipeline_mocked0/UserDao.java",
+      "language": "java",
+      "function_name": "findUser",
+      "lines": "3-6",
+      "has_vulnerability": true,
+      "cwe_ids": [
+        "CWE-89"
+      ],
+      "description": "SQL Injection",
+      "severity": "CRITICAL",
+      "confidence": 0.97,
+      "reasoning": "String concatenation in SQL query.",
+      "cvss_score": 9.8,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "cve_references": [
+        [],
+        [],
+        []
+      ],
+      "remediation": "Refer to OWASP Top-10 and NIST CWE guidance for this vulnerability class.",
+      "knowledge_base_matches": [
+        {
+          "cwe_id": "CWE-20",
+          "cwe_name": "",
+          "similarity": 0.5806812047958374
+        },
+        {
+          "cwe_id": "CWE-78",
+          "cwe_name": "",
+          "similarity": 0.4702034890651703
+        },
+        {
+          "cwe_id": "CWE-200",
+          "cwe_name": "",
+          "similarity": 0.4671463966369629
+        }
+      ]
+    }
+  ]
+}

@@ -91,18 +91,42 @@ class CodeParserAgent:
     def _load_parsers(self):
         """Lazy-load tree-sitter parsers for each supported language."""
         try:
+            import ctypes
             import tree_sitter_java as tsjava
             import tree_sitter_javascript as tsjs
             import tree_sitter_typescript as tsts
             from tree_sitter import Language, Parser
 
-            self._parsers["java"] = Parser(Language(tsjava.language()))
-            self._parsers["javascript"] = Parser(Language(tsjs.language()))
-            self._parsers["typescript"] = Parser(Language(tsts.language_typescript()))
+            def to_language(lang_obj):
+                """
+                Convert grammar handles from language bindings into a tree_sitter.Language.
+                Handles both int pointers and PyCapsule objects.
+                """
+                if isinstance(lang_obj, int):
+                    return Language(lang_obj)
+
+                # Some grammar wheels expose PyCapsule("tree_sitter.Language").
+                if type(lang_obj).__name__ == "PyCapsule":
+                    get_ptr = ctypes.pythonapi.PyCapsule_GetPointer
+                    get_ptr.restype = ctypes.c_void_p
+                    get_ptr.argtypes = [ctypes.py_object, ctypes.c_char_p]
+                    ptr = get_ptr(lang_obj, b"tree_sitter.Language")
+                    return Language(ptr)
+
+                raise TypeError(f"Unsupported grammar handle type: {type(lang_obj)}")
+
+            self._parsers["java"] = Parser(to_language(tsjava.language()))
+            self._parsers["javascript"] = Parser(to_language(tsjs.language()))
+            self._parsers["typescript"] = Parser(to_language(tsts.language_typescript()))
             logger.info("tree-sitter parsers loaded for: %s", list(self._parsers.keys()))
         except ImportError as e:
             logger.warning(
                 "tree-sitter grammars not installed (%s). Using line-based fallback.", e
+            )
+        except Exception as e:
+            logger.warning(
+                "Failed to initialize tree-sitter parsers (%s). Using line-based fallback.",
+                e,
             )
 
     def detect_language(self, file_path: str) -> Optional[str]:

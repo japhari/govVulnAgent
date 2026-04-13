@@ -188,6 +188,8 @@ python cli.py scan /path/to/repo --pattern "**/*.java"
 
 # Save JSON report
 python cli.py scan /path/to/repo --output scan_report.json
+
+python cli.py scan /teamspace/studios/this_studio/nhs-covid-frontend --output reports/nhs-covid-frontend-scan.json
 ```
 
 **REST API:**

@@ -1,0 +1,23 @@
+{
+  "input": "data/cwe/govrepo_tz_dataset.jsonl",
+  "output_dir": "experiments/data/govrepo_tz",
+  "seed": 42,
+  "ratios": {
+    "train": 0.7,
+    "val": 0.15,
+    "test": 0.15
+  },
+  "n_total": 620,
+  "n_train": 434,
+  "n_val": 93,
+  "n_test": 93,
+  "label_counts": {
+    "1": 302,
+    "0": 318
+  },
+  "language_counts": {
+    "javascript": 239,
+    "java": 178,
+    "typescript": 203
+  }
+}

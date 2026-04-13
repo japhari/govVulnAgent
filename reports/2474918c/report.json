@@ -1,0 +1,83 @@
+{
+  "scan_id": "2474918c",
+  "repository_path": "/teamspace/studios/this_studio/nhs-covid-frontend/src",
+  "scan_timestamp": "2026-04-13T17:42:50.175971+00:00",
+  "model": "qwen2.5-coder:32b",
+  "summary": {
+    "total_files": 1,
+    "total_chunks": 4,
+    "total_vulnerabilities": 2,
+    "by_severity": {
+      "CRITICAL": 1,
+      "HIGH": 1
+    },
+    "by_language": {
+      "javascript": 2
+    },
+    "scan_duration_s": 179.38
+  },
+  "findings": [
+    {
+      "chunk_id": "/teamspace/studios/this_studio/nhs-covid-frontend/src/vulnerable-demo.js::_::login:4",
+      "file_path": "/teamspace/studios/this_studio/nhs-covid-frontend/src/vulnerable-demo.js",
+      "language": "javascript",
+      "function_name": "login",
+      "lines": "4-16",
+      "has_vulnerability": true,
+      "cwe_ids": [
+        "CWE-89"
+      ],
+      "description": "SQL injection vulnerability due to direct string concatenation of user input into SQL query.",
+      "severity": "CRITICAL",
+      "confidence": 0.99,
+      "reasoning": "(1) Data flow: username and password from req.query are directly concatenated into the SQL query string. (2) Trust boundary: username and password are external inputs from HTTP request. (3) Input validation: no sanitization or parameterized queries used. (4) Verdict: SQL injection vulnerability.",
+      "cvss_score": 9.8,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "cve_references": [
+        []
+      ],
+      "remediation": "Refer to OWASP Top-10 and NIST CWE guidance for this vulnerability class.",
+      "knowledge_base_matches": [
+        {
+          "cwe_id": "",
+          "cwe_name": "",
+          "similarity": 0.45373308658599854
+        }
+      ]
+    },
+    {
+      "chunk_id": "/teamspace/studios/this_studio/nhs-covid-frontend/src/vulnerable-demo.js::_::anonymous_9:10",
+      "file_path": "/teamspace/studios/this_studio/nhs-covid-frontend/src/vulnerable-demo.js",
+      "language": "javascript",
+      "function_name": "anonymous_9",
+      "lines": "10-15",
+      "has_vulnerability": true,
+      "cwe_ids": [
+        "CWE-89"
+      ],
+      "description": "SQL injection vulnerability due to unsanitized SQL query execution.",
+      "severity": "HIGH",
+      "confidence": 0.75,
+      "reasoning": "(1) Data flow: sql variable is directly used in db.query without sanitization or parameterized queries. (2) Trust boundary: sql can be influenced by external inputs if not properly handled. (3) Input validation: no evidence of input validation or prepared statements. (4) Verdict: SQL injection vulnerability.",
+      "cvss_score": 9.8,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "cve_references": [
+        [],
+        []
+      ],
+      "remediation": "Refer to OWASP Top-10 and NIST CWE guidance for this vulnerability class.",
+      "knowledge_base_matches": [
+        {
+          "cwe_id": "CWE-20",
+          "cwe_name": "",
+          "similarity": 0.5513041019439697
+        },
+        {
+          "cwe_id": "",
+          "cwe_name": "",
+          "similarity": 0.48113787174224854
+        }
+      ]
+    }
+  ]
+}

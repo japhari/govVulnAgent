@@ -1,0 +1,15 @@
+{
+  "scan_id": "2c5fb035",
+  "repository_path": "/teamspace/studios/this_studio/nhs-covid-frontend",
+  "scan_timestamp": "2026-04-13T17:53:53.083592+00:00",
+  "model": "qwen2.5-coder:32b",
+  "summary": {
+    "total_files": 13,
+    "total_chunks": 19,
+    "total_vulnerabilities": 0,
+    "by_severity": {},
+    "by_language": {},
+    "scan_duration_s": 818.78
+  },
+  "findings": []
+}
