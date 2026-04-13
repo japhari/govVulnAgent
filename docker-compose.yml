@@ -1,0 +1,75 @@
+version: "3.9"
+
+# GovVulnAgent — Sovereign Local Deployment
+# No internet required after initial setup.
+#
+# Usage:
+#   docker compose up -d
+#   docker compose logs -f govvulnagent
+#
+# Pull the model (one-time):
+#   docker compose exec ollama ollama pull qwen2.5-coder:32b
+#
+# API available at: http://localhost:8080
+
+services:
+
+  # ── Ollama — Local LLM Inference ───────────────────────────────────────────
+  ollama:
+    image: ollama/ollama:latest
+    container_name: govvulnagent-ollama
+    restart: unless-stopped
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama_models:/root/.ollama
+    # For NVIDIA GPU (recommended for 32B model):
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+    # Remove the 'deploy' block above for CPU-only (very slow for 32B)
+    healthcheck:
+      test: ["CMD", "ollama", "list"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 60s
+
+  # ── GovVulnAgent API ───────────────────────────────────────────────────────
+  govvulnagent:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: govvulnagent-api
+    restart: unless-stopped
+    ports:
+      - "8080:8080"
+    environment:
+      - OLLAMA_BASE_URL=http://ollama:11434
+      - PRIMARY_MODEL=qwen2.5-coder:32b
+      - FALLBACK_MODEL=codellama:34b
+      - API_HOST=0.0.0.0
+      - API_PORT=8080
+    volumes:
+      # Mount repository directories for scanning
+      - /opt/government/repos:/repos:ro
+      - govvulnagent_reports:/app/reports
+      - ./data:/app/data:ro
+    depends_on:
+      ollama:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8080/status"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+volumes:
+  ollama_models:
+    driver: local
+  govvulnagent_reports:
+    driver: local
