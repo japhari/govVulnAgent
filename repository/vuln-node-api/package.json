@@ -1,0 +1,7 @@
+{
+  "name": "vuln-node-api",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Intentionally vulnerable Node API for scanner testing.",
+  "main": "src/server.js"
+}

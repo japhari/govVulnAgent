@@ -1,0 +1,7 @@
+{
+  "name": "vuln-ts-service",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Intentionally vulnerable TypeScript service for scanner testing.",
+  "main": "src/admin.controller.ts"
+}

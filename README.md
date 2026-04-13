@@ -190,6 +190,11 @@ python cli.py scan /path/to/repo --pattern "**/*.java"
 python cli.py scan /path/to/repo --output scan_report.json
 
 python cli.py scan /teamspace/studios/this_studio/nhs-covid-frontend --output reports/nhs-covid-frontend-scan.json
+
+
+python cli.py scan ./repository/vuln-node-api
+python cli.py scan ./repository/vuln-java-spring
+python cli.py scan ./repository/vuln-ts-service
 ```
 
 **REST API:**
