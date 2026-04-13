@@ -1,0 +1,15 @@
+{
+  "scan_id": "252f69f9",
+  "repository_path": "/tmp/gva_eval",
+  "scan_timestamp": "2026-04-13T10:00:10.245075+00:00",
+  "model": "qwen2.5-coder:32b",
+  "summary": {
+    "total_files": 1,
+    "total_chunks": 1,
+    "total_vulnerabilities": 0,
+    "by_severity": {},
+    "by_language": {},
+    "scan_duration_s": 7.54
+  },
+  "findings": []
+}

@@ -1,0 +1,51 @@
+{
+  "scan_id": "3b82f05d",
+  "repository_path": "/tmp/pytest-of-japhari/pytest-0/test_full_pipeline_mocked0",
+  "scan_timestamp": "2026-04-13T09:55:31.770438+00:00",
+  "model": "qwen2.5-coder:32b",
+  "summary": {
+    "total_files": 1,
+    "total_chunks": 1,
+    "total_vulnerabilities": 1,
+    "by_severity": {
+      "CRITICAL": 1
+    },
+    "by_language": {
+      "java": 1
+    },
+    "scan_duration_s": 0.0
+  },
+  "findings": [
+    {
+      "chunk_id": "/tmp/pytest-of-japhari/pytest-0/test_full_pipeline_mocked0/UserDao.java::_::findUser:3",
+      "file_path": "/tmp/pytest-of-japhari/pytest-0/test_full_pipeline_mocked0/UserDao.java",
+      "language": "java",
+      "function_name": "findUser",
+      "lines": "3-6",
+      "has_vulnerability": true,
+      "cwe_ids": [
+        "CWE-89"
+      ],
+      "description": "SQL Injection",
+      "severity": "CRITICAL",
+      "confidence": 0.97,
+      "reasoning": "String concatenation in SQL query.",
+      "cvss_score": 9.8,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "cve_references": [
+        [
+          "CVE-2023-23752",
+          "CVE-2022-21500"
+        ]
+      ],
+      "remediation": "Use parameterized queries or prepared statements. Apply input validation and principle of least privilege for DB accounts.",
+      "knowledge_base_matches": [
+        {
+          "cwe_id": "CWE-89",
+          "cwe_name": "SQL Injection",
+          "similarity": 1.0
+        }
+      ]
+    }
+  ]
+}

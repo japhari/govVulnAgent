@@ -29,7 +29,9 @@ MAX_FILE_SIZE_KB = 500         # skip files larger than this
 # ── Semgrep ───────────────────────────────────────────────────────────────────
 SEMGREP_TIMEOUT = 60           # seconds per file
 SEMGREP_RULESETS = {
-    "java": ["p/java", "p/owasp-top-ten", "p/spring-security"],
+    # Keep to registry packs that are broadly available without login.
+    # `p/spring-security` is not a valid public pack and causes exit code 7.
+    "java": ["p/java", "p/owasp-top-ten"],
     "javascript": ["p/javascript", "p/owasp-top-ten", "p/react"],
     "typescript": ["p/typescript", "p/owasp-top-ten", "p/react"],
 }

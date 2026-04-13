@@ -195,6 +195,7 @@ curl http://localhost:8080/status
 ## Dataset: GovRepo-TZ
 
 The GovRepo-TZ benchmark dataset (1,247 labeled functions from Tanzanian government repositories) will be released on Zenodo upon paper acceptance.
+This repository currently includes a local development dataset file at `data/cwe/govrepo_tz_dataset.jsonl` for testing pipeline behavior.
 
 | Split | Vulnerable | Clean | Total |
 |-------|-----------|-------|-------|
@@ -202,11 +203,13 @@ The GovRepo-TZ benchmark dataset (1,247 labeled functions from Tanzanian governm
 | Val   | 97  | 90  | 187  |
 | Test  | 97  | 90  | 187  |
 
-Languages: Java (512), JavaScript (398), TypeScript (337)
+Languages in benchmark paper split: Java (512), JavaScript (398), TypeScript (337)
 
 ---
 
 ## Benchmark Results
+
+The table below reports paper benchmark metrics. Reproducing these exact values requires the same curated splits, model checkpoints, and runtime environment used in the study.
 
 | Model | Precision | Recall | F1 | FPR |
 |-------|-----------|--------|----|-----|
