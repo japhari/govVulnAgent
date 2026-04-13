@@ -45,7 +45,7 @@ class CVECWERAGAgent:
         if not FAISS_INDEX_PATH.exists():
             logger.warning(
                 "FAISS index not found at %s. RAG agent disabled. "
-                "Run: python scripts/build_rag_index.py",
+                "Run: python cli.py build-index --nvd-dir ./data/nvd --cwe-xml ./data/cwe/<cwe-xml-file>.xml",
                 FAISS_INDEX_PATH,
             )
             return
@@ -165,8 +165,8 @@ class CVECWERAGAgent:
         return results
 
 
-# ── Index Builder Script ──────────────────────────────────────────────────────
-# Run: python -m govvulnagent.scripts.build_rag_index
+# ── Index Builder Helper ──────────────────────────────────────────────────────
+# Run via CLI: python cli.py build-index --nvd-dir ./data/nvd --cwe-xml ./data/cwe/<cwe-xml-file>.xml
 # Requires: NVD JSON feeds in data/nvd/ and MITRE CWE XML in data/cwe/
 
 def build_index_from_nvd(nvd_dir: str, cwe_xml_path: str, output_dir: str):
@@ -195,7 +195,14 @@ def build_index_from_nvd(nvd_dir: str, cwe_xml_path: str, output_dir: str):
     records = []
 
     # Load NVD entries
-    for feed_file in sorted(glob.glob(str(Path(nvd_dir) / "*.json"))):
+    feed_files = sorted(glob.glob(str(Path(nvd_dir) / "*.json")))
+    if not feed_files:
+        raise ValueError(
+            f"No NVD JSON files found in '{nvd_dir}'. "
+            "Download NVD feeds and place .json files in that directory."
+        )
+
+    for feed_file in feed_files:
         with open(feed_file) as f:
             data = json.load(f)
         for item in data.get("CVE_Items", []):
@@ -215,10 +222,18 @@ def build_index_from_nvd(nvd_dir: str, cwe_xml_path: str, output_dir: str):
             })
 
     print(f"Loaded {len(records)} CVE records")
+    if not records:
+        raise ValueError(
+            "Loaded 0 CVE records from NVD feeds. "
+            "Ensure feed files contain a 'CVE_Items' array and are not empty."
+        )
 
     texts = [f"{r['cwe_id']} {r['description']}" for r in records]
     print("Encoding embeddings...")
     embeddings = model.encode(texts, batch_size=256, show_progress_bar=True, normalize_embeddings=True)
+
+    if len(embeddings.shape) != 2 or embeddings.shape[0] == 0:
+        raise ValueError("Failed to build embeddings from NVD records (empty embedding matrix).")
 
     dim = embeddings.shape[1]
     index = faiss.IndexFlatIP(dim)

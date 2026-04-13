@@ -96,18 +96,79 @@ ollama pull codellama:34b
 ```bash
 git clone https://github.com/your-org/govvulnagent
 cd govvulnagent
-python -m venv venv && source venv/bin/activate
-pip install -r requirements.txt
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
 ```
+
+> If your environment supports virtualenv, you can optionally create and activate one before installing dependencies.
 
 ### 3. (Optional) Build the RAG index
 
-Download NVD JSON feeds from https://nvd.nist.gov/vuln/data-feeds and CWE XML from https://cwe.mitre.org/data/downloads.html, then:
+Prepare datasets first:
+
+```bash
+mkdir -p data/nvd data/cwe
+```
+
+**Option A — NVD legacy feed files (recommended when available):**
+
+Download one or more NVD feed `.json` files into `./data/nvd` from https://nvd.nist.gov/vuln/data-feeds.
+
+**Option B — NVD API snapshot (works in restricted environments):**
+
+```bash
+python - <<'PY'
+import json, urllib.request
+from pathlib import Path
+
+url = "https://services.nvd.nist.gov/rest/json/cves/2.0?resultsPerPage=2000"
+raw = json.loads(urllib.request.urlopen(url, timeout=60).read().decode("utf-8"))
+items = []
+for v in raw.get("vulnerabilities", []):
+    c = v.get("cve", {})
+    cve_id = c.get("id", "")
+    desc = ""
+    for d in c.get("descriptions", []):
+        if d.get("lang") == "en":
+            desc = d.get("value", "")
+            break
+    if not desc and c.get("descriptions"):
+        desc = c["descriptions"][0].get("value", "")
+    cwes = []
+    for w in c.get("weaknesses", []):
+        for d in w.get("description", []):
+            value = d.get("value", "")
+            if isinstance(value, str) and value.startswith("CWE-"):
+                cwes.append(value)
+    items.append({
+        "cve": {
+            "CVE_data_meta": {"ID": cve_id},
+            "description": {"description_data": [{"value": desc}]},
+            "problemtype": {"problemtype_data": [{"description": [{"value": w} for w in cwes]}]},
+        }
+    })
+Path("data/nvd").mkdir(parents=True, exist_ok=True)
+Path("data/nvd/nvdcve-1.1-api-snapshot.json").write_text(json.dumps({"CVE_Items": items}), encoding="utf-8")
+print(f"Wrote {len(items)} CVE items")
+PY
+```
+
+Download and extract the latest CWE XML:
+
+```bash
+curl -L "https://cwe.mitre.org/data/xml/cwec_latest.xml.zip" -o data/cwe/cwec_latest.xml.zip
+unzip -o data/cwe/cwec_latest.xml.zip -d data/cwe
+```
+
+Then build the index (replace XML filename if needed):
 
 ```bash
 python cli.py build-index \
   --nvd-dir ./data/nvd \
-  --cwe-xml ./data/cwe/cwec_v4.13.xml
+  --cwe-xml ./data/cwe/cwec_v4.19.1.xml
+
+# verify
+python cli.py status
 ```
 
 *Without the RAG index, the system uses a built-in static fallback for the top 20 CWEs — still functional but less comprehensive.*

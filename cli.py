@@ -85,11 +85,18 @@ async def cmd_status(args):
 
 def cmd_build_index(args):
     from agents.rag_agent import build_index_from_nvd
-    build_index_from_nvd(
-        nvd_dir=args.nvd_dir,
-        cwe_xml_path=args.cwe_xml,
-        output_dir="data/cwe",
-    )
+    try:
+        build_index_from_nvd(
+            nvd_dir=args.nvd_dir,
+            cwe_xml_path=args.cwe_xml,
+            output_dir="data/cwe",
+        )
+    except Exception as e:
+        logger.error("Failed to build RAG index: %s", e)
+        logger.error(
+            "Expected input: --nvd-dir with NVD JSON feeds and --cwe-xml with MITRE CWE XML file."
+        )
+        sys.exit(1)
 
 
 def main():
