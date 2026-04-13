@@ -21,7 +21,7 @@ tree-sitter-typescript==0.21.2
 semgrep==1.60.0
 
 # ── RAG / Vector Search ───────────────────────────────────────────────────────
-faiss-cpu==1.7.4
+# faiss-cpu==1.7.4
 sentence-transformers==2.7.0
 torch==2.2.2            # CPU build; replace with torch+cu121 for GPU embeddings
 
