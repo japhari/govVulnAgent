@@ -1,0 +1,26 @@
+{
+  "input": "data/cwe/govrepo_tz_real_seed.jsonl",
+  "output_dir": "experiments/data/govrepo_tz_real_seed",
+  "seed": 42,
+  "ratios": {
+    "train": 0.7,
+    "val": 0.15,
+    "test": 0.15
+  },
+  "drop_placeholders": true,
+  "dropped_placeholders": 0,
+  "min_lines": 3,
+  "n_total": 18,
+  "n_train": 6,
+  "n_val": 6,
+  "n_test": 6,
+  "label_counts": {
+    "1": 9,
+    "0": 9
+  },
+  "language_counts": {
+    "java": 6,
+    "javascript": 6,
+    "typescript": 6
+  }
+}

@@ -270,6 +270,51 @@ Languages in benchmark paper split: Java (512), JavaScript (398), TypeScript (33
 
 ---
 
+//Ablation 
+python experiments/run_semgrep_baseline.py \
+  --dataset experiments/data/govrepo_tz_real_seed/test.jsonl \
+  --output experiments/results/semgrep-real-seed-tuned.json \
+  --max-samples 0 \
+  --rule-config experiments/semgrep_real_seed_rules.yml
+
+
+  # Tuned Semgrep baseline
+python experiments/run_semgrep_baseline.py \
+  --dataset experiments/data/govrepo_tz_real_seed_large/test.jsonl \
+  --output experiments/results/semgrep-real-seed-large.json \
+  --max-samples 0 \
+  --rule-config experiments/semgrep_real_seed_rules.yml
+
+
+# GovVulnAgent full model
+python experiments/run_govvulnagent_eval.py \
+  --dataset experiments/data/govrepo_tz_real_seed_large/test.jsonl \
+  --output experiments/results/govvulnagent-real-seed-large.json \
+  --max-samples 0 \
+  --llm-timeout 300 \
+  --retries 1 \
+  --confidence-threshold 0.6
+
+
+# Ablation
+python experiments/run_ablation.py \
+  --dataset experiments/data/govrepo_tz_real_seed_large/test.jsonl \
+  --output-dir experiments/results/ablation-large \
+  --max-samples 54 \
+  --llm-timeout 300 \
+  --retries 1 \
+  --confidence-threshold 0.6
+
+
+  # Ablation
+python experiments/run_ablation.py \
+  --dataset experiments/data/govrepo_tz_real_seed_large/test.jsonl \
+  --output-dir experiments/results/ablation-large \
+  --max-samples 54 \
+  --llm-timeout 300 \
+  --retries 1 \
+  --confidence-threshold 0.6
+
 ## Benchmark Results
 
 The table below reports paper benchmark metrics. Reproducing these exact values requires the same curated splits, model checkpoints, and runtime environment used in the study.
@@ -295,6 +340,73 @@ pytest tests/ -v
 pytest tests/ -v -k "TestCodeParser"   # specific class
 pytest tests/ -v --asyncio-mode=auto   # async tests
 ```
+
+---
+
+## Experiment Pipeline (Reproducible)
+
+The repository now includes runnable experiment scripts under `experiments/`:
+
+```bash
+# 0) (Recommended) Generate realistic labeled data for local experiments
+# Small seed set (18 samples):
+python experiments/create_real_seed_dataset.py \
+  --output data/cwe/govrepo_tz_real_seed.jsonl
+
+# Larger set for more stable metrics (360 samples):
+python experiments/create_real_seed_dataset.py \
+  --output data/cwe/govrepo_tz_real_seed_large.jsonl \
+  --replicas 20 \
+  --shuffle \
+  --seed 42
+
+# 1) Prepare GovRepo-TZ splits (Java/JS/TS only)
+python experiments/prepare_data.py \
+  --input data/cwe/govrepo_tz_real_seed_large.jsonl \
+  --output-dir experiments/data/govrepo_tz_real_seed_large \
+  --languages java,javascript,typescript \
+  --drop-placeholders \
+  --min-lines 3 \
+  --seed 42
+
+# 2) Run Semgrep baseline
+python experiments/run_semgrep_baseline.py \
+  --dataset experiments/data/govrepo_tz_real_seed_large/test.jsonl \
+  --output experiments/results/semgrep.json \
+  --max-samples 0
+
+# 3) Run GovVulnAgent full configuration
+python experiments/run_govvulnagent_eval.py \
+  --dataset experiments/data/govrepo_tz_real_seed_large/test.jsonl \
+  --output experiments/results/govvulnagent_full.json \
+  --max-samples 0 \
+  --llm-timeout 300 \
+  --retries 1 \
+  --confidence-threshold 0.6
+
+# 4) Run ablations (full / no-static / no-rag / no-cot / single-agent)
+python experiments/run_ablation.py \
+  --dataset experiments/data/govrepo_tz_real_seed_large/test.jsonl \
+  --output-dir experiments/results/ablation \
+  --max-samples 0 \
+  --llm-timeout 300 \
+  --retries 1 \
+  --confidence-threshold 0.6
+
+# 5) Build markdown result tables
+python experiments/build_tables.py \
+  --results-dir experiments/results \
+  --output experiments/results/TABLES.md
+```
+
+Notes:
+- `run_govvulnagent_eval.py` supports `--disable-static`, `--disable-rag`, `--disable-cot`, and `--single-agent`.
+- Use `--drop-placeholders` during data preparation for realistic quality checks.
+- If `--drop-placeholders` results in zero samples, your local dataset is synthetic and should be replaced with real labeled functions before benchmarking.
+- `create_real_seed_dataset.py` writes balanced Java/JavaScript/TypeScript vulnerable+clean samples for reproducible local experiments.
+- Use `--replicas N` to scale dataset size (e.g., `N=20` gives 360 samples).
+- Reduce `--max-samples` for quick smoke tests in constrained environments.
+- MTTS values are computed as elapsed seconds per KLOC over evaluated samples.
 
 ---
 

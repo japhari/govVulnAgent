@@ -20,9 +20,9 @@
     "n": 1
   },
   "timing": {
-    "elapsed_seconds": 34.162,
+    "elapsed_seconds": 32.427,
     "kloc": 0.001,
-    "mtts_s_per_kloc": 34162.47
+    "mtts_s_per_kloc": 32426.633
   },
   "timeouts": 0
 }

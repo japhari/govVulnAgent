@@ -1,0 +1,32 @@
+[
+  {
+    "configuration": "full",
+    "f1": 0.0,
+    "delta_f1_vs_full": 0.0,
+    "mtts_s_per_kloc": 57591.635
+  },
+  {
+    "configuration": "no_static",
+    "f1": 0.0,
+    "delta_f1_vs_full": 0.0,
+    "mtts_s_per_kloc": 32426.633
+  },
+  {
+    "configuration": "no_rag",
+    "f1": 0.0,
+    "delta_f1_vs_full": 0.0,
+    "mtts_s_per_kloc": 40848.93
+  },
+  {
+    "configuration": "no_cot",
+    "f1": 0.0,
+    "delta_f1_vs_full": 0.0,
+    "mtts_s_per_kloc": 43759.737
+  },
+  {
+    "configuration": "single_agent",
+    "f1": 0.0,
+    "delta_f1_vs_full": 0.0,
+    "mtts_s_per_kloc": 42222.41
+  }
+]

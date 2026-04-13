@@ -1,0 +1,37 @@
+rules:
+  - id: js-xss-innerhtml-assignment
+    message: Potential XSS via direct innerHTML assignment.
+    severity: ERROR
+    languages: [javascript, typescript]
+    patterns:
+      - pattern: $E.innerHTML = $X
+    metadata:
+      cwe: ["CWE-79"]
+
+  - id: ts-path-traversal-readfilesync-concat
+    message: Potential path traversal via path concatenation in readFileSync.
+    severity: ERROR
+    languages: [typescript, javascript]
+    patterns:
+      - pattern: readFileSync("/srv/templates/" + $NAME, ...)
+    metadata:
+      cwe: ["CWE-22"]
+
+  - id: java-missing-auth-admin-users-endpoint
+    message: Admin endpoint appears to miss authorization guard.
+    severity: WARNING
+    languages: [java]
+    patterns:
+      - pattern: |
+          @GetMapping("/admin/users")
+          public $RET $FUNC(...) {
+            ...
+          }
+      - pattern-not: |
+          @PreAuthorize(...)
+          @GetMapping("/admin/users")
+          public $RET $FUNC(...) {
+            ...
+          }
+    metadata:
+      cwe: ["CWE-306", "CWE-287"]

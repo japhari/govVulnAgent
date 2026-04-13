@@ -16,10 +16,22 @@ def parse_args() -> argparse.Namespace:
     p.add_argument("--dataset", required=True, help="JSONL dataset path")
     p.add_argument("--output-dir", default="experiments/results/ablation", help="Output dir")
     p.add_argument("--max-samples", type=int, default=30, help="Max samples per run")
+    p.add_argument("--confidence-threshold", type=float, default=0.0)
+    p.add_argument("--retries", type=int, default=1)
+    p.add_argument("--llm-timeout", type=int, default=300)
     return p.parse_args()
 
 
-def run_case(name: str, flags: list[str], dataset: str, output_dir: Path, max_samples: int) -> Path:
+def run_case(
+    name: str,
+    flags: list[str],
+    dataset: str,
+    output_dir: Path,
+    max_samples: int,
+    confidence_threshold: float,
+    retries: int,
+    llm_timeout: int,
+) -> Path:
     out = output_dir / f"{name}.json"
     cmd = [
         sys.executable,
@@ -30,7 +42,14 @@ def run_case(name: str, flags: list[str], dataset: str, output_dir: Path, max_sa
         str(out),
         "--max-samples",
         str(max_samples),
+        "--confidence-threshold",
+        str(confidence_threshold),
+        "--retries",
+        str(retries),
+        "--llm-timeout",
+        str(llm_timeout),
     ] + flags
+    print(f"[ablation] running {name} ...", flush=True)
     subprocess.run(cmd, check=True)
     return out
 
@@ -50,7 +69,16 @@ def main() -> None:
 
     outputs = []
     for name, flags in cases:
-        out = run_case(name, flags, args.dataset, out_dir, args.max_samples)
+        out = run_case(
+            name,
+            flags,
+            args.dataset,
+            out_dir,
+            args.max_samples,
+            args.confidence_threshold,
+            args.retries,
+            args.llm_timeout,
+        )
         outputs.append(out)
 
     loaded = {}

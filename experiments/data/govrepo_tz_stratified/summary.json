@@ -1,0 +1,26 @@
+{
+  "input": "data/cwe/govrepo_tz_dataset.jsonl",
+  "output_dir": "experiments/data/govrepo_tz_stratified",
+  "seed": 42,
+  "ratios": {
+    "train": 0.7,
+    "val": 0.15,
+    "test": 0.15
+  },
+  "drop_placeholders": false,
+  "dropped_placeholders": 0,
+  "min_lines": 1,
+  "n_total": 620,
+  "n_train": 432,
+  "n_val": 91,
+  "n_test": 97,
+  "label_counts": {
+    "1": 302,
+    "0": 318
+  },
+  "language_counts": {
+    "javascript": 239,
+    "java": 178,
+    "typescript": 203
+  }
+}

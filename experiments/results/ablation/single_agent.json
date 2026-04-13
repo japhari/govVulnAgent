@@ -3,10 +3,10 @@
   "dataset": "experiments/data/govrepo_tz/test.jsonl",
   "samples": 1,
   "config": {
-    "disable_static": false,
-    "disable_rag": false,
-    "disable_cot": false,
-    "single_agent": false
+    "disable_static": true,
+    "disable_rag": true,
+    "disable_cot": true,
+    "single_agent": true
   },
   "metrics": {
     "precision": 0.0,
@@ -20,9 +20,9 @@
     "n": 1
   },
   "timing": {
-    "elapsed_seconds": 57.592,
+    "elapsed_seconds": 42.222,
     "kloc": 0.001,
-    "mtts_s_per_kloc": 57591.635
+    "mtts_s_per_kloc": 42222.41
   },
   "timeouts": 0
 }

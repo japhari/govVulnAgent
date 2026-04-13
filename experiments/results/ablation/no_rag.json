@@ -4,7 +4,7 @@
   "samples": 1,
   "config": {
     "disable_static": false,
-    "disable_rag": false,
+    "disable_rag": true,
     "disable_cot": false,
     "single_agent": false
   },
@@ -20,9 +20,9 @@
     "n": 1
   },
   "timing": {
-    "elapsed_seconds": 57.592,
+    "elapsed_seconds": 40.849,
     "kloc": 0.001,
-    "mtts_s_per_kloc": 57591.635
+    "mtts_s_per_kloc": 40848.93
   },
   "timeouts": 0
 }

@@ -1,0 +1,22 @@
+{
+  "model": "Semgrep",
+  "dataset": "experiments/data/govrepo_tz_real_seed/test.jsonl",
+  "samples": 6,
+  "rule_config": "experiments/semgrep_real_seed_rules.yml",
+  "metrics": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "fpr": 0.0,
+    "tp": 3,
+    "tn": 3,
+    "fp": 0,
+    "fn": 0,
+    "n": 6
+  },
+  "timing": {
+    "elapsed_seconds": 25.726,
+    "kloc": 0.028,
+    "mtts_s_per_kloc": 918.8
+  }
+}

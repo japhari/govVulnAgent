@@ -5,7 +5,7 @@
   "config": {
     "disable_static": false,
     "disable_rag": false,
-    "disable_cot": false,
+    "disable_cot": true,
     "single_agent": false
   },
   "metrics": {
@@ -20,9 +20,9 @@
     "n": 1
   },
   "timing": {
-    "elapsed_seconds": 57.592,
+    "elapsed_seconds": 43.76,
     "kloc": 0.001,
-    "mtts_s_per_kloc": 57591.635
+    "mtts_s_per_kloc": 43759.737
   },
   "timeouts": 0
 }

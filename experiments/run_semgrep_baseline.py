@@ -7,6 +7,7 @@ from __future__ import annotations
 import argparse
 import asyncio
 import json
+import subprocess
 import sys
 import tempfile
 import time
@@ -25,7 +26,37 @@ def parse_args() -> argparse.Namespace:
     p.add_argument("--dataset", required=True, help="JSONL dataset path")
     p.add_argument("--output", required=True, help="Output JSON result path")
     p.add_argument("--max-samples", type=int, default=0, help="Limit samples (0 = all)")
+    p.add_argument(
+        "--rule-config",
+        default="",
+        help="Semgrep config path (YAML). If omitted, uses default StaticHeuristicsAgent packs.",
+    )
     return p.parse_args()
+
+
+def run_semgrep_with_config(file_path: str, rule_config: str, timeout_s: int = 60) -> int:
+    cmd = [
+        "semgrep",
+        "--json",
+        "--no-git-ignore",
+        "--timeout",
+        str(timeout_s),
+        "--config",
+        rule_config,
+        file_path,
+    ]
+    try:
+        res = subprocess.run(cmd, capture_output=True, text=True, timeout=timeout_s + 10)
+    except Exception:
+        return 0
+
+    if res.returncode not in (0, 1):
+        return 0
+    try:
+        data = json.loads(res.stdout)
+        return len(data.get("results", []))
+    except Exception:
+        return 0
 
 
 async def run() -> None:
@@ -41,17 +72,33 @@ async def run() -> None:
     y_true = []
     y_pred = []
     started = time.monotonic()
+    total = len(samples)
+    print(f"[baseline] Starting Semgrep on {total} samples...", flush=True)
 
     with tempfile.TemporaryDirectory(prefix="semgrep-baseline-") as td:
         tmp_dir = Path(td)
-        for s in samples:
+        for i, s in enumerate(samples, start=1):
             ext = EXT_BY_LANGUAGE[s.language]
             path = tmp_dir / f"{s.sample_id}{ext}"
             path.write_text(s.code, encoding="utf-8")
-            findings = await agent.scan_file(str(path), s.language)
-            pred = 1 if findings else 0
+            if args.rule_config:
+                finding_count = run_semgrep_with_config(str(path), args.rule_config)
+            else:
+                findings = await agent.scan_file(str(path), s.language)
+                finding_count = len(findings)
+            pred = 1 if finding_count > 0 else 0
             y_true.append(s.label)
             y_pred.append(pred)
+
+            elapsed = time.monotonic() - started
+            avg = elapsed / i
+            eta = avg * (total - i)
+            print(
+                f"[baseline] {i}/{total} "
+                f"lang={s.language} findings={finding_count} "
+                f"elapsed={elapsed:.1f}s eta={eta:.1f}s",
+                flush=True,
+            )
 
     elapsed = time.monotonic() - started
     kloc = kloc_from_samples(samples)
@@ -60,6 +107,7 @@ async def run() -> None:
         "model": "Semgrep",
         "dataset": args.dataset,
         "samples": len(samples),
+        "rule_config": args.rule_config or "default_static_agent_configs",
         "metrics": metrics,
         "timing": {
             "elapsed_seconds": round(elapsed, 3),
