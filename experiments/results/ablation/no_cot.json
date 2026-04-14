@@ -1,12 +1,16 @@
 {
   "model": "GovVulnAgent",
-  "dataset": "experiments/data/govrepo_tz/test.jsonl",
-  "samples": 1,
+  "dataset": "experiments/data/govrepo_tz_real_seed_large/test.jsonl",
+  "samples": 54,
   "config": {
     "disable_static": false,
     "disable_rag": false,
     "disable_cot": true,
-    "single_agent": false
+    "single_agent": false,
+    "confidence_threshold": 0.6,
+    "retries": 1,
+    "max_concurrent": 1,
+    "llm_timeout": 300
   },
   "metrics": {
     "precision": 0.0,
@@ -14,15 +18,18 @@
     "f1": 0.0,
     "fpr": 0.0,
     "tp": 0,
-    "tn": 0,
+    "tn": 27,
     "fp": 0,
-    "fn": 1,
-    "n": 1
+    "fn": 27,
+    "n": 54
   },
   "timing": {
-    "elapsed_seconds": 43.76,
-    "kloc": 0.001,
-    "mtts_s_per_kloc": 43759.737
+    "elapsed_seconds": 835.215,
+    "kloc": 0.252,
+    "mtts_s_per_kloc": 3314.345
   },
-  "timeouts": 0
+  "timeouts": 0,
+  "notes": {
+    "warning": ""
+  }
 }

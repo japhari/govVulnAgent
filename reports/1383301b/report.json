@@ -1,0 +1,15 @@
+{
+  "scan_id": "1383301b",
+  "repository_path": "./repository/vuln-node-api",
+  "scan_timestamp": "2026-04-14T07:18:34.225534+00:00",
+  "model": "qwen2.5-coder:32b",
+  "summary": {
+    "total_files": 1,
+    "total_chunks": 4,
+    "total_vulnerabilities": 0,
+    "by_severity": {},
+    "by_language": {},
+    "scan_duration_s": 7.44
+  },
+  "findings": []
+}

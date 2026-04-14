@@ -1,0 +1,61 @@
+{
+  "scan_id": "89dbe021",
+  "repository_path": "./repository/vuln-node-api",
+  "scan_timestamp": "2026-04-14T07:27:09.632481+00:00",
+  "model": "qwen2.5-coder:32b",
+  "summary": {
+    "total_files": 1,
+    "total_chunks": 4,
+    "total_vulnerabilities": 1,
+    "by_severity": {
+      "CRITICAL": 1
+    },
+    "by_language": {
+      "javascript": 1
+    },
+    "scan_duration_s": 186.81
+  },
+  "findings": [
+    {
+      "chunk_id": "repository/vuln-node-api/src/server.js::_::anonymous_22:23",
+      "file_path": "repository/vuln-node-api/src/server.js",
+      "language": "javascript",
+      "function_name": "anonymous_22",
+      "lines": "23-27",
+      "has_vulnerability": true,
+      "cwe_ids": [
+        "CWE-22",
+        "CWE-79"
+      ],
+      "description": "Path traversal vulnerability allows reading arbitrary files via the 'name' query parameter. XSS vulnerability due to directly sending user-controlled data in response without proper escaping.",
+      "severity": "CRITICAL",
+      "confidence": 0.98,
+      "reasoning": "(1) Data flow: file name from query parameter is used directly in path.join. (2) Trust boundary: 'name' is user-supplied external data. (3) Input validation: no sanitization or validation of the file path. (4) Verdict: Path traversal and XSS vulnerabilities present.",
+      "cvss_score": 9.0,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "cve_references": [
+        [],
+        [],
+        []
+      ],
+      "remediation": "Refer to OWASP Top-10 and NIST CWE guidance for this vulnerability class.",
+      "knowledge_base_matches": [
+        {
+          "cwe_id": "",
+          "cwe_name": "",
+          "similarity": 0.6494050621986389
+        },
+        {
+          "cwe_id": "",
+          "cwe_name": "",
+          "similarity": 0.6113947629928589
+        },
+        {
+          "cwe_id": "",
+          "cwe_name": "",
+          "similarity": 0.593864917755127
+        }
+      ]
+    }
+  ]
+}

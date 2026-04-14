@@ -1,0 +1,55 @@
+cd /teamspace/studios/this_studio/govVulnAgent
+
+# ---------- 0) One-time setup ----------
+python -m pip install -r requirements.txt
+
+# Ollama + model (if not already done)
+curl -fsSL https://ollama.com/install.sh | sh
+ollama serve
+ollama pull qwen2.5-coder:7b
+
+# ---------- 1) Recommended env for stable runs ----------
+export OLLAMA_BASE_URL=http://localhost:11434
+export PRIMARY_MODEL=qwen2.5-coder:7b
+export LLM_TIMEOUT=300
+
+# ---------- 2) Quick single scan ----------
+python cli.py scan ./repository/vuln-node-api
+
+# ---------- 3) Prepare benchmark dataset split ----------
+python experiments/prepare_data.py \
+  --input data/cwe/govrepo_tz_real_seed_large.jsonl \
+  --output-dir experiments/data/govrepo_tz_real_seed_large \
+  --languages java,javascript,typescript \
+  --drop-placeholders \
+  --min-lines 3 \
+  --seed 42
+
+# ---------- 4) Run Semgrep baseline ----------
+python experiments/run_semgrep_baseline.py \
+  --dataset experiments/data/govrepo_tz_real_seed_large/test.jsonl \
+  --output experiments/results/semgrep.json \
+  --max-samples 0
+
+# ---------- 5) Run GovVulnAgent full eval ----------
+python experiments/run_govvulnagent_eval.py \
+  --dataset experiments/data/govrepo_tz_real_seed_large/test.jsonl \
+  --output experiments/results/govvulnagent_full.json \
+  --max-samples 0 \
+  --llm-timeout 300 \
+  --retries 1 \
+  --confidence-threshold 0.6
+
+# ---------- 6) Run ablations ----------
+python experiments/run_ablation.py \
+  --dataset experiments/data/govrepo_tz_real_seed_large/test.jsonl \
+  --output-dir experiments/results/ablation \
+  --max-samples 0 \
+  --llm-timeout 300 \
+  --retries 1 \
+  --confidence-threshold 0.6
+
+# ---------- 7) Build results table ----------
+python experiments/build_tables.py \
+  --results-dir experiments/results \
+  --output experiments/results/TABLES.md

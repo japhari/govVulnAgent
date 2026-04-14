@@ -1,32 +1,32 @@
 [
   {
     "configuration": "full",
-    "f1": 0.0,
+    "f1": 0.7778,
     "delta_f1_vs_full": 0.0,
-    "mtts_s_per_kloc": 57591.635
+    "mtts_s_per_kloc": 2423.829
   },
   {
     "configuration": "no_static",
-    "f1": 0.0,
+    "f1": 0.7778,
     "delta_f1_vs_full": 0.0,
-    "mtts_s_per_kloc": 32426.633
+    "mtts_s_per_kloc": 823.537
   },
   {
     "configuration": "no_rag",
-    "f1": 0.0,
+    "f1": 0.7778,
     "delta_f1_vs_full": 0.0,
-    "mtts_s_per_kloc": 40848.93
+    "mtts_s_per_kloc": 2431.562
   },
   {
     "configuration": "no_cot",
     "f1": 0.0,
-    "delta_f1_vs_full": 0.0,
-    "mtts_s_per_kloc": 43759.737
+    "delta_f1_vs_full": -0.7778,
+    "mtts_s_per_kloc": 3314.345
   },
   {
     "configuration": "single_agent",
     "f1": 0.0,
-    "delta_f1_vs_full": 0.0,
-    "mtts_s_per_kloc": 42222.41
+    "delta_f1_vs_full": -0.7778,
+    "mtts_s_per_kloc": 1661.66
   }
 ]

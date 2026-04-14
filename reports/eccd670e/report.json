@@ -1,0 +1,60 @@
+{
+  "scan_id": "eccd670e",
+  "repository_path": "./repository",
+  "scan_timestamp": "2026-04-13T19:07:42.711357+00:00",
+  "model": "qwen2.5-coder:32b",
+  "summary": {
+    "total_files": 3,
+    "total_chunks": 12,
+    "total_vulnerabilities": 1,
+    "by_severity": {
+      "CRITICAL": 1
+    },
+    "by_language": {
+      "java": 1
+    },
+    "scan_duration_s": 359.42
+  },
+  "findings": [
+    {
+      "chunk_id": "repository/vuln-java-spring/src/main/java/com/demo/UserController.java::_::adminUsers:31",
+      "file_path": "repository/vuln-java-spring/src/main/java/com/demo/UserController.java",
+      "language": "java",
+      "function_name": "adminUsers",
+      "lines": "31-34",
+      "has_vulnerability": true,
+      "cwe_ids": [
+        "CWE-306"
+      ],
+      "description": "Endpoint '/admin/users' returns sensitive information without any authentication or authorization checks.",
+      "severity": "CRITICAL",
+      "confidence": 0.95,
+      "reasoning": "(1) Data flow: Sensitive data is returned directly from the endpoint. (2) Trust boundary: The endpoint is accessible to anyone, indicating a lack of proper authentication and authorization. (3) Input validation: No input validation or security checks are present. (4) Verdict: Missing authentication vulnerability present.",
+      "cvss_score": 9.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "cve_references": [
+        [],
+        [],
+        []
+      ],
+      "remediation": "Refer to OWASP Top-10 and NIST CWE guidance for this vulnerability class.",
+      "knowledge_base_matches": [
+        {
+          "cwe_id": "CWE-264",
+          "cwe_name": "",
+          "similarity": 0.4893489181995392
+        },
+        {
+          "cwe_id": "CWE-327",
+          "cwe_name": "",
+          "similarity": 0.45785796642303467
+        },
+        {
+          "cwe_id": "",
+          "cwe_name": "",
+          "similarity": 0.45483988523483276
+        }
+      ]
+    }
+  ]
+}

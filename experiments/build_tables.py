@@ -28,15 +28,20 @@ def main() -> None:
     results_dir = Path(args.results_dir)
     rows = []
 
-    semgrep_file = results_dir / "semgrep.json"
-    if semgrep_file.exists():
-        r = json.loads(semgrep_file.read_text(encoding="utf-8"))
-        rows.append(to_row("Semgrep", r["metrics"], r["timing"]))
-
-    gov_file = results_dir / "govvulnagent_full.json"
-    if gov_file.exists():
-        r = json.loads(gov_file.read_text(encoding="utf-8"))
-        rows.append(to_row("GovVulnAgent", r["metrics"], r["timing"]))
+    main_result_files = [
+        ("Semgrep", "semgrep.json"),
+        ("CodeBERT", "codebert.json"),
+        ("GraphCodeBERT", "graphcodebert.json"),
+        ("UniXcoder", "unixcoder.json"),
+        ("DeepSeek-Coder-6.7B", "deepseek_coder_6_7b.json"),
+        ("GovVulnAgent", "govvulnagent_full.json"),
+    ]
+    for label, filename in main_result_files:
+        f = results_dir / filename
+        if not f.exists():
+            continue
+        r = json.loads(f.read_text(encoding="utf-8"))
+        rows.append(to_row(label, r["metrics"], r["timing"]))
 
     lines = [
         "# Experiment Tables",

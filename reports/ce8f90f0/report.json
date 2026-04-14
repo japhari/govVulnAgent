@@ -1,0 +1,169 @@
+{
+  "scan_id": "ce8f90f0",
+  "repository_path": "./repository/vuln-node-api",
+  "scan_timestamp": "2026-04-14T07:32:11.188417+00:00",
+  "model": "qwen2.5-coder:7b",
+  "summary": {
+    "total_files": 1,
+    "total_chunks": 4,
+    "total_vulnerabilities": 4,
+    "by_severity": {
+      "HIGH": 4
+    },
+    "by_language": {
+      "javascript": 4
+    },
+    "scan_duration_s": 29.35
+  },
+  "findings": [
+    {
+      "chunk_id": "repository/vuln-node-api/src/server.js::_::anonymous_5:6",
+      "file_path": "repository/vuln-node-api/src/server.js",
+      "language": "javascript",
+      "function_name": "anonymous_5",
+      "lines": "6-11",
+      "has_vulnerability": true,
+      "cwe_ids": [
+        "CWE-89"
+      ],
+      "description": "SQL injection vulnerability due to string concatenation. User-controlled input directly included in SQL query.",
+      "severity": "HIGH",
+      "confidence": 0.95,
+      "reasoning": "(1) Data flow: username flows into SQL query as a string. (2) Trust boundary: username is user-supplied external data. (3) Input validation: no parameterized queries or escaping. (4) Verdict: SQL injection vulnerability.",
+      "cvss_score": 9.8,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "cve_references": [
+        []
+      ],
+      "remediation": "Refer to OWASP Top-10 and NIST CWE guidance for this vulnerability class.",
+      "knowledge_base_matches": [
+        {
+          "cwe_id": "",
+          "cwe_name": "",
+          "similarity": 0.45684200525283813
+        }
+      ]
+    },
+    {
+      "chunk_id": "repository/vuln-node-api/src/server.js::_::anonymous_17:18",
+      "file_path": "repository/vuln-node-api/src/server.js",
+      "language": "javascript",
+      "function_name": "anonymous_17",
+      "lines": "18-21",
+      "has_vulnerability": true,
+      "cwe_ids": [
+        "CWE-306"
+      ],
+      "description": "Missing authentication allows unauthorized access to the reset password functionality.",
+      "severity": "HIGH",
+      "confidence": 0.95,
+      "reasoning": "(1) Data flow: req.query.userId is used in adminService.resetPassword without authentication. (2) Trust boundary: userId is user-supplied external data. (3) Input validation: no authentication check. (4) Verdict: Missing authentication vulnerability.",
+      "cvss_score": 9.1,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "cve_references": [
+        [],
+        [],
+        []
+      ],
+      "remediation": "Refer to OWASP Top-10 and NIST CWE guidance for this vulnerability class.",
+      "knowledge_base_matches": [
+        {
+          "cwe_id": "CWE-307",
+          "cwe_name": "",
+          "similarity": 0.5565890669822693
+        },
+        {
+          "cwe_id": "",
+          "cwe_name": "",
+          "similarity": 0.544107973575592
+        },
+        {
+          "cwe_id": "",
+          "cwe_name": "",
+          "similarity": 0.5348578691482544
+        }
+      ]
+    },
+    {
+      "chunk_id": "repository/vuln-node-api/src/server.js::_::anonymous_22:23",
+      "file_path": "repository/vuln-node-api/src/server.js",
+      "language": "javascript",
+      "function_name": "anonymous_22",
+      "lines": "23-27",
+      "has_vulnerability": true,
+      "cwe_ids": [
+        "CWE-22",
+        "CWE-79"
+      ],
+      "description": "User-controlled input in file path allows directory traversal and potential XSS via direct response write.",
+      "severity": "HIGH",
+      "confidence": 0.98,
+      "reasoning": "(1) Data flow: user-supplied 'file' parameter directly influences the file path. (2) Trust boundary: file path is not properly validated or sanitized. (3) Input validation: no checks for directory traversal or XSS prevention. (4) Verdict: Path traversal and potential XSS vulnerability.",
+      "cvss_score": 7.5,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N",
+      "cve_references": [
+        [],
+        [],
+        []
+      ],
+      "remediation": "Refer to OWASP Top-10 and NIST CWE guidance for this vulnerability class.",
+      "knowledge_base_matches": [
+        {
+          "cwe_id": "",
+          "cwe_name": "",
+          "similarity": 0.6337277293205261
+        },
+        {
+          "cwe_id": "",
+          "cwe_name": "",
+          "similarity": 0.5757464170455933
+        },
+        {
+          "cwe_id": "",
+          "cwe_name": "",
+          "similarity": 0.5561167001724243
+        }
+      ]
+    },
+    {
+      "chunk_id": "repository/vuln-node-api/src/server.js::_::anonymous_12:13",
+      "file_path": "repository/vuln-node-api/src/server.js",
+      "language": "javascript",
+      "function_name": "anonymous_12",
+      "lines": "13-16",
+      "has_vulnerability": true,
+      "cwe_ids": [
+        "CWE-79"
+      ],
+      "description": "User-controlled content flows directly into HTML response without sanitization, allowing XSS. Malicious script tags in 'comment' will execute in victim's browser.",
+      "severity": "HIGH",
+      "confidence": 0.98,
+      "reasoning": "(1) Data flow: comment flows directly into the HTML response. (2) Trust boundary: comment is user-supplied external data. (3) Input validation: no sanitization or escaping. (4) Verdict: Reflected XSS vulnerability.",
+      "cvss_score": 7.0,
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N",
+      "cve_references": [
+        [],
+        [],
+        []
+      ],
+      "remediation": "Refer to OWASP Top-10 and NIST CWE guidance for this vulnerability class.",
+      "knowledge_base_matches": [
+        {
+          "cwe_id": "CWE-79",
+          "cwe_name": "",
+          "similarity": 0.5498937368392944
+        },
+        {
+          "cwe_id": "",
+          "cwe_name": "",
+          "similarity": 0.5203657150268555
+        },
+        {
+          "cwe_id": "",
+          "cwe_name": "",
+          "similarity": 0.5091233253479004
+        }
+      ]
+    }
+  ]
+}

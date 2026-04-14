@@ -29,6 +29,7 @@ torch>=2.2.2            # allow newer preinstalled torch in managed environments
 pydantic==2.6.4 ; python_version < "3.12"
 pydantic>=2.11,<3 ; python_version >= "3.12"
 numpy==1.26.4
+transformers>=4.44.0
 loguru==0.7.2
 
 # ── Testing ───────────────────────────────────────────────────────────────────

@@ -195,6 +195,10 @@ python cli.py scan /teamspace/studios/this_studio/nhs-covid-frontend --output re
 python cli.py scan ./repository/vuln-node-api
 python cli.py scan ./repository/vuln-java-spring
 python cli.py scan ./repository/vuln-ts-service
+
+cd /teamspace/studios/this_studio/govVulnAgent
+export LLM_TIMEOUT=300
+python cli.py scan ./repository/vuln-node-api
 ```
 
 **REST API:**
@@ -274,6 +278,9 @@ This repository currently includes a local development dataset file at `data/cwe
 Languages in benchmark paper split: Java (512), JavaScript (398), TypeScript (337)
 
 ---
+export PRIMARY_MODEL=qwen2.5-coder:7b
+export LLM_TIMEOUT=300
+
 
 //Ablation 
 python experiments/run_semgrep_baseline.py \
@@ -380,7 +387,36 @@ python experiments/run_semgrep_baseline.py \
   --output experiments/results/semgrep.json \
   --max-samples 0
 
-# 3) Run GovVulnAgent full configuration
+# 3) Run neural baselines (embedding-centroid classifier)
+python experiments/run_codebert_baseline.py \
+  --dataset experiments/data/govrepo_tz_real_seed_large/test.jsonl \
+  --train-dataset experiments/data/govrepo_tz_real_seed_large/train.jsonl \
+  --output experiments/results/codebert.json \
+  --max-samples 0
+
+python experiments/run_graphcodebert_baseline.py \
+  --dataset experiments/data/govrepo_tz_real_seed_large/test.jsonl \
+  --train-dataset experiments/data/govrepo_tz_real_seed_large/train.jsonl \
+  --output experiments/results/graphcodebert.json \
+  --max-samples 0
+
+python experiments/run_unixcoder_baseline.py \
+  --dataset experiments/data/govrepo_tz_real_seed_large/test.jsonl \
+  --train-dataset experiments/data/govrepo_tz_real_seed_large/train.jsonl \
+  --output experiments/results/unixcoder.json \
+  --max-samples 0
+
+# 4) Run DeepSeek-Coder-6.7B baseline via Ollama
+# one-time model pull:
+ollama pull deepseek-coder:6.7b
+python experiments/run_deepseek_baseline.py \
+  --dataset experiments/data/govrepo_tz_real_seed_large/test.jsonl \
+  --output experiments/results/deepseek_coder_6_7b.json \
+  --max-samples 0 \
+  --llm-timeout 300 \
+  --confidence-threshold 0.6
+
+# 5) Run GovVulnAgent full configuration
 python experiments/run_govvulnagent_eval.py \
   --dataset experiments/data/govrepo_tz_real_seed_large/test.jsonl \
   --output experiments/results/govvulnagent_full.json \
@@ -389,7 +425,7 @@ python experiments/run_govvulnagent_eval.py \
   --retries 1 \
   --confidence-threshold 0.6
 
-# 4) Run ablations (full / no-static / no-rag / no-cot / single-agent)
+# 6) Run ablations (full / no-static / no-rag / no-cot / single-agent)
 python experiments/run_ablation.py \
   --dataset experiments/data/govrepo_tz_real_seed_large/test.jsonl \
   --output-dir experiments/results/ablation \
@@ -398,7 +434,7 @@ python experiments/run_ablation.py \
   --retries 1 \
   --confidence-threshold 0.6
 
-# 5) Build markdown result tables
+# 7) Build markdown result tables
 python experiments/build_tables.py \
   --results-dir experiments/results \
   --output experiments/results/TABLES.md
@@ -412,6 +448,8 @@ Notes:
 - Use `--replicas N` to scale dataset size (e.g., `N=20` gives 360 samples).
 - Reduce `--max-samples` for quick smoke tests in constrained environments.
 - MTTS values are computed as elapsed seconds per KLOC over evaluated samples.
+- Encoder baselines (`CodeBERT`, `GraphCodeBERT`, `UniXcoder`) are implemented using a train-set centroid classifier over model embeddings.
+- DeepSeek baseline is evaluated through a local Ollama model (`deepseek-coder:6.7b`) and does not require cloud APIs.
 
 ---
 
